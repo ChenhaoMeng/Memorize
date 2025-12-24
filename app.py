@@ -336,7 +336,7 @@ st.title(f"🧠 记忆训练场")
 # LLM 配置 (复习界面用)
 sec_api_key = st.secrets.get("LLM_API_KEY", "")
 sec_base_url = st.secrets.get("LLM_BASE_URL", "https://models.sjtu.edu.cn/api/v1")
-sec_model = st.secrets.get("LLM_MODEL", "DeepSeek-V3-685B")
+sec_model = st.secrets.get("LLM_MODEL", "deepseek-v3")
 
 if not st.session_state.current_book:
     st.info("👈 请在左侧选择或新建一个词书开始学习")
