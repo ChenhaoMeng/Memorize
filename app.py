@@ -259,8 +259,8 @@ with st.sidebar:
                         # 读取配置
                         k = st.secrets.get("LLM_API_KEY", "")
                         b = st.secrets.get("LLM_BASE_URL", "https://models.sjtu.edu.cn/api/v1")
-                        m = st.secrets.get("LLM_MODEL", "DeepSeek-V3-685B")
-                        
+                        m = st.secrets.get("LLM_MODEL", "deepseek-v3")
+
                         with st.spinner("DeepSeek 正在思考并制作卡片..."):
                             result_data, err = generate_ai_card(k, b, m, ai_term)
                             
