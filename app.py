@@ -123,12 +123,19 @@ class GitHubSync:
 # ==============================================================================
 
 def get_llm_client(api_key, base_url):
-    return OpenAI(api_key=api_key, base_url=base_url)
+    return OpenAI(api_key=api_key, base_url=# ==============================================================================
+# [修改点] 升级为流式输出 (Streaming)
+# ==============================================================================
 
-# 原有的解释/出题功能
-def get_llm_explanation(api_key, base_url, model_name, term, context, mode):
-    if not api_key: return "⚠️ 请配置 API Key"
-    client = get_llm_client(api_key, base_url)
+def get_llm_explanation(api_key, base_url, model_name, term, context, mode, placeholder):
+    """
+    流式生成解释，直接更新 UI
+    """
+    if not api_key:
+        placeholder.error("⚠️ 请配置 API Key")
+        return
+
+    client = OpenAI(api_key=api_key, base_url=base_url)
     
     prompts = {
         "explain": f"请简要解释术语 '{term}'。背景：{context}。要求：1.一句话定义。2.生活类比。3.三个关键点。Markdown格式。",
@@ -137,15 +144,29 @@ def get_llm_explanation(api_key, base_url, model_name, term, context, mode):
     }
     
     try:
-        response = client.chat.completions.create(
+        # 开启 stream=True
+        stream = client.chat.completions.create(
             model=model_name,
             messages=[{"role": "user", "content": prompts[mode]}],
-            temperature=0.7
+            temperature=0.7,
+            stream=True  # <--- 关键修改
         )
-        return response.choices[0].message.content
+        
+        full_response = ""
+        # 循环接收数据块
+        for chunk in stream:
+            if chunk.choices:
+                content = chunk.choices[0].delta.content
+                if content:
+                    full_response += content
+                    # 实时更新 UI，加一个光标 ▌ 让它看起来在打字
+                    placeholder.markdown(full_response + "▌")
+        
+        # 最后一次更新，去掉光标
+        placeholder.markdown(full_response)
+        
     except Exception as e:
-        return f"API Error: {str(e)}"
-
+        placeholder.error(f"API Error: {str(e)}")
 # ==============================================================================
 # [修改点] 升级后的 AI 制卡逻辑 (支持 6 维详细解释)
 # ==============================================================================
@@ -388,18 +409,28 @@ if len(review_queue) > 0:
     
     with st.container(border=True):
         st.markdown(f"### 📇 {card['term']}")
-        
-        # 助教功能
+        # [修改点] UI 部分适配流式输出
         with st.expander("🤖 助教面板"):
-            t1, t2, t3 = st.tabs(["解释", "例句", "测试"])
-            call_llm = lambda mode: get_llm_explanation(sec_api_key, sec_base_url, sec_model, card['term'], card['context'], mode)
+            t1, t2, t3 = st.tabs(["💡 解释", "📝 例句", "❓ 测试"])
+            
+            # 使用 session_state 防止切换 tab 时内容消失 (可选优化，这里先做基础流式)
+            
             with t1:
-                if st.button("💡 解释"): st.markdown(call_llm("explain"))
+                if st.button("生成解释"):
+                    # 1. 创建一个空的容器
+                    res_box = st.empty()
+                    # 2. 调用流式函数，传入容器
+                    stream_llm_explanation(sec_api_key, sec_base_url, sec_model, card['term'], card['context'], "explain", res_box)
+            
             with t2:
-                if st.button("📝 例句"): st.markdown(call_llm("examples"))
+                if st.button("生成例句"):
+                    res_box = st.empty()
+                    stream_llm_explanation(sec_api_key, sec_base_url, sec_model, card['term'], card['context'], "examples", res_box)
+            
             with t3:
-                if st.button("❓ 测试"): st.markdown(call_llm("quiz"))
-
+                if st.button("生成测试"):
+                    res_box = st.empty()
+                    stream_llm_explanation(sec_api_key, sec_base_url, sec_model, card['term'], card['context'], "quiz", res_box)
         st.write("---")
 
         if not st.session_state.show_answer:
@@ -425,3 +456,4 @@ else:
     with st.expander("查看数据表"):
 
         st.dataframe(st.session_state.data)
+
