@@ -4,8 +4,30 @@ id,term,definition,context,last_review,next_review,interval,repetitions,ease_fac
 4386bb31-78cd-4244-8b93-5e83c192e4dd,Leistung,在德语中，Leistung 的意思是 '表现'、'成绩' 或 '成就'，也可以指 '功率' 或 '输出'。,Seine Leistung in der Prüfung war ausgezeichnet. (他在考试中的表现非常出色。),2025-12-24,2025-12-25,1,1,2.6,learning
 8802d3e4-cb08-437a-baca-b5773eed9eaf,verfügen,支配，拥有；下令，规定,Er verfügt über ein großes Wissen. (他拥有丰富的知识。),2025-12-24,2025-12-25,1,1,2.36,learning
 3eed60ff-ceba-44f6-90fe-fa4cc01f4d9d,Auftrag,任务或委托（德语）,Der Chef hat mir einen neuen Auftrag gegeben. (老板给了我一个新任务。),2025-12-24,2025-12-25,1,1,2.6,learning
-f297f658-6754-45e4-bf79-b24ad4315b54,bestehen,存在；通过（考试等）,"Er muss die Prüfung bestehen, um sein Studium fortzusetzen. (他必须通过考试才能继续他的学业。)",,2025-12-24,0,0,2.5,new
-939a3ec0-67c6-4868-bc90-743f2099b158,Bedingung,条件；前提,Die Bedingung für die Teilnahme ist die rechtzeitige Anmeldung. (参加的条件是及时注册。),,2025-12-24,0,0,2.5,new
-4c2eb20f-74d7-4113-a97a-2c554db6af9b,Quelle,德语中的“来源”或“源头”，指信息的出处或事物的起源。,例句：Bitte geben Sie die Quelle für diese Information an. （请提供这条信息的来源。）,,2025-12-24,0,0,2.5,new
-5cdff249-2e2f-44a1-88ef-3cd4fbede877,Verein,协会（德语），指一个正式或非正式的组织或团体。,Er ist Mitglied in einem Sportverein. (他是某个体育协会的会员。),,2025-12-24,0,0,2.5,new
-c8d73438-a324-4d39-b7a9-bad378aec77a,darstellen,表示，描绘，表现,In seinem Vortrag konnte er die komplexen Zusammenhänge sehr gut darstellen. (在他的报告中，他能很好地阐述复杂的相互关系。),,2025-12-24,0,0,2.5,new
+f297f658-6754-45e4-bf79-b24ad4315b54,bestehen,存在；通过（考试等）,"Er muss die Prüfung bestehen, um sein Studium fortzusetzen. (他必须通过考试才能继续他的学业。)",2025-12-24,2025-12-25,1,1,2.36,learning
+939a3ec0-67c6-4868-bc90-743f2099b158,Bedingung,条件；前提,Die Bedingung für die Teilnahme ist die rechtzeitige Anmeldung. (参加的条件是及时注册。),2025-12-24,2025-12-25,1,1,2.6,learning
+4c2eb20f-74d7-4113-a97a-2c554db6af9b,Quelle,德语中的“来源”或“源头”，指信息的出处或事物的起源。,例句：Bitte geben Sie die Quelle für diese Information an. （请提供这条信息的来源。）,2025-12-24,2025-12-25,1,0,2.5,learning
+5cdff249-2e2f-44a1-88ef-3cd4fbede877,Verein,协会（德语），指一个正式或非正式的组织或团体。,Er ist Mitglied in einem Sportverein. (他是某个体育协会的会员。),2025-12-24,2025-12-25,1,1,2.36,learning
+c8d73438-a324-4d39-b7a9-bad378aec77a,darstellen,表示，描绘，表现,In seinem Vortrag konnte er die komplexen Zusammenhänge sehr gut darstellen. (在他的报告中，他能很好地阐述复杂的相互关系。),2025-12-24,2025-12-25,1,1,2.6,learning
+bcf9f2a6-4bb3-4aff-9251-754ede67c771,Leistung,n. 成绩；绩效；功率 [阴性],"**1. 词性**：名词
+
+**2. 阴阳性**：阴性 (die Leistung)
+
+**3. 释义辨析**：
+- 核心含义指通过努力取得的成果（如考试成绩/工作业绩）。
+- 工程领域特指设备输出的功率/效能。
+- 法律语境中指履行合同义务的行为。
+
+**4. 常见搭配**：
+- hohe Leistung (高性能)
+- akademische Leistungen (学业成绩)
+- Leistung erbringen (履行义务)
+- unter Leistungsdruck stehen (承受绩效压力)
+
+**5. 例句**：
+- Seine sportliche Leistung war beeindruckend. (他的运动表现令人印象深刻)
+- Die neue Software zeigt eine signifikante Leistungssteigerung. (新软件显示出显著的性能提升)
+
+**6. 近义/反义词**：
+▶ 近义词: Ergebnis (结果), Arbeit (工作), Effizienz (效率)
+◀ 反义词: Versagen (失败), Untätigkeit (不作为)",,2025-12-24,0,0,2.5,new
