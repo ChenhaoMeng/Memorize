@@ -1,1 +1,5 @@
 id,term,definition,context,last_review,next_review,interval,repetitions,ease_factor,status
+56911a23-97f9-4be6-8892-bda627f3000e,zuständig,负责的，有管辖权的,Die zuständige Behörde hat die Genehmigung erteilt. (负责的部门已经批准了。),,2025-12-24,0,0,2.5,new
+3b88004d-1c43-43a2-a087-130b5a7def93,vereibaren,可协商的，可达成协议的,Die Bedingungen des Vertrags sind noch vereibaren. (合同的条件还是可以协商的。),,2025-12-24,0,0,2.5,new
+4386bb31-78cd-4244-8b93-5e83c192e4dd,Leistung,在德语中，Leistung 的意思是 '表现'、'成绩' 或 '成就'，也可以指 '功率' 或 '输出'。,Seine Leistung in der Prüfung war ausgezeichnet. (他在考试中的表现非常出色。),,2025-12-24,0,0,2.5,new
+8802d3e4-cb08-437a-baca-b5773eed9eaf,verfügen,支配，拥有；下令，规定,Er verfügt über ein großes Wissen. (他拥有丰富的知识。),,2025-12-24,0,0,2.5,new
