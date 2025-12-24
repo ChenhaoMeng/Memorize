@@ -12,7 +12,7 @@ from openai import OpenAI
 # ==============================================================================
 
 st.set_page_config(
-    page_title="MemoFlow", # 这里的标题已净化
+    page_title="MemoFlow",
     page_icon="🧠",
     layout="wide"
 )
@@ -39,10 +39,7 @@ if 'current_card_id' not in st.session_state:
 class SRSManager:
     @staticmethod
     def calculate_next_review(row, quality):
-        """
-        SM-2 算法实现
-        Quality: 0 (Again), 3 (Hard), 5 (Good)
-        """
+        """SM-2 算法实现"""
         reps = int(row['repetitions'])
         ef = float(row['ease_factor'])
         interval = int(row['interval'])
@@ -54,18 +51,15 @@ class SRSManager:
                 interval = 6
             else:
                 interval = int(interval * ef)
-            
             reps += 1
             ef = ef + (0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02))
         else:
             reps = 0
             interval = 1
         
-        if ef < 1.3:
-            ef = 1.3
+        if ef < 1.3: ef = 1.3
 
         next_date = date.today() + timedelta(days=interval)
-        
         return {
             'last_review': date.today().strftime('%Y-%m-%d'),
             'next_review': next_date.strftime('%Y-%m-%d'),
@@ -89,11 +83,10 @@ class GitHubSync:
             csv_str = contents.decoded_content.decode("utf-8")
             df = pd.read_csv(StringIO(csv_str))
             for col in REQUIRED_COLUMNS:
-                if col not in df.columns:
-                    df[col] = None
+                if col not in df.columns: df[col] = None
             return df
         except Exception as e:
-            st.warning(f"无法从 GitHub 拉取数据 (可能是初次运行): {e}")
+            st.warning(f"GitHub 读取失败 (可能是新仓库): {e}")
             return pd.DataFrame(columns=REQUIRED_COLUMNS)
 
     def push_data(self, df):
@@ -102,28 +95,23 @@ class GitHubSync:
             csv_content = df.to_csv(index=False)
             try:
                 contents = repo.get_contents(self.file_path)
-                repo.update_file(contents.path, f"Update vocab: {date.today()}", csv_content, contents.sha)
+                repo.update_file(contents.path, f"Update: {date.today()}", csv_content, contents.sha)
                 return True, "更新成功"
             except GithubException:
                 repo.create_file(self.file_path, "Initial commit", csv_content)
-                return True, "创建并保存成功"
+                return True, "创建成功"
         except Exception as e:
             return False, str(e)
 
 # ==============================================================================
-# 3. LLM 服务集成 (适配 SJTU API)
+# 3. LLM 服务集成 (完全从配置读取)
 # ==============================================================================
 
-def get_llm_explanation(api_key, term, context, mode):
+def get_llm_explanation(api_key, base_url, model_name, term, context, mode):
     if not api_key:
-        return "⚠️ 请检查 API Key 配置"
+        return "⚠️ 请配置 API Key"
     
-    # 配置 SJTU API
-    # base_url 需指向 /v1，client 会自动追加 /chat/completions
-    client = OpenAI(
-        api_key=api_key,
-        base_url="https://models.sjtu.edu.cn/api/v1"
-    )
+    client = OpenAI(api_key=api_key, base_url=base_url)
     
     prompts = {
         "explain": f"""
@@ -149,7 +137,7 @@ def get_llm_explanation(api_key, term, context, mode):
     
     try:
         response = client.chat.completions.create(
-            model="DeepSeek-V3-685B",  # 指定 SJTU 提供的模型名
+            model=model_name,
             messages=[
                 {"role": "system", "content": "你是一位专业的学习辅导老师。"},
                 {"role": "user", "content": prompts[mode]}
@@ -167,18 +155,23 @@ def get_llm_explanation(api_key, term, context, mode):
 with st.sidebar:
     st.header("⚙️ 设置")
     
-    # 优先从 secrets 读取 GitHub Token
-    default_gh_token = st.secrets.get("GITHUB_TOKEN", "")
-    
-    # 使用您提供的 SJTU Key 作为默认值
-    default_api_key = "sk-qyaA9Q24Rx9ke9aJ2Qk7iw" 
+    # --- 关键修改：从 Secrets 读取默认值 ---
+    # 使用 st.secrets.get 安全读取，防止 key 不存在报错
+    sec_gh_token = st.secrets.get("GITHUB_TOKEN", "")
+    sec_api_key = st.secrets.get("LLM_API_KEY", "")
+    sec_base_url = st.secrets.get("LLM_BASE_URL", "https://models.sjtu.edu.cn/api/v1")
+    sec_model = st.secrets.get("LLM_MODEL", "DeepSeek-V3-685B")
     
     with st.expander("API 配置", expanded=True):
-        gh_token = st.text_input("GitHub Token", value=default_gh_token, type="password")
-        repo_name = st.text_input("Repo Name (user/repo)", value="yourname/memo-app")
+        # 即使有 Secrets，也允许用户在 UI 上临时覆盖（方便调试）
+        gh_token = st.text_input("GitHub Token", value=sec_gh_token, type="password")
+        repo_name = st.text_input("Repo Name", value="yourname/memo-app")
         
-        # 显示 API Key 输入框（默认填入）
-        api_key = st.text_input("LLM API Key", value=default_api_key, type="password")
+        st.divider()
+        st.caption("LLM 服务配置")
+        api_key = st.text_input("API Key", value=sec_api_key, type="password")
+        base_url = st.text_input("Base URL", value=sec_base_url)
+        model_name = st.text_input("Model Name", value=sec_model)
 
     st.divider()
     
@@ -204,8 +197,7 @@ with st.sidebar:
             new_df['ease_factor'] = 2.5
             new_df['status'] = 'new'
             for col in REQUIRED_COLUMNS:
-                if col not in new_df.columns:
-                    new_df[col] = ""
+                if col not in new_df.columns: new_df[col] = ""
             st.session_state.data = pd.concat([st.session_state.data, new_df[REQUIRED_COLUMNS]], ignore_index=True)
             st.success(f"已导入 {len(new_df)} 条新词")
 
@@ -214,14 +206,12 @@ with st.sidebar:
             with st.spinner("保存中..."):
                 syncer = GitHubSync(gh_token, repo_name)
                 success, msg = syncer.push_data(st.session_state.data)
-                if success:
-                    st.toast(msg, icon="✅")
-                else:
-                    st.error(msg)
+                if success: st.toast(msg, icon="✅")
+                else: st.error(msg)
 
 # --- 主界面 ---
 
-st.title("🧠 记忆训练场") # 简洁标题
+st.title("🧠 记忆训练场")
 
 today_str = date.today().strftime('%Y-%m-%d')
 df = st.session_state.data
@@ -234,7 +224,8 @@ count_due = len(review_queue)
 col1, col2, col3 = st.columns(3)
 col1.metric("今日待复习", f"{count_due}")
 col2.metric("总词条数", len(df))
-col3.metric("API状态", "在线" if api_key else "未配置")
+status_text = "在线" if api_key else "未配置"
+col3.metric("API状态", status_text)
 
 st.divider()
 
@@ -248,18 +239,22 @@ if count_due > 0:
         
         with st.expander("🤖 智能助教"):
             t1, t2, t3 = st.tabs(["💡 深度解释", "📝 场景例句", "❓ 模拟测试"])
+            
+            # 使用 lambda 简化参数传递
+            call_llm = lambda mode: get_llm_explanation(api_key, base_url, model_name, card['term'], card['context'], mode)
+            
             with t1:
                 if st.button("生成解释"):
                     with st.spinner("分析中..."):
-                        st.markdown(get_llm_explanation(api_key, card['term'], card['context'], "explain"))
+                        st.markdown(call_llm("explain"))
             with t2:
                 if st.button("生成例句"):
                     with st.spinner("撰写中..."):
-                        st.markdown(get_llm_explanation(api_key, card['term'], card['context'], "examples"))
+                        st.markdown(call_llm("examples"))
             with t3:
                 if st.button("生成测试"):
                     with st.spinner("出题中..."):
-                        st.markdown(get_llm_explanation(api_key, card['term'], card['context'], "quiz"))
+                        st.markdown(call_llm("quiz"))
 
         st.write("---")
 
