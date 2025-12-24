@@ -206,7 +206,7 @@ def generate_ai_card(api_key, base_url, model_name, term):
         data = json.loads(content)
         return data, None
     except Exception as e:
-        return None, f"生成失败: {str(e)}
+        return None, f"生成失败: {str(e)}"
 
 # ==============================================================================
 # 4. Streamlit UI 布局
@@ -423,4 +423,5 @@ else:
     st.balloons()
     st.success("🎉 当前词书任务已完成！")
     with st.expander("查看数据表"):
+
         st.dataframe(st.session_state.data)
