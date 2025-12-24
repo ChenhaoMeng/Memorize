@@ -146,22 +146,45 @@ def get_llm_explanation(api_key, base_url, model_name, term, context, mode):
     except Exception as e:
         return f"API Error: {str(e)}"
 
-# [新增功能] 生成结构化制卡数据
+# ==============================================================================
+# [修改点] 升级后的 AI 制卡逻辑 (支持 6 维详细解释)
+# ==============================================================================
+
 def generate_ai_card(api_key, base_url, model_name, term):
     if not api_key: return None, "⚠️ API Key 未配置"
     client = get_llm_client(api_key, base_url)
 
-    # 强制要求 JSON 格式的 Prompt
-    system_prompt = "你是一个专业的数据生成助手。请根据用户输入的术语，生成用于记忆卡片的定义和上下文。"
+    # System Prompt: 设定为资深语言学家
+    system_prompt = """
+    你是一位精通多国语言的资深词典编纂专家。
+    你的任务是为用户输入的单词生成极其详尽的学习卡片数据。
+    输出必须是严格的 JSON 格式。
+    """
+
+    # User Prompt: 包含 6 点具体要求
     user_prompt = f"""
-    术语："{term}"
+    请分析单词/术语："{term}"
     
-    请输出且仅输出一个标准的 JSON 对象，不要包含 ```json 标记或其他废话。格式如下：
+    请输出且仅输出一个标准的 JSON 对象（不要包含 ```json 标记），包含以下两个字段：
+    
+    1. "definition": 
+       - 要求：精炼的核心释义（一句话），适合作为卡片背面的答案。
+       - 如果有阴阳性，请在这里也简要标注（如：[阳] 太阳）。
+       
+    2. "context": 
+       - 要求：一个包含 Markdown 格式的长字符串，必须详细包含以下 6 个部分：
+         1. **词性**：说明主要词性（名词、动词等）。
+         2. **阴阳性**：(如果适用，如法/西/德语) 说明阴阳性及定冠词搭配；如果不适用则注明“无”。
+         3. **释义辨析**：详细释义，解释多重含义及细微差别。
+         4. **常见搭配**：列出 3-5 个高频短语或动词搭配。
+         5. **例句**：提供 2-3 个双语例句（由易到难）。
+         6. **近义/反义词**：列出相关词汇。
+    
+    JSON 模板示例：
     {{
-        "definition": "这里是核心定义，简明扼要，适合背诵。",
-        "context": "这里是语境、助记提示或一个经典例句（包含中文翻译）。"
+        "definition": "n. 太阳 [阳性]",
+        "context": "**1. 词性**：名词\\n\\n**2. 阴阳性**：阳性 (le soleil)..."
     }}
-    如果术语是中文，定义用中文；如果是英文，定义用中文，Context提供英文例句。
     """
 
     try:
@@ -172,18 +195,18 @@ def generate_ai_card(api_key, base_url, model_name, term):
                 {"role": "user", "content": user_prompt}
             ],
             temperature=0.7,
-            response_format={"type": "json_object"} # 尝试强制 JSON 模式（如果模型支持）
+            response_format={"type": "json_object"} 
         )
         content = response.choices[0].message.content
         
-        # 清洗可能存在的 markdown 标记
+        # 清洗 Markdown 标记
         content = re.sub(r'```json\s*', '', content)
         content = re.sub(r'```', '', content)
         
         data = json.loads(content)
         return data, None
     except Exception as e:
-        return None, f"生成失败: {str(e)}"
+        return None, f"生成失败: {str(e)}
 
 # ==============================================================================
 # 4. Streamlit UI 布局
