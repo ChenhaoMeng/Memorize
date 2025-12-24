@@ -189,22 +189,41 @@ def generate_ai_card(api_key, base_url, model_name, term):
 # 4. Streamlit UI 布局
 # ==============================================================================
 
+# ... (前面的代码保持不变) ...
+
+# ==============================================================================
+# 4. Streamlit UI 布局
+# ==============================================================================
+
+# --- [修改点] 从 Secrets 读取默认配置 ---
 sec_gh_token = st.secrets.get("GITHUB_TOKEN", "")
+sec_repo_name = st.secrets.get("GITHUB_REPO", "") # 新增：读取仓库名
+
 syncer = None
 
 with st.sidebar:
     st.header("🗂️ 词书管理")
     
-    with st.expander("🔐 仓库配置", expanded=False):
+    # --- 1. 基础配置 ---
+    # expanded=False 收起配置，因为配置好了就不用老看了
+    with st.expander("🔐 仓库配置", expanded=not sec_repo_name): 
         gh_token = st.text_input("GitHub Token", value=sec_gh_token, type="password")
-        repo_name = st.text_input("Repo Name", value="yourname/memo-app")
+        
+        # [修改点] value 使用 secrets 里的值
+        repo_name = st.text_input("Repo Name", value=sec_repo_name, placeholder="username/repo")
     
+    # 实例化 Syncer
     if gh_token and repo_name:
-        syncer = GitHubSync(gh_token, repo_name)
-    
+        # 简单的格式校验，防止 404
+        if "/" not in repo_name:
+            st.error("仓库名格式错误！应为：用户名/仓库名")
+        else:
+            syncer = GitHubSync(gh_token, repo_name)
+
     st.divider()
 
     if syncer:
+        # ... (后续代码完全不用动) ...
         if st.button("🔄 刷新词书列表"):
             with st.spinner("扫描中..."):
                 st.session_state.book_list = syncer.list_books()
