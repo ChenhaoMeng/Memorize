@@ -43,21 +43,17 @@ if 'book_list' not in st.session_state:
 class SRSManager:
     @staticmethod
     def calculate_next_review(row, quality):
-        """SM-2 算法"""
-        reps = int(row['repetitions'])
-        ef = float(row['ease_factor'])
-        interval = int(row['interval'])
-
-        if quality >= 3:
-            if reps == 0: interval = 1
-            elif reps == 1: interval = 6
-            else: interval = int(interval * ef)
-            reps += 1
-            ef = ef + (0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02))
-        else:
+        """SM-2 算法 - 增加空值容错"""
+        # 使用 pd.pd.isna() 检查或简单转换，确保即使是空值也能变成 0 或默认值
+        try:
+            reps = int(row['repetitions']) if pd.notna(row['repetitions']) else 0
+            ef = float(row['ease_factor']) if pd.notna(row['ease_factor']) else 2.5
+            interval = int(row['interval']) if pd.notna(row['interval']) else 0
+        except (ValueError, TypeError):
             reps = 0
-            interval = 1
-        
+            ef = 2.5
+            interval = 0
+            
         if ef < 1.3: ef = 1.3
 
         next_date = date.today() + timedelta(days=interval)
@@ -95,17 +91,21 @@ class GitHubSync:
             path = f"{self.data_dir}/{filename}"
             contents = repo.get_contents(path)
             csv_str = contents.decoded_content.decode("utf-8")
-            
-            # 💡 增加 quoting 参数，确保带引号的 CSV 字段被正确解析
             df = pd.read_csv(StringIO(csv_str), quoting=csv.QUOTE_MINIMAL)
             
+            # --- 新增：填充数值列的空值，防止 int() 转换失败 ---
+            num_cols = ['repetitions', 'interval']
+            df[num_cols] = df[num_cols].fillna(0).astype(int)
+            df['ease_factor'] = df['ease_factor'].fillna(2.5).astype(float)
+            df['next_review'] = df['next_review'].fillna(date.today().strftime('%Y-%m-%d'))
+            # ----------------------------------------------
+
             for col in REQUIRED_COLUMNS:
                 if col not in df.columns: df[col] = None
             return df
         except Exception as e:
             st.error(f"读取失败: {e}")
             return pd.DataFrame(columns=REQUIRED_COLUMNS)
-
     def push_data(self, df, filename):
         try:
             repo = self.get_repo()
@@ -341,3 +341,4 @@ if len(review_queue) > 0:
 else:
     st.balloons()
     st.success("🎉 太棒了！当前词书已全部复习完成！")
+
