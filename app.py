@@ -321,7 +321,7 @@ if len(review_queue) > 0:
         if not st.session_state.show_answer:
             if st.button("👁️ 显示答案", use_container_width=True, type="primary"):
                 st.session_state.show_answer = True
-                st.rerun()
+
         else:
             st.success(f"**定义**：{card['definition']}")
             if card['context']: st.info(f"**背景/备注**：\n\n{card['context']}")
@@ -333,7 +333,6 @@ if len(review_queue) > 0:
                     st.session_state.data.at[current_index, k] = v
                 st.session_state.show_answer = False
                 st.toast("进度已更新")
-                st.rerun()
             
             with c1: st.button("🔴 忘记", on_click=submit_review, args=(0,), use_container_width=True)
             with c2: st.button("🟡 模糊", on_click=submit_review, args=(3,), use_container_width=True)
@@ -341,4 +340,5 @@ if len(review_queue) > 0:
 else:
     st.balloons()
     st.success("🎉 太棒了！当前词书已全部复习完成！")
+
 
