@@ -128,7 +128,7 @@ def get_llm_client(api_key, base_url):
 # [修改点] 升级为流式输出 (Streaming)
 # ==============================================================================
 
-def get_llm_explanation(api_key, base_url, model_name, term, context, mode, placeholder):
+def stream_llm_explanation(api_key, base_url, model_name, term, context, mode, placeholder):
     """
     流式生成解释，直接更新 UI
     """
@@ -457,5 +457,6 @@ else:
     with st.expander("查看数据表"):
 
         st.dataframe(st.session_state.data)
+
 
 
