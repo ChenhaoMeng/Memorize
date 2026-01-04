@@ -3,8 +3,8 @@ import pandas as pd
 import uuid
 import json
 import re
+import csv
 from datetime import date, timedelta, datetime
-import os
 from io import StringIO
 from github import Github, GithubException
 from openai import OpenAI
@@ -19,7 +19,7 @@ st.set_page_config(
     layout="wide"
 )
 
-# 定义数据结构标准
+# 定义数据结构标准 (10列)
 REQUIRED_COLUMNS = [
     'id', 'term', 'definition', 'context', 
     'last_review', 'next_review', 'interval', 
@@ -95,7 +95,10 @@ class GitHubSync:
             path = f"{self.data_dir}/{filename}"
             contents = repo.get_contents(path)
             csv_str = contents.decoded_content.decode("utf-8")
-            df = pd.read_csv(StringIO(csv_str))
+            
+            # 💡 增加 quoting 参数，确保带引号的 CSV 字段被正确解析
+            df = pd.read_csv(StringIO(csv_str), quoting=csv.QUOTE_MINIMAL)
+            
             for col in REQUIRED_COLUMNS:
                 if col not in df.columns: df[col] = None
             return df
@@ -107,30 +110,27 @@ class GitHubSync:
         try:
             repo = self.get_repo()
             path = f"{self.data_dir}/{filename}"
-            csv_content = df.to_csv(index=False)
+            
+            # 💡 关键：强制对所有非数值字段使用双引号，防止 context 里的逗号导致列数错误
+            csv_content = df.to_csv(index=False, quoting=csv.QUOTE_NONNUMERIC)
+            
             try:
                 contents = repo.get_contents(path)
                 repo.update_file(contents.path, f"Update {filename}", csv_content, contents.sha)
-                return True, "更新成功"
+                return True, "同步成功"
             except GithubException:
                 repo.create_file(path, f"Create {filename}", csv_content)
-                return True, "创建成功"
+                return True, "创建并同步成功"
         except Exception as e:
             return False, str(e)
 
 # ==============================================================================
-# 3. LLM 服务集成 (新增：结构化生成)
-# ==============================================================================
-
-def get_llm_client(api_key, base_url):
-    return OpenAI(api_key=api_key, base_url=base_url)
-# ==============================================================================
-# [修改点] 升级为流式输出 (Streaming)
+# 3. LLM 服务集成 (流式输出 + 结构化生成)
 # ==============================================================================
 
 def stream_llm_explanation(api_key, base_url, model_name, term, context, mode, placeholder):
     """
-    流式生成解释，直接更新 UI
+    流式生成解释，直接更新 UI。
     """
     if not api_key:
         placeholder.error("⚠️ 请配置 API Key")
@@ -145,68 +145,35 @@ def stream_llm_explanation(api_key, base_url, model_name, term, context, mode, p
     }
     
     try:
-        # 开启 stream=True
         stream = client.chat.completions.create(
             model=model_name,
             messages=[{"role": "user", "content": prompts[mode]}],
             temperature=0.7,
-            stream=True  # <--- 关键修改
+            stream=True 
         )
         
         full_response = ""
-        # 循环接收数据块
         for chunk in stream:
             if chunk.choices:
                 content = chunk.choices[0].delta.content
                 if content:
                     full_response += content
-                    # 实时更新 UI，加一个光标 ▌ 让它看起来在打字
                     placeholder.markdown(full_response + "▌")
         
-        # 最后一次更新，去掉光标
         placeholder.markdown(full_response)
         
     except Exception as e:
         placeholder.error(f"API Error: {str(e)}")
-# ==============================================================================
-# [修改点] 升级后的 AI 制卡逻辑 (支持 6 维详细解释)
-# ==============================================================================
 
 def generate_ai_card(api_key, base_url, model_name, term):
     if not api_key: return None, "⚠️ API Key 未配置"
-    client = get_llm_client(api_key, base_url)
+    client = OpenAI(api_key=api_key, base_url=base_url)
 
-    # System Prompt: 设定为资深语言学家
-    system_prompt = """
-    你是一位精通多国语言的资深词典编纂专家。
-    你的任务是为用户输入的单词生成极其详尽的学习卡片数据。
-    输出必须是严格的 JSON 格式。
-    """
-
-    # User Prompt: 包含 6 点具体要求
+    system_prompt = "你是一位资深语言专家，请为单词生成详尽的学习卡片数据。输出为 JSON 格式。"
     user_prompt = f"""
-    请分析单词/术语："{term}"
-    
-    请输出且仅输出一个标准的 JSON 对象（不要包含 ```json 标记），包含以下两个字段：
-    
-    1. "definition": 
-       - 要求：精炼的核心释义（一句话），适合作为卡片背面的答案。
-       - 如果有阴阳性，请在这里也简要标注（如：[阳] 太阳）。
-       
-    2. "context": 
-       - 要求：一个包含 Markdown 格式的长字符串，必须详细包含以下 6 个部分：
-         1. **词性**：说明主要词性（名词、动词等）。
-         2. **阴阳性**：(如果适用，如法/西/德语) 说明阴阳性及定冠词搭配；如果不适用则注明“无”。
-         3. **释义辨析**：详细释义，解释多重含义及细微差别。
-         4. **常见搭配**：列出 3-5 个高频短语或动词搭配。
-         5. **例句**：提供 2-3 个双语例句（由易到难）。
-         6. **近义/反义词**：列出相关词汇。
-    
-    JSON 模板示例：
-    {{
-        "definition": "n. 太阳 [阳性]",
-        "context": "**1. 词性**：名词\\n\\n**2. 阴阳性**：阳性 (le soleil)..."
-    }}
+    请分析单词："{term}"
+    输出 JSON 格式（包含 definition 和 context 字段）。
+    context 必须是详细的 Markdown，包含词性、搭配、例句和辨析。
     """
 
     try:
@@ -219,128 +186,76 @@ def generate_ai_card(api_key, base_url, model_name, term):
             temperature=0.7,
             response_format={"type": "json_object"} 
         )
-        content = response.choices[0].message.content
-        
-        # 清洗 Markdown 标记
-        content = re.sub(r'```json\s*', '', content)
-        content = re.sub(r'```', '', content)
-        
-        data = json.loads(content)
+        data = json.loads(response.choices[0].message.content)
         return data, None
     except Exception as e:
-        return None, f"生成失败: {str(e)}"
+        return None, str(e)
 
 # ==============================================================================
 # 4. Streamlit UI 布局
 # ==============================================================================
 
-# ... (前面的代码保持不变) ...
-
-# ==============================================================================
-# 4. Streamlit UI 布局
-# ==============================================================================
-
-# --- [修改点] 从 Secrets 读取默认配置 ---
+# 读取 Secrets
 sec_gh_token = st.secrets.get("GITHUB_TOKEN", "")
-sec_repo_name = st.secrets.get("GITHUB_REPO", "") # 新增：读取仓库名
+sec_repo_name = st.secrets.get("GITHUB_REPO", "")
+sec_api_key = st.secrets.get("LLM_API_KEY", "")
+sec_base_url = st.secrets.get("LLM_BASE_URL", "https://api.deepseek.com") # 默认地址
+sec_model = st.secrets.get("LLM_MODEL", "deepseek-chat")
 
 syncer = None
 
 with st.sidebar:
     st.header("🗂️ 词书管理")
     
-    # --- 1. 基础配置 ---
-    # expanded=False 收起配置，因为配置好了就不用老看了
     with st.expander("🔐 仓库配置", expanded=not sec_repo_name): 
         gh_token = st.text_input("GitHub Token", value=sec_gh_token, type="password")
-        
-        # [修改点] value 使用 secrets 里的值
         repo_name = st.text_input("Repo Name", value=sec_repo_name, placeholder="username/repo")
     
-    # 实例化 Syncer
     if gh_token and repo_name:
-        # 简单的格式校验，防止 404
         if "/" not in repo_name:
-            st.error("仓库名格式错误！应为：用户名/仓库名")
+            st.error("格式：用户名/仓库名")
         else:
             syncer = GitHubSync(gh_token, repo_name)
 
     st.divider()
 
     if syncer:
-        # ... (后续代码完全不用动) ...
         if st.button("🔄 刷新词书列表"):
-            with st.spinner("扫描中..."):
-                st.session_state.book_list = syncer.list_books()
+            st.session_state.book_list = syncer.list_books()
         
         book_options = st.session_state.book_list
         selected_book = st.selectbox("选择当前词书", options=book_options, index=0 if book_options else None)
 
         if st.button("📥 加载选中词书", type="primary"):
             if selected_book:
-                with st.spinner(f"正在读取 {selected_book}..."):
-                    st.session_state.data = syncer.pull_data(selected_book)
-                    st.session_state.current_book = selected_book
+                st.session_state.data = syncer.pull_data(selected_book)
+                st.session_state.current_book = selected_book
                 st.success(f"已加载: {selected_book}")
 
         st.divider()
-
-        # --- 新增/上传区域 ---
         st.subheader("➕ 生产力工具")
-        
-        # Tab 分组
         tab_ai, tab_csv, tab_new = st.tabs(["✨ AI制卡", "📄 CSV追加", "🆕 建新书"])
         
-        # [修改点] AI 制卡功能
         with tab_ai:
             if st.session_state.current_book:
-                st.caption(f"追加到: {st.session_state.current_book}")
-                ai_term = st.text_input("输入要背的词/概念", placeholder="例如: RAG / 相对论 / Serendipity")
-                
+                ai_term = st.text_input("输入要制作的词")
                 if st.button("🪄 生成并添加"):
-                    if not ai_term:
-                        st.warning("请输入内容")
-                    else:
-                        # 读取配置
-                        k = st.secrets.get("LLM_API_KEY", "")
-                        b = st.secrets.get("LLM_BASE_URL", "https://models.sjtu.edu.cn/api/v1")
-                        m = st.secrets.get("LLM_MODEL", "deepseek-v3")
-
-                        with st.spinner("DeepSeek 正在思考并制作卡片..."):
-                            result_data, err = generate_ai_card(k, b, m, ai_term)
-                            
-                        if result_data:
-                            # 构造新行
+                    with st.spinner("AI 正在思考..."):
+                        res, err = generate_ai_card(sec_api_key, sec_base_url, sec_model, ai_term)
+                        if res:
                             new_row = {
-                                'id': str(uuid.uuid4()),
-                                'term': ai_term,
-                                'definition': result_data.get('definition', ''),
-                                'context': result_data.get('context', ''),
-                                'last_review': '',
-                                'next_review': date.today().strftime('%Y-%m-%d'),
-                                'interval': 0, 
-                                'repetitions': 0, 
-                                'ease_factor': 2.5, 
-                                'status': 'new'
+                                'id': str(uuid.uuid4()), 'term': ai_term,
+                                'definition': res.get('definition', ''), 'context': res.get('context', ''),
+                                'last_review': '', 'next_review': date.today().strftime('%Y-%m-%d'),
+                                'interval': 0, 'repetitions': 0, 'ease_factor': 2.5, 'status': 'new'
                             }
-                            # 追加到 DataFrame
-                            st.session_state.data = pd.concat([
-                                st.session_state.data, 
-                                pd.DataFrame([new_row])
-                            ], ignore_index=True)
-                            
-                            st.success(f"✅ 已添加：{ai_term}")
-                            with st.expander("查看生成详情", expanded=True):
-                                st.write(f"**定义**: {new_row['definition']}")
-                                st.write(f"**备注**: {new_row['context']}")
-                            st.info("💡 记得点击下方保存按钮同步到云端！")
-                        else:
-                            st.error(err)
-            else:
-                st.warning("请先在上方加载一个词书")
+                            st.session_state.data = pd.concat([st.session_state.data, pd.DataFrame([new_row])], ignore_index=True)
+                            st.success(f"已添加: {ai_term}")
+                        else: st.error(err)
+            else: st.warning("请先加载词书")
 
         with tab_csv:
-            uploaded_file = st.file_uploader("导入CSV到当前词书", type=['csv'])
+            uploaded_file = st.file_uploader("导入CSV (term,definition,context)", type=['csv'])
             if uploaded_file and st.session_state.current_book:
                 if st.button("确认CSV追加"):
                     new_df = pd.read_csv(uploaded_file)
@@ -349,58 +264,33 @@ with st.sidebar:
                     new_df['status'] = 'new'
                     for col in REQUIRED_COLUMNS:
                         if col not in new_df.columns: new_df[col] = ""
-                        if col in ['interval', 'repetitions']: new_df[col] = 0
-                        if col == 'ease_factor': new_df[col] = 2.5
                     st.session_state.data = pd.concat([st.session_state.data, new_df[REQUIRED_COLUMNS]], ignore_index=True)
                     st.success("CSV 追加成功")
 
-        with tab_new:
-            new_book_name = st.text_input("新文件名 (如: java.csv)")
-            if st.button("创建空词书"):
-                if not new_book_name.endswith(".csv"): new_book_name += ".csv"
-                empty_df = pd.DataFrame(columns=REQUIRED_COLUMNS)
-                success, msg = syncer.push_data(empty_df, new_book_name)
-                if success: st.success("创建成功，请刷新列表")
-                else: st.error(msg)
-
-        st.divider()
-        
         if st.button("☁️ 保存当前词书进度", type="primary"):
             if st.session_state.current_book:
-                with st.spinner("同步中..."):
-                    success, msg = syncer.push_data(st.session_state.data, st.session_state.current_book)
-                    if success: st.toast("保存成功", icon="✅")
-                    else: st.error(msg)
-            else:
-                st.error("未加载任何词书")
+                success, msg = syncer.push_data(st.session_state.data, st.session_state.current_book)
+                if success: st.toast("同步成功", icon="✅")
+                else: st.error(msg)
 
-# --- 主界面 ---
-
-st.title(f"🧠 记忆训练场")
-
-# LLM 配置 (复习界面用)
-sec_api_key = st.secrets.get("LLM_API_KEY", "")
-sec_base_url = st.secrets.get("LLM_BASE_URL", "https://models.sjtu.edu.cn/api/v1")
-sec_model = st.secrets.get("LLM_MODEL", "deepseek-v3")
+# --- 复习界面 ---
+st.title("🧠 记忆训练场")
 
 if not st.session_state.current_book:
     st.info("👈 请在左侧选择或新建一个词书开始学习")
     st.stop()
 
-# 数据统计
+# 计算待复习队列
 df = st.session_state.data
+df['next_review'] = df['next_review'].fillna(date.today().strftime('%Y-%m-%d'))
 today_str = date.today().strftime('%Y-%m-%d')
-# 修复空值问题，确保 next_review 是字符串
-df['next_review'] = df['next_review'].fillna('')
-valid_date_mask = df['next_review'] != ""
-due_mask = valid_date_mask & (df['next_review'] <= today_str)
-new_mask = df['status'] == 'new'
-review_queue = df[due_mask | new_mask]
+due_mask = (df['next_review'] <= today_str) | (df['status'] == 'new')
+review_queue = df[due_mask]
 
 col1, col2, col3 = st.columns(3)
 col1.metric("今日待复习", len(review_queue))
 col2.metric("当前词书", st.session_state.current_book)
-col3.metric("总词条", len(df))
+col3.metric("总记录", len(df))
 
 st.divider()
 
@@ -410,35 +300,31 @@ if len(review_queue) > 0:
     
     with st.container(border=True):
         st.markdown(f"### 📇 {card['term']}")
-        # [修改点] UI 部分适配流式输出
+        
         with st.expander("🤖 助教面板"):
             t1, t2, t3 = st.tabs(["💡 解释", "📝 例句", "❓ 测试"])
-            
-            # 使用 session_state 防止切换 tab 时内容消失 (可选优化，这里先做基础流式)
-            
             with t1:
-                if st.button("生成解释"):
-                    # 1. 创建一个空的容器
+                if st.button("生成详细解释"):
                     res_box = st.empty()
-                    # 2. 调用流式函数，传入容器
                     stream_llm_explanation(sec_api_key, sec_base_url, sec_model, card['term'], card['context'], "explain", res_box)
-            
             with t2:
-                if st.button("生成例句"):
+                if st.button("生成更多例句"):
                     res_box = st.empty()
                     stream_llm_explanation(sec_api_key, sec_base_url, sec_model, card['term'], card['context'], "examples", res_box)
-            
             with t3:
-                if st.button("生成测试"):
+                if st.button("即兴小测验"):
                     res_box = st.empty()
                     stream_llm_explanation(sec_api_key, sec_base_url, sec_model, card['term'], card['context'], "quiz", res_box)
+        
         st.write("---")
 
         if not st.session_state.show_answer:
-            st.button("👁️ 显示答案", on_click=lambda: st.session_state.update(show_answer=True), use_container_width=True)
+            if st.button("👁️ 显示答案", use_container_width=True, type="primary"):
+                st.session_state.show_answer = True
+                st.rerun()
         else:
-            st.success(f"定义：{card['definition']}")
-            if card['context']: st.caption(f"备注：{card['context']}")
+            st.success(f"**定义**：{card['definition']}")
+            if card['context']: st.info(f"**背景/备注**：\n\n{card['context']}")
             
             c1, c2, c3 = st.columns(3)
             def submit_review(quality):
@@ -446,17 +332,12 @@ if len(review_queue) > 0:
                 for k, v in new_state.items():
                     st.session_state.data.at[current_index, k] = v
                 st.session_state.show_answer = False
-                st.toast("已更新进度")
+                st.toast("进度已更新")
+                st.rerun()
             
             with c1: st.button("🔴 忘记", on_click=submit_review, args=(0,), use_container_width=True)
             with c2: st.button("🟡 模糊", on_click=submit_review, args=(3,), use_container_width=True)
             with c3: st.button("🟢 掌握", on_click=submit_review, args=(5,), use_container_width=True)
 else:
     st.balloons()
-    st.success("🎉 当前词书任务已完成！")
-    with st.expander("查看数据表"):
-
-        st.dataframe(st.session_state.data)
-
-
-
+    st.success("🎉 太棒了！当前词书已全部复习完成！")
