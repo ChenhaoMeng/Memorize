@@ -1,436 +1,871 @@
-term,definition,context
-correspondent,记者 / 通讯员,The war correspondent sent live reports from the battlefield.
-hang about,逗留 / 闲荡,They noticed a suspicious man hanging about the entrance.
-descend,下降 / 遗传 / 突然降临,We watched the sun descend below the horizon.
-feat,壮举 / 功绩,Completing the marathon was a remarkable feat of endurance.
-furnish … with …,向……提供……,The hotel will furnish you with all the necessary equipment.
-secrecy,保密 / 秘密状态,The mission was carried out in absolute secrecy.
-whatever,（用于否定句后）丝毫 / 根本,There is no doubt whatever about his guilt.
-censor,审查员 / 审查,The government decided to censor the sensitive news report.
-grin,咧嘴笑,He had a broad grin on his face after winning the game.
-infantry,步兵,The infantry advanced slowly across the open field.
-cavalry,骑兵,In the past the cavalry was the fastest unit in the army.
-make … (out) of …,理解 / 弄懂,I can't make anything out of this messy handwriting.
-foregone conclusion,预料中的必然结果,That they would win was a foregone conclusion.
-preconcerted,预先商定的,The meeting was a preconcerted attempt to change the policy.
-muffle,蒙住 / 抑制（声音）,She used a cushion to muffle the sound of the alarm.
-mooted,讨论过的 / 尚未定案的,The idea of a new tax was mooted in Parliament yesterday.
-parlous,危险的 / 极糟的,The company's finances are in a parlous state.
-incontrovertible,无可争议的,The video evidence provided incontrovertible proof of the crime.
-cipher,密码 / 暗号,The spy used a complex cipher to send the message.
-vernacular,方言 / 本地话,He wrote his poems in the local vernacular.
-acrostic,藏头诗,The first letters of each line in an acrostic form a word.
-pan out,（以特定方式）发展 / 结果是,We'll see how the new marketing strategy pans out.
-transpose,移置 / 调换顺序,Be careful not to transpose the digits in the phone number.
-hustle,匆忙做某事 / 催促,We had to hustle to get to the station on time.
-chop suey,杂烩 / 一团糟,The room was a real chop suey of old furniture and books.
-haul,拉 / 拖 / 运送,The truck had to haul a heavy load up the hill.
-servitude,奴役 / 劳役,Many people were sold into a life of servitude.
-patch,补丁 / 地块,He sowed seeds in a small patch of garden.
-watchman,看守人 / 巡夜者,The night watchman noticed the broken window.
-handy-man,杂工 / 手巧的人,The handy-man fixed the leaking tap in minutes.
-butt,（用头或角）撞,The goat tried to butt the fence.
-discomfit,使不安 / 使尴尬,The unexpected question seemed to discomfit the speaker.
-concerted,共同的 / 协同的,We need to make a concerted effort to solve this problem.
-huddle,挤在一起 / 蜷缩,The sheep huddled together to keep warm in the snow.
-Scotch,苏格兰的,She enjoyed a glass of Scotch whisky by the fire.
-confer,赋予 / 授予 / 商谈,The university will confer an honorary degree on the writer.
-peg,钉子 / 固定,He hung his jacket on a wooden peg.
-crooked,弯曲的 / 不诚实的,The picture on the wall is a bit crooked.
-abash,使羞愧 / 使窘迫,He was not abashed by his failure and tried again.
-providence,天意 / 远见,It seemed like a stroke of providence that we met.
-come off,成功 / 举行,Did the party come off as well as you hoped?
-scathe,损害 / 伤害,He emerged from the scandal relatively unscathed.
-hold to,坚持 / 遵循,We must hold to our principles despite the pressure.
-up a tree,进退两难,Without his car he's really up a tree.
-fall down,失败 / 倒下,The plan fell down because of a lack of funding.
-set forth,陈述 / 阐明,The president set forth his views in a major speech.
-dark horse,黑马,The young player proved to be a dark horse in the tournament.
-beggar description,无法形容,The beauty of the sunset beggars description.
-unawares,不知不觉地 / 意外地,The rain caught us unawares without umbrellas.
-pat,非常恰当的 / 现成的,His answer was a bit too pat to be entirely believable.
-contest,质疑 / 争论,The lawyer decided to contest the validity of the will.
-jolly,戏弄地开玩笑,They tried to jolly him along to get him to agree.
-kingpin,核心人物,He is the kingpin of the local electronics industry.
-cyclone,气旋 / 旋风,The cyclone caused widespread damage to the coast.
-zephyr,和风 / 西风,A light zephyr blew across the lake.
-urchin,流浪儿 / 顽童,A group of street urchins were playing in the alley.
-masses,群众 / 民众,The politician tried to appeal to the masses.
-derelict,破旧的 / 被遗弃的,The old factory has been derelict for years.
-ponderous,冗长的 / 笨重的,The book was written in a ponderous academic style.
-score,写下 / 记下,The composer scored the music for a full orchestra.
-complement,补充 / 补足语,The red wine is a perfect complement to the steak.
-whirl,旋转 / 混乱,My mind was in a whirl after the shocking news.
-illustration,插画 / 阐释,The book contains many beautiful illustrations.
-artillery,大炮 / 炮兵,The heavy artillery provided cover for the advancing troops.
-jargon,行话 / 术语,I couldn't understand the technical jargon in the manual.
-dearth,缺乏 / 饥荒,There is a dearth of reliable information on the subject.
-obituary,讣告,I read his obituary in the morning newspaper.
-do … part,（根据语境）尽到职责 / 分开,Everyone must do their part to protect the environment.
-contradiction,矛盾 / 反驳,There is a clear contradiction between his words and actions.
-journalistic,新闻业的,The article was written with great journalistic skill.
-pedestrian,行人 / 乏味的,The street was crowded with pedestrians.
-tackle,解决 / 应付 / 处理,The government needs to tackle the problem of inflation.
-refine,精炼 / 完善 / 改进,We need to refine our plan before presenting it.
-sophistication,精致 / 复杂性 / 老练,The system is admired for its high level of sophistication.
-at the end of the day,说到底 / 终究,At the end of the day it's your decision to make.
-agree upon,达成一致 / 约定,Both parties have agreed upon the terms of the contract.
-play into,迎合 / 落入……圈套,Your anger just plays into their hands.
-stereotype,刻板印象 / 陈规,We should avoid judging people based on stereotypes.
-misconception,误解 / 错误观念,There is a common misconception that all cats hate water.
-lingua franca,通用语,English has become the lingua franca of international aviation.
-just about,几乎 / 差不多,I've just about finished my homework.
-flirt with,涉猎 / 玩弄 / 调情,He flirted with the idea of moving to Japan.
-a slew of,一大堆 / 许多,The company released a slew of new products this month.
-scribe,抄写员 / 书记,Ancient scribes were responsible for copying manuscripts.
-courtier,宫廷侍从,The king was surrounded by his loyal courtiers.
-(re)assert oneself,重新确立 / 重新显现,He needed to reassert himself after the long illness.
-displace,取代 / 替换,The new technology will eventually displace the old ones.
-guild,公会 / 行会,The medieval guilds controlled the quality of crafts.
-compositor,排字工人,The compositor carefully arranged the metal type for the book.
-typeface,字体 / 字样,The designer chose a modern typeface for the logo.
-busybody,多管闲事的人,Our neighbor is a real busybody who knows everyone's business.
-grammarian,语法学家,The grammarian argued for a stricter use of punctuation.
-ostensible,表面上的 / 假装的,Their ostensible goal was peace but they prepared for war.
-prescriptive,规定性的,The teacher took a prescriptive approach to grammar rules.
-descriptive,描写性的,Descriptive linguistics studies how language is actually used.
-in and of itself,本身 / 就其本身而言,The money in and of itself is not the problem.
-citation,引用 / 引证 / 传票,The essay included many citations from reliable sources.
-decry,谴责 / 贬低,Many critics decried the lack of originality in the film.
-etymology,词源学 / 词源,Studying etymology helps you understand how words evolve.
-rail,斥责 / 责骂 / 抱怨,He railed against the injustice of the new law.
-nauseous,令人呕吐的 / 产生恶心的,The smell of the garbage was absolutely nauseous.
-nauseated,感到恶心的,The bumpy boat ride made her feel nauseated.
-rationale,基本原理 / 根本原因,What is the rationale behind this new policy?
-feel strongly about,对……有强烈的看法,Many people feel strongly about the need for climate action.
-strenuous,费力的 / 艰苦的,Lifting those heavy boxes was very strenuous work.
-get to do,能够做某事 / 获得机会,I finally got to meet my favorite author.
-whereby,凭此 / 借以 / 如何,They created a system whereby students could rate teachers.
-exert influence on,施加影响,Parents exert a great influence on their children's habits.
-look to,指望 / 依靠 / 注意,They look to the government for financial support.
-outstrip,超过 / 胜过,Demand for the new phone has outstripped supply.
-snap up,抢购 / 匆匆吃下,All the tickets were snapped up within minutes.
-how-to,指南 / 入门教程,I bought a how-to book on gardening for beginners.
-nuisance,麻烦事 / 讨厌的人或物,The loud noise from the street is a real nuisance.
-vermin,害虫 / 害鸟 / 歹徒,They called in pest control to deal with the vermin.
-frown upon,不赞成 / 皱眉反对,Smoking in public places is increasingly frowned upon.
-improper,不合适的 / 不当的,It would be improper for a judge to discuss a case.
-impropriety,不当行为 / 违规,There were allegations of financial impropriety in the office.
-implement,实施 / 执行,The company plans to implement the new rules next month.
-couch,（以某种方式）表达 / 措辞,The message was couched in very polite language.
-ingrained,根深蒂固的,The habit of waking up early was ingrained in him.
-conspicuous,显眼的 / 显著的,The tower is a conspicuous landmark in the city.
-maven,专家 / 内行,She is a fashion maven who knows all the latest trends.
-flat-out,完全的 / 坦率地 / 全速的,He was flat-out lying when he said he wasn't there.
-innate,天生的 / 先天的,She has an innate talent for playing the piano.
-do away with,废除 / 摆脱,The school decided to do away with the old uniform.
-intersect,相交 / 交叉,The two lines intersect at a right angle.
-keep to,坚持 / 遵守 / 不离开,It's important to keep to the original plan during the experiment.
-parable,寓言 / 比喻,The teacher used a simple parable to explain the moral lesson.
-stout,结实的 / 肥胖的,The house was built with stout oak beams.
-stoutness,结实 / 肥胖,His stoutness made it difficult for him to climb the stairs.
-wedge,楔子 / 挤进,He used a small piece of wood as a wedge to stop the door from closing.
-crystalline,水晶般的 / 透明的,The mountain air was crystalline and cold.
-bruise,弄伤 / 擦伤 / 瘀伤,The fall left a large bruise on her knee.
-flank,侧面 / 肋部,The hunters moved around the flank of the mountain.
-gospel,福音 / 真理,The local community spread the gospel of sustainable living.
-tangle,纠缠 / 混乱,The fishing line got into a terrible tangle.
-bathe,沐浴 / 浸,The room was bathed in soft golden light.
-proceed,继续进行 / 前进,After the interruption
-sinful,有罪的 / 邪恶的,He felt that wasting food was a sinful act.
-ascetic,禁欲的 / 苦行者,He lived an ascetic life in a remote monastery.
-asceticism,禁欲主义,The monk’s life was defined by extreme asceticism.
-pulpit,讲坛 / 僧侣,The priest stood in the pulpit to deliver his sermon.
-antithesis,对立面 / 对照,His behavior was the exact antithesis of what we expected.
-allusion,典故 / 暗指,The poem is full of allusions to Greek mythology.
-allude to,暗指 / 提到,He alluded to the problem but didn't explain it in detail.
-twig,小树枝,A small bird sat on a dry twig of the apple tree.
-snap,断裂 / 猛咬,The dry branch snapped under his weight.
-depreciate,贬低 / 轻视 / 贬值,New cars depreciate in value as soon as you drive them away.
-undergrowth,灌木丛 / 丛林,The dog disappeared into the thick undergrowth.
-tread,踏踩 / 行走,Be careful not to tread on the flowers.
-take fright,受惊 / 惊恐,The horse took fright at the sound of the explosion.
-squawk,尖叫 / 诉苦,The parrot gave a loud squawk when I approached.
-amiss,出错的 / 有毛病的,I knew something was amiss when she didn't call back.
-buy … out,买下……的全部股份 / 收购,The larger company offered to buy out the small family business.
-beset,困扰 / 围绕,The project was beset by technical difficulties from the start.
-round off,使……完整 / 凑整,We can round off the evening with a nice dessert.
-plot a curve,画曲线,The scientist plotted a curve to show the rate of growth.
-immense,巨大的 / 广大的,The cost of the restoration project was immense.
-immensity,巨大 / 广大,She was overwhelmed by the immensity of the ocean.
-nucleus,核心 / 原子核,The nucleus of the cell contains most of the genetic material.
-nuclei,核心（复数）,Atomic nuclei are made of protons and neutrons.
-dominion,统治权 / 领土,In the past
-take alarm,感到警觉 / 惊慌,Residents took alarm when they saw smoke coming from the forest.
-clean,完全地 / 彻底地,The bullet went clean through the wooden door.
-restless,焦躁不安的 / 静不下来的,The audience grew restless during the long speech.
-come over,袭来 / 笼罩 / 过来,A feeling of sadness came over him as he read the letter.
-pretentious,做作的 / 自命不凡的,I found his style of writing very pretentious and hard to follow.
-sinister,不祥的 / 阴险的,There was something sinister about the dark
-trinity,三位一体 / 三人一组,The novel explores the trinity of love
-shun,躲开 / 避开,He began to shun public attention after the scandal.
-defect,缺陷 / 变节,The toy was recalled due to a serious manufacturing defect.
-defective,有缺陷的,You can return the product if it is found to be defective.
-germ,胚芽 / 细菌 / 萌芽,The germ of the idea came to him while he was on vacation.
-exquisite,精致的 / 细腻的,The museum has an exquisite collection of ancient jewelry.
-carnal,肉体的 / 世俗的,The monk was taught to suppress all carnal desires.
-entangle,缠住 / 使陷入,The dolphin became entangled in the fishing net.
-meagre,贫乏的 / 瘦的,They survived on a meagre diet of bread and water.
-traverse,横过 / 穿过,The explorers had to traverse the entire desert on foot.
-all too,非常 / 太……,The weekend was all too short and soon it was Monday.
-grub,（用手）挖掘 / 搜寻,The children were grubbing about in the garden for worms.
-span,跨度 / 跨越,The bridge spans the river at its narrowest point.
-termite,白蚁,The old wooden house was severely damaged by termites.
-circle,圆圈 / 环绕,The eagles circled high above the valley.
-circular,循环的 / 圆形的,The letter was sent to all members as a circular.
-circulate,循环 / 流传,Blood circulates through the body to deliver oxygen.
-circulation,循环 / 流通 / 发行量,The magazine has a daily circulation of over 50
-gorge (on),吞食 / 狼吞虎咽,The children gorged themselves on chocolate and cake.
-avaricious,贪婪的,The avaricious businessman was never satisfied with his profits.
-avarice,贪婪,His motive for the crime was pure avarice.
-quadruple,使成四倍 / 四倍的,The price of the house has quadrupled in the last ten years.
-gait,步态 / 步法,The old man walked with a slow and heavy gait.
-wont,习惯 / 惯常的,As was her wont
-sponge,海绵 / 抹除,He used a wet sponge to clean the chalkboard.
-spongy,海绵状的,The ground was soft and spongy after the heavy rain.
-bog,泥潭 / 使陷入,The car got bogged down in the thick mud.
-stiffen,变硬 / 僵硬,His muscles began to stiffen after the long hike.
-pastry,糕点 / 点心,The bakery sells a delicious range of French pastries.
-limber,柔软的 / 敏捷的,She did some stretching exercises to keep her body limber.
-indeterminate,不明确的 / 不确定的,The date of the meeting is still indeterminate.
-in someone’s company,在某人陪同下,I always feel comfortable and relaxed in her company.
-quartet,四重奏 / 四人组,The string quartet performed a piece by Mozart.
-give place to,让位给 / 被替代,The old steam trains eventually gave place to electric ones.
-adorn,装饰,The walls were adorned with beautiful paintings.
-adornment,装饰品,The simple dress needed no further adornment.
-beseech,恳求 / 乞求,I beseech you to reconsider your decision.
-swirl,旋转 / 漩涡,The autumn leaves swirled around in the wind.
-lethargic,无精打采的,The hot weather made everyone feel lethargic and tired.
-condescension,屈尊俯就 / 傲慢,I resented the tone of condescension in his voice.
-to their best form,达到最佳状态,The athletes trained hard to return to their best form.
-bequest,遗嘱 / 遗产,He left a generous bequest to the local library.
-inning,局 / 机会,The team scored three runs in the final inning.
-zest,热心 / 热情 / 兴趣,He entered into the new project with great zest.
-gambit,开局策略 / 试探,His opening gambit in the negotiation was very clever.
-for that matter,确切地说 / 此外,I don't like horror movies
-benefactor,恩人 / 捐助者,The hospital was built thanks to a wealthy benefactor.
-sliver,裂片 / 薄片,He cut a tiny sliver of cake just to taste it.
-heir,继承人,He is the legal heir to the family fortune.
-heiress,女继承人,The young heiress inherited a large estate from her grandfather.
-promenade,散步 / 漫步,Couples were promenading along the seafront at sunset.
-by rote,死记硬背地,He learned the entire poem by rote without understanding it.
-sleek,光滑的 / 井然有序的,The cat had a sleek and shiny coat of black fur.
-supple,柔韧的 / 灵活的,Yoga helps to keep your joints supple and strong.
-nudge,轻推 / 推进,He gave me a gentle nudge to wake me up.
-tender,呈递 / 提出 / 投标,The company decided to tender for the new bridge project.
-regal,威严的 / 王室的,She looked very regal in her long silk gown.
-fling,投掷 / 抛出 / 猛冲,He flung his coat onto the sofa and sat down.
-chaste,贞洁的 / 朴素的,The room was decorated in a simple and chaste style.
-forfeit,丧失 / 被罚没,He had to forfeit his deposit because he cancelled late.
-immaculate,纯洁无瑕的 / 一尘不染的,The house was kept in immaculate condition.
-retort,顶嘴 / 反驳,"""It's none of your business"
-inhabit,居住于 / 栖息于,Many rare species of birds inhabit these remote islands.
-detach,分离 / 拆卸 / 使超脱,He tried to detach himself from the reality of the situation.
-perturb,使不安 / 扰乱,The sudden change in plans did not seem to perturb him at all.
-musty,发霉的 / 陈腐的,The old library was filled with the smell of musty books.
-devout,虔诚的 / 衷心的,She was a devout follower of the faith and attended every service.
-straggle,漫步 / 离群 / 蔓延,A few latecomers began to straggle into the hall after the lecture started.
-rusty,生锈的 / （技能）生疏的,The gate made a loud creak on its rusty hinges.
-charitable,慈善的 / 宽厚的,He made a generous and charitable donation to the local orphanage.
-sombre,阴沉的 / 忧郁的 / 昏暗活动,The funeral was a very sombre and quiet occasion.
-feeble,虚弱的 / 无力的,The sick man gave a feeble wave from his bed.
-career,飞奔 / 猛冲,The carriage began to career wildly down the narrow street.
-run the gauntlet,受到严厉批评 / 穿过危险区,The whistle-blower had to run the gauntlet of media questions.
-odour,气味 / 名声,The strange odour in the room reminded him of old incense.
-harness,治理 / 利用 / 束以马具,Scientists are trying to harness the power of the sun more efficiently.
-resign,辞职 / 放弃 / 顺从,She resigned herself to the fact that she wouldn't win the race.
-railings,栏杆 / 围栏,Children were leaning over the iron railings to watch the parade.
-toss,抛 / 掷 / 颠簸,The small boat was tossed about by the giant waves.
-parlour,客厅 / 店堂,In the Victorian era
-sash,肩带 / 腰带 / 窗框,The girl wore a bright red sash over her white dress.
-diverge,分歧 / 偏离 / 分叉,The two paths diverge at the edge of the forest.
-summons,召唤 / 传唤 / 传票,He received a formal summons to appear in court as a witness.
-flaring,闪耀的 / 燃烧的,The flaring torches lit up the dark entrance of the cave.
-jostle,推挤 / 挤撞,Shoppers had to jostle each other to reach the sales counter.
-shrill,尖锐刺耳的,A shrill whistle pierced the silence of the night.
-nasal,鼻音的 / 鼻的,He spoke with a distinct nasal twang due to his cold.
-ballad,民谣 / 叙事歌,The minstrel sang a haunting ballad about a lost love.
-sensation,感觉 / 轰动,The news of the discovery caused a great sensation worldwide.
-chalice,圣餐杯 / 高脚杯,The priest carefully raised the golden chalice during the ceremony.
-throng,人群 / 挤满,A huge throng of fans gathered outside the stadium.
-bosom,胸膛 / 怀抱,She held the child close to her bosom to keep him warm.
-pane,窗格玻璃,He looked out through a cracked pane of glass.
-impinge,侵犯 / 撞击 / 影响,The noise from the street began to impinge on her concentration.
-incessant,不停的 / 连续不断的,The incessant rain lasted for three days without stopping.
-sodden,湿透的 / 浸透的,His shoes were sodden after walking through the marshes.
-bazaar,市集 / 义卖,We bought some beautiful handmade rugs at the local bazaar.
-retreat,隐居处 / 撤退,The mountains provided a quiet retreat from the busy city life.
-innumerable,无数的 / 数不清的,There are innumerable stars visible on a clear night.
-lay waste to,毁坏 / 蹂躏,The invading army laid waste to the entire countryside.
-annihilate,歼灭 / 彻底消灭,The city was almost completely annihilated during the earthquake.
-intervene,干预 / 调停,The government had to intervene to prevent a strike.
-chafe,摩擦 / 擦痛 / 烦躁,The tight collar began to chafe his neck.
-come between,妨碍 / 离间,I won't let a small argument come between our friendship.
-luxuriate,享受 / 纵情,He spent the afternoon luxuriating in a warm bath.
-enchant,使着迷 / 施魔法,The beauty of the landscape enchanted every visitor.
-amiable,亲切的 / 和蔼可亲的,The host was an amiable man who made everyone feel welcome.
-stern,严厉的 / 坚定的,The teacher gave the students a stern warning about cheating.
-call together,召集,The manager called together the staff for an emergency meeting.
-stand between,处于……之间 / 阻碍,Nothing should stand between a person and their dreams.
-monotonous,单调的 / 乏味的,The work was monotonous
-fuss,忙乱 / 大惊小怪,There was a lot of fuss over the wedding arrangements.
-curt,简短的 / 粗鲁的,He gave a curt reply and walked away without looking back.
-misgive,使疑虑 / 使害怕,He felt a sense of misgiving about the safety of the bridge.
-mount,登上 / 增加 / 装置,Pressure began to mount as the deadline approached.
-indistinct,不清楚的 / 模糊的,The figures in the distance were indistinct in the thick fog.
-clad,穿着的 / 覆盖的,The mountains were clad in a thick blanket of snow.
-discreet,谨慎的 / 考虑周全的,He made a discreet inquiry about the job opening.
-garrulous,话多的 / 喋喋不休的,The garrulous old man could talk for hours about his youth.
-clench,握紧 / 咬紧,He clenched his fists in anger but said nothing.
-hallstand,门厅衣帽架,He hung his umbrella and coat on the hallstand.
-stride,大步走 / 跨越,He walked with a confident stride toward the stage.
-glare,怒目而视 / 刺眼的光,The sun's glare on the water was blinding.
-ruinous,破坏性的 / 荒废的,The high interest rates had a ruinous effect on the business.
-improvise,即兴创作 / 临时凑成,If you don't have the right tools
-weary,疲倦的 / 厌烦的,She was weary after the long journey and wanted to sleep.
-gird,环绕 / 束缚 / 准备,The knights began to gird themselves for the upcoming battle.
-pervade,弥漫 / 普及,A sense of deep sadness pervaded the whole house.
-salver,银盘 / 托盘,The butler served the drinks on a polished silver salver.
-deride,嘲笑 / 嘲弄,His critics derided his attempt to write a novel.
-vain,徒劳的 / 自负的,They made a vain attempt to stop the flooding.
-anguish,痛苦 / 苦恼,The mother was in deep anguish over her missing child.
-invert,使倒置 / 使反转,The glass was inverted on the table to keep it clean.
-paralyse,使瘫痪 / 使麻痹,The fear of failure seemed to paralyse his creativity.
-confine to,限制在……内,The discussion was confined to the immediate problems.
-give on to,面向 / 通向,The French windows give on to a beautiful stone terrace.
-attend to,照料 / 专心于,The doctor had to attend to several patients at once.
-eke out,勉强维持 / 补充,They had to eke out their small savings until the end of the month.
-minute,微小的 / 详细的,The robot was capable of making minute adjustments to the lens.
-overhang,悬垂 / 悬于……之上,Large rocks overhang the narrow mountain road.
-infirmity,虚弱 / 疾病,In his old age
-crucifix,十字架 / 苦像,A large wooden crucifix hung on the wall of the chapel.
-assiduous,勤奋的 / 刻苦的,She was assiduous in her duties and never missed a day of work.
-industrious,勤劳的 / 努力的,The industrious students spent all weekend in the library.
-invalid,病人 / 残疾人,He spent the last years of his life as a bedridden invalid.
-fondle,爱抚 / 抚弄,She began to fondle the kitten behind its ears.
-endow … with …,赋予 / 天生具有,Nature has endowed her with a beautiful singing voice.
-affectation,做作 / 假装,I found his upper-class accent to be a bit of an affectation.
-pantomime,哑剧,The actors used pantomime to tell the story without words.
-courtship,求爱 / 追求,The book describes the long and traditional courtship of the couple.
-keep … company,陪伴某人,My dog stays by my side to keep me company when I'm lonely.
-rouse,唤醒 / 激起,The loud noise was enough to rouse the entire house.
-come to one’s relief,给予安慰 / 使人松一口气,The arrival of the rescue team came to their great relief.
-of yore,过去的 / 昔日的,In the days of yore
-take heart of grace,重新振作起来,He took heart of grace and decided to try one more time.
-allegory,寓言 / 象征,The story is a political allegory about the rise of a dictator.
-thereupon,随即 / 于是,He said goodbye and thereupon left the room.
-fret,使烦恼 / 焦急,Don't fret about the little things; focus on the big picture.
-flit,掠过 / 轻快地飞,Butterflies began to flit from flower to flower.
-protract,拖延 / 延长,The legal battle was protracted for several years.
-beckon,招手 / 召唤,The warm blue water seemed to beckon the tired travelers.
-vein,情绪 / 纹理 / 静脉,He continued the story in a much more serious vein.
-sympathy,同情 / 共鸣,I have a lot of sympathy for people who have lost their jobs.
-rejoice,因……而高兴 / 庆祝,Everyone rejoiced at the news of the victory.
-revere,尊敬 / 崇敬,The old teacher was revered by all his former students.
-requiem,安魂曲 / 挽歌,The orchestra performed a moving requiem for the late king.
-eat up,耗尽,The unexpected legal fees will eat up all our remaining budget.
-gracious,亲切优雅,The hostess was very gracious to all her guests despite the late hour.
-disabuse,消除错误的念头,I must disabuse you of the idea that this project will be easy.
-part company,分道扬镳,The two business partners parted company after a series of bitter arguments.
-no hard feelings,没有怨恨,We decided to cancel the contract
-overwork,使过度劳累,If you overwork yourself every day
-ego,自我 / 自负,He has a massive ego and finds it difficult to accept any criticism.
-monetise,将……变为利润,The company is looking for creative ways to monetise its website traffic.
-legitimate,合法的,The lawyer confirmed that it was a legitimate business expense.
-call upon,召唤 / 号召,The president called upon the citizens to help the disaster victims.
-circular,循环的 / 圆形的,The logic in his argument was circular and didn't prove anything.
-equivalent,等价的 / 等价物,The cost of the repair is equivalent to about two months' salary.
-think outside the box,跳出框框思考,We need to think outside the box to solve this unique marketing problem.
-prudent,审慎的,It would be prudent to save some money for unexpected emergencies.
-sort out … from …,挑选出 / 区分,It’s hard to sort out the facts from the rumors in this case.
-early on,在早期,We realized early on that the project would require more funding.
-funnel,输送 / 漏斗,The money was funneled through several offshore accounts to avoid taxes.
-multifaceted,多方面的,The social issue is multifaceted and cannot be solved with one simple law.
-fine-grained,细致的 / 颗粒度细的,The study provides a fine-grained analysis of the consumer data.
-sloppy,马虎的,The report was full of mistakes because of his sloppy work habits.
-obnoxious,令人讨厌的,He is an obnoxious person who constantly interrupts others during meetings.
-incentive,刺激 / 动力 / 诱因,The company offered a bonus as an incentive for employees to work harder.
-reflective,沉思的 / 反映的,He was in a reflective mood after attending the graduation ceremony.
-end up doing,最终变成 / 做了,If you don't start saving now
-disparate,迥然不同的,The team is made up of individuals from very disparate backgrounds.
-bring … into line,使……符合标准 / 一致,The new regulations aim to bring the local laws into line with national standards.
-deviate,偏离 / 背离,Do not deviate from the safety procedures under any circumstances.
-on the same page,意见一致,Before we start the project
-rigorous,严密的 / 严格的,The theory was subjected to rigorous testing by several independent labs.
-meritocratic,精英主义的 / 唯才是举的,They advocate for a meritocratic system where talent is the only key to success.
-cohort,一批 / 同期 / 步兵大队,This year's cohort of graduates is the largest in the school's history.
-aviation ~ avian,航空 vs 鸟类的,He works in the aviation industry
-memo ~ memorandum,备忘录 / 正式文件,The manager sent a brief memo to all staff about the upcoming holiday.
-selective ~ selectivity,选择性的 / 选择性,The university is highly selective
-correlate with,与……相关联,High stress levels often correlate with poor sleep quality.
-give out (a degree),授予（学位） / 分发,The university will give out honorary degrees to three distinguished scientists.
-shrink,缩小 / 萎缩,The market for print newspapers continues to shrink every year.
-credential,资历证明,You will need to present your credentials before entering the research facility.
-signify,表明 / 预示,A red light on the dashboard signifies a problem with the engine.
-sector,部门 / 行业 / 领域,He has worked in the financial sector for over twenty years.
-curriculum,课程大纲,The school is introducing a new coding course to its curriculum next year.
-prerequisite,先决条件,Completing the introductory course is a prerequisite for the advanced class.
-wither away,枯萎 / 逐渐消失,Without constant maintenance
-disengage,抽身 / 脱离,The country is trying to disengage from the long-standing border conflict.
-heterogeneous,异质的 / 多样化的,The population of the city is highly heterogeneous and culturally diverse.
-motive ~ motivate ~ motivation,动机 / 激励 / 积极性,What was his primary motive for choosing this difficult career path?
-come to an end,结束 / 终止,The long and exhausting meeting finally came to an end at midnight.
-co-education,男女同校,The school transitioned to co-education in the late 1970s.
-diverse ~ diversify ~ diversity,多样性 / 使多样化,The city is celebrated for its incredible cultural diversity.
-vet,退伍军人,The organization provides housing assistance for homeless vets.
-segregate,隔离 / 使分开,In the past
-transformational,变革性的,The new leadership had a transformational effect on the company's culture.
-jaded,厌倦 / 疲惫的,She felt jaded after years of working in the same repetitive job.
-shuffle,洗牌 / 拖着脚走,The old man shuffled slowly across the room in his slippers.
-patriarch ~ patriarchal ~ patriarchy,父权制 / 家长,The novel explores the difficulties of living in a strictly patriarchal society.
-oppress ~ oppression,压迫,The regime was criticized for its efforts to oppress political dissidents.
-repress,克制 / 镇压,He tried hard to repress a smile during the serious presentation.
-postmodernism,后现代主义,The building is a famous example of postmodernism in modern architecture.
-strike a chord with,引起共鸣,The singer's lyrics about loneliness strike a chord with many teenagers.
-sit up,坐起来 / 引起注意,The news of the discovery made the whole scientific world sit up.
-blasé,无动于衷的 / 玩世不恭的,He was quite blasé about his success
-literati,文人 / 知识界,The book launch was attended by the local literati and famous artists.
-self-conscious,过于意识到自我的,He felt very self-conscious about the stain on his tie during the interview.
-parody ~ parodic,模仿 / 恶搞,The movie is a hilarious parody of classic detective films.
-menacing,威胁的 / 险恶的,There was a menacing tone in his voice when he made the demand.
-ascend ~ ascent ~ ascendance,上升 / 攀登 / 支配,The hikers began their long ascent up the mountain at dawn.
-come up with,想出 / 提出,She came up with a brilliant solution to the technical problem.
-reticent,沉默的 / 寡言的,He is very reticent about his private life and rarely talks about his family.
-speak to (a subject),与……相关 / 探讨,The recent data speaks to the urgent need for better environmental laws.
-critic ~ critique ~ criticism,评论 / 批评,The film critic praised the director's bold new vision.
-overturn,推翻 / 颠覆,The Supreme Court eventually overturned the controversial ruling.
-topple,使倾倒 / 推翻,The protesters gathered in the square to topple the statue of the dictator.
-take to (the street),走上街头,Thousands of people took to the streets to protest the unfair tax.
-without so much as,连……都没有,He left the party without so much as a goodbye to the host.
-rationale,基本原理 / 根本原因,What is the rationale behind the company's decision to move its factory?
-sign away,签署放弃,He signed away his rights to the invention for a small sum of money.
-desegregation,废除种族隔离,The city was a key battleground in the fight for school desegregation.
-sit back,靠后坐 / 袖手旁观,We cannot just sit back and watch while the environment is destroyed.
-carnage,大屠杀 / 残杀,The scene of the car accident was one of terrible carnage.
-sport (v.),炫耀地穿着 / 穿戴,He was sporting a new designer watch that he bought in Paris.
-petition,请愿书 / 请愿,The residents started a petition against the construction of the new mall.
-overarching,包罗万象的 / 首要的,The overarching theme of the conference was global sustainability.
-narcissism,自恋,Many experts worry that social media is fueling a rise in narcissism.
-nihilism,虚无主义,The character's destructive behavior is driven by a sense of deep nihilism.
-might as well,不妨 / 还是……好,Since we are already here
-trite,陈旧的 / 平淡无味的,The plot of the movie was a bit trite and very predictable.
-bland,平淡无味的 / 乏味的,The sauce was a bit bland and needed more spices to be interesting.
-pastiche,模仿作品 / 拼凑物,The film is a clever pastiche of several 1950s sci-fi movies.
-set in,固定 / 开始并持续,A feeling of deep disappointment began to set in after the loss.
-envision,想象 / 展望,I can envision a world where technology solves most medical problems.
-cliché,陈词滥调,"It’s a cliché to say that ""hard work always pays off"
-perfunctory,草率的 / 敷衍的,He gave the guest a perfunctory nod before returning to his book.
-culminate,达到顶点 / 以……告终,The months of training will culminate in the national championship.
-speak our minds,直言不讳,We encourage all our employees to speak their minds during meetings.
-agitate,鼓动 / 搅动 / 焦虑,The activists were agitating for better pay and safer working conditions.
-nostalgic,怀旧的,Looking through my childhood photo album made me feel very nostalgic.
-defunct,已经停用的 / 已死的,The old factory has been defunct for more than twenty years.
-channel … into …,向……输送 / 引导,The government is channeling more resources into rural healthcare.
-alternate ~ alternative,轮流的 / 替代的,We can take an alternative route if the highway is blocked.
-radicalism,激进主义,The economic crisis led to a sudden rise in political radicalism.
-come together,聚集 / 团结 / 成功,People from all over the country came together to support the cause.
+term,definition,context,id,last_review,next_review,interval,repetitions,ease_factor,status
+correspondent,记者 / 通讯员,The war correspondent sent live reports from the battlefield.,,,,,,,
+hang about,逗留 / 闲荡,They noticed a suspicious man hanging about the entrance.,,,,,,,
+descend,下降 / 遗传 / 突然降临,We watched the sun descend below the horizon.,,,,,,,
+feat,壮举 / 功绩,Completing the marathon was a remarkable feat of endurance.,,,,,,,
+furnish … with …,向……提供……,The hotel will furnish you with all the necessary equipment.,,,,,,,
+secrecy,保密 / 秘密状态,The mission was carried out in absolute secrecy.,,,,,,,
+whatever,（用于否定句后）丝毫 / 根本,There is no doubt whatever about his guilt.,,,,,,,
+censor,审查员 / 审查,The government decided to censor the sensitive news report.,,,,,,,
+grin,咧嘴笑,He had a broad grin on his face after winning the game.,,,,,,,
+infantry,步兵,The infantry advanced slowly across the open field.,,,,,,,
+cavalry,骑兵,In the past the cavalry was the fastest unit in the army.,,,,,,,
+make … (out) of …,理解 / 弄懂,I can't make anything out of this messy handwriting.,,,,,,,
+foregone conclusion,预料中的必然结果,That they would win was a foregone conclusion.,,,,,,,
+preconcerted,预先商定的,The meeting was a preconcerted attempt to change the policy.,,,,,,,
+muffle,蒙住 / 抑制（声音）,She used a cushion to muffle the sound of the alarm.,,,,,,,
+mooted,讨论过的 / 尚未定案的,The idea of a new tax was mooted in Parliament yesterday.,,,,,,,
+parlous,危险的 / 极糟的,The company's finances are in a parlous state.,,,,,,,
+incontrovertible,无可争议的,The video evidence provided incontrovertible proof of the crime.,,,,,,,
+cipher,密码 / 暗号,The spy used a complex cipher to send the message.,,,,,,,
+vernacular,方言 / 本地话,He wrote his poems in the local vernacular.,,,,,,,
+acrostic,藏头诗,The first letters of each line in an acrostic form a word.,,,,,,,
+pan out,（以特定方式）发展 / 结果是,We'll see how the new marketing strategy pans out.,,,,,,,
+transpose,移置 / 调换顺序,Be careful not to transpose the digits in the phone number.,,,,,,,
+hustle,匆忙做某事 / 催促,We had to hustle to get to the station on time.,,,,,,,
+chop suey,杂烩 / 一团糟,The room was a real chop suey of old furniture and books.,,,,,,,
+haul,拉 / 拖 / 运送,The truck had to haul a heavy load up the hill.,,,,,,,
+servitude,奴役 / 劳役,Many people were sold into a life of servitude.,,,,,,,
+patch,补丁 / 地块,He sowed seeds in a small patch of garden.,,,,,,,
+watchman,看守人 / 巡夜者,The night watchman noticed the broken window.,,,,,,,
+handy-man,杂工 / 手巧的人,The handy-man fixed the leaking tap in minutes.,,,,,,,
+butt,（用头或角）撞,The goat tried to butt the fence.,,,,,,,
+discomfit,使不安 / 使尴尬,The unexpected question seemed to discomfit the speaker.,,,,,,,
+concerted,共同的 / 协同的,We need to make a concerted effort to solve this problem.,,,,,,,
+huddle,挤在一起 / 蜷缩,The sheep huddled together to keep warm in the snow.,,,,,,,
+Scotch,苏格兰的,She enjoyed a glass of Scotch whisky by the fire.,,,,,,,
+confer,赋予 / 授予 / 商谈,The university will confer an honorary degree on the writer.,,,,,,,
+peg,钉子 / 固定,He hung his jacket on a wooden peg.,,,,,,,
+crooked,弯曲的 / 不诚实的,The picture on the wall is a bit crooked.,,,,,,,
+abash,使羞愧 / 使窘迫,He was not abashed by his failure and tried again.,,,,,,,
+providence,天意 / 远见,It seemed like a stroke of providence that we met.,,,,,,,
+come off,成功 / 举行,Did the party come off as well as you hoped?,,,,,,,
+scathe,损害 / 伤害,He emerged from the scandal relatively unscathed.,,,,,,,
+hold to,坚持 / 遵循,We must hold to our principles despite the pressure.,,,,,,,
+up a tree,进退两难,Without his car he's really up a tree.,,,,,,,
+fall down,失败 / 倒下,The plan fell down because of a lack of funding.,,,,,,,
+set forth,陈述 / 阐明,The president set forth his views in a major speech.,,,,,,,
+dark horse,黑马,The young player proved to be a dark horse in the tournament.,,,,,,,
+beggar description,无法形容,The beauty of the sunset beggars description.,,,,,,,
+unawares,不知不觉地 / 意外地,The rain caught us unawares without umbrellas.,,,,,,,
+pat,非常恰当的 / 现成的,His answer was a bit too pat to be entirely believable.,,,,,,,
+contest,质疑 / 争论,The lawyer decided to contest the validity of the will.,,,,,,,
+jolly,戏弄地开玩笑,They tried to jolly him along to get him to agree.,,,,,,,
+kingpin,核心人物,He is the kingpin of the local electronics industry.,,,,,,,
+cyclone,气旋 / 旋风,The cyclone caused widespread damage to the coast.,,,,,,,
+zephyr,和风 / 西风,A light zephyr blew across the lake.,,,,,,,
+urchin,流浪儿 / 顽童,A group of street urchins were playing in the alley.,,,,,,,
+masses,群众 / 民众,The politician tried to appeal to the masses.,,,,,,,
+derelict,破旧的 / 被遗弃的,The old factory has been derelict for years.,,,,,,,
+ponderous,冗长的 / 笨重的,The book was written in a ponderous academic style.,,,,,,,
+score,写下 / 记下,The composer scored the music for a full orchestra.,,,,,,,
+complement,补充 / 补足语,The red wine is a perfect complement to the steak.,,,,,,,
+whirl,旋转 / 混乱,My mind was in a whirl after the shocking news.,,,,,,,
+illustration,插画 / 阐释,The book contains many beautiful illustrations.,,,,,,,
+artillery,大炮 / 炮兵,The heavy artillery provided cover for the advancing troops.,,,,,,,
+jargon,行话 / 术语,I couldn't understand the technical jargon in the manual.,,,,,,,
+dearth,缺乏 / 饥荒,There is a dearth of reliable information on the subject.,,,,,,,
+obituary,讣告,I read his obituary in the morning newspaper.,,,,,,,
+do … part,（根据语境）尽到职责 / 分开,Everyone must do their part to protect the environment.,,,,,,,
+contradiction,矛盾 / 反驳,There is a clear contradiction between his words and actions.,,,,,,,
+journalistic,新闻业的,The article was written with great journalistic skill.,,,,,,,
+pedestrian,行人 / 乏味的,The street was crowded with pedestrians.,,,,,,,
+tackle,解决 / 应付 / 处理,The government needs to tackle the problem of inflation.,,,,,,,
+refine,精炼 / 完善 / 改进,We need to refine our plan before presenting it.,,,,,,,
+sophistication,精致 / 复杂性 / 老练,The system is admired for its high level of sophistication.,,,,,,,
+at the end of the day,说到底 / 终究,At the end of the day it's your decision to make.,,,,,,,
+agree upon,达成一致 / 约定,Both parties have agreed upon the terms of the contract.,,,,,,,
+play into,迎合 / 落入……圈套,Your anger just plays into their hands.,,,,,,,
+stereotype,刻板印象 / 陈规,We should avoid judging people based on stereotypes.,,,,,,,
+misconception,误解 / 错误观念,There is a common misconception that all cats hate water.,,,,,,,
+lingua franca,通用语,English has become the lingua franca of international aviation.,,,,,,,
+just about,几乎 / 差不多,I've just about finished my homework.,,,,,,,
+flirt with,涉猎 / 玩弄 / 调情,He flirted with the idea of moving to Japan.,,,,,,,
+a slew of,一大堆 / 许多,The company released a slew of new products this month.,,,,,,,
+scribe,抄写员 / 书记,Ancient scribes were responsible for copying manuscripts.,,,,,,,
+courtier,宫廷侍从,The king was surrounded by his loyal courtiers.,,,,,,,
+(re)assert oneself,重新确立 / 重新显现,He needed to reassert himself after the long illness.,,,,,,,
+displace,取代 / 替换,The new technology will eventually displace the old ones.,,,,,,,
+guild,公会 / 行会,The medieval guilds controlled the quality of crafts.,,,,,,,
+compositor,排字工人,The compositor carefully arranged the metal type for the book.,,,,,,,
+typeface,字体 / 字样,The designer chose a modern typeface for the logo.,,,,,,,
+busybody,多管闲事的人,Our neighbor is a real busybody who knows everyone's business.,,,,,,,
+grammarian,语法学家,The grammarian argued for a stricter use of punctuation.,,,,,,,
+ostensible,表面上的 / 假装的,Their ostensible goal was peace but they prepared for war.,,,,,,,
+prescriptive,规定性的,The teacher took a prescriptive approach to grammar rules.,,,,,,,
+descriptive,描写性的,Descriptive linguistics studies how language is actually used.,,,,,,,
+in and of itself,本身 / 就其本身而言,The money in and of itself is not the problem.,,,,,,,
+citation,引用 / 引证 / 传票,The essay included many citations from reliable sources.,,,,,,,
+decry,谴责 / 贬低,Many critics decried the lack of originality in the film.,,,,,,,
+etymology,词源学 / 词源,Studying etymology helps you understand how words evolve.,,,,,,,
+rail,斥责 / 责骂 / 抱怨,He railed against the injustice of the new law.,,,,,,,
+nauseous,令人呕吐的 / 产生恶心的,The smell of the garbage was absolutely nauseous.,,,,,,,
+nauseated,感到恶心的,The bumpy boat ride made her feel nauseated.,,,,,,,
+rationale,基本原理 / 根本原因,What is the rationale behind this new policy?,,,,,,,
+feel strongly about,对……有强烈的看法,Many people feel strongly about the need for climate action.,,,,,,,
+strenuous,费力的 / 艰苦的,Lifting those heavy boxes was very strenuous work.,,,,,,,
+get to do,能够做某事 / 获得机会,I finally got to meet my favorite author.,,,,,,,
+whereby,凭此 / 借以 / 如何,They created a system whereby students could rate teachers.,,,,,,,
+exert influence on,施加影响,Parents exert a great influence on their children's habits.,,,,,,,
+look to,指望 / 依靠 / 注意,They look to the government for financial support.,,,,,,,
+outstrip,超过 / 胜过,Demand for the new phone has outstripped supply.,,,,,,,
+snap up,抢购 / 匆匆吃下,All the tickets were snapped up within minutes.,,,,,,,
+how-to,指南 / 入门教程,I bought a how-to book on gardening for beginners.,,,,,,,
+nuisance,麻烦事 / 讨厌的人或物,The loud noise from the street is a real nuisance.,,,,,,,
+vermin,害虫 / 害鸟 / 歹徒,They called in pest control to deal with the vermin.,,,,,,,
+frown upon,不赞成 / 皱眉反对,Smoking in public places is increasingly frowned upon.,,,,,,,
+improper,不合适的 / 不当的,It would be improper for a judge to discuss a case.,,,,,,,
+impropriety,不当行为 / 违规,There were allegations of financial impropriety in the office.,,,,,,,
+implement,实施 / 执行,The company plans to implement the new rules next month.,,,,,,,
+couch,（以某种方式）表达 / 措辞,The message was couched in very polite language.,,,,,,,
+ingrained,根深蒂固的,The habit of waking up early was ingrained in him.,,,,,,,
+conspicuous,显眼的 / 显著的,The tower is a conspicuous landmark in the city.,,,,,,,
+maven,专家 / 内行,She is a fashion maven who knows all the latest trends.,,,,,,,
+flat-out,完全的 / 坦率地 / 全速的,He was flat-out lying when he said he wasn't there.,,,,,,,
+innate,天生的 / 先天的,She has an innate talent for playing the piano.,,,,,,,
+do away with,废除 / 摆脱,The school decided to do away with the old uniform.,,,,,,,
+intersect,相交 / 交叉,The two lines intersect at a right angle.,,,,,,,
+keep to,坚持 / 遵守 / 不离开,It's important to keep to the original plan during the experiment.,,,,,,,
+parable,寓言 / 比喻,The teacher used a simple parable to explain the moral lesson.,,,,,,,
+stout,结实的 / 肥胖的,The house was built with stout oak beams.,,,,,,,
+stoutness,结实 / 肥胖,His stoutness made it difficult for him to climb the stairs.,,,,,,,
+wedge,楔子 / 挤进,He used a small piece of wood as a wedge to stop the door from closing.,,,,,,,
+crystalline,水晶般的 / 透明的,The mountain air was crystalline and cold.,,,,,,,
+bruise,弄伤 / 擦伤 / 瘀伤,The fall left a large bruise on her knee.,,,,,,,
+flank,侧面 / 肋部,The hunters moved around the flank of the mountain.,,,,,,,
+gospel,福音 / 真理,The local community spread the gospel of sustainable living.,,,,,,,
+tangle,纠缠 / 混乱,The fishing line got into a terrible tangle.,,,,,,,
+bathe,沐浴 / 浸,The room was bathed in soft golden light.,,,,,,,
+proceed,继续进行 / 前进,After the interruption,,,,,,,
+sinful,有罪的 / 邪恶的,He felt that wasting food was a sinful act.,,,,,,,
+ascetic,禁欲的 / 苦行者,He lived an ascetic life in a remote monastery.,,,,,,,
+asceticism,禁欲主义,The monk’s life was defined by extreme asceticism.,,,,,,,
+pulpit,讲坛 / 僧侣,The priest stood in the pulpit to deliver his sermon.,,,,,,,
+antithesis,对立面 / 对照,His behavior was the exact antithesis of what we expected.,,,,,,,
+allusion,典故 / 暗指,The poem is full of allusions to Greek mythology.,,,,,,,
+allude to,暗指 / 提到,He alluded to the problem but didn't explain it in detail.,,,,,,,
+twig,小树枝,A small bird sat on a dry twig of the apple tree.,,,,,,,
+snap,断裂 / 猛咬,The dry branch snapped under his weight.,,,,,,,
+depreciate,贬低 / 轻视 / 贬值,New cars depreciate in value as soon as you drive them away.,,,,,,,
+undergrowth,灌木丛 / 丛林,The dog disappeared into the thick undergrowth.,,,,,,,
+tread,踏踩 / 行走,Be careful not to tread on the flowers.,,,,,,,
+take fright,受惊 / 惊恐,The horse took fright at the sound of the explosion.,,,,,,,
+squawk,尖叫 / 诉苦,The parrot gave a loud squawk when I approached.,,,,,,,
+amiss,出错的 / 有毛病的,I knew something was amiss when she didn't call back.,,,,,,,
+buy … out,买下……的全部股份 / 收购,The larger company offered to buy out the small family business.,,,,,,,
+beset,困扰 / 围绕,The project was beset by technical difficulties from the start.,,,,,,,
+round off,使……完整 / 凑整,We can round off the evening with a nice dessert.,,,,,,,
+plot a curve,画曲线,The scientist plotted a curve to show the rate of growth.,,,,,,,
+immense,巨大的 / 广大的,The cost of the restoration project was immense.,,,,,,,
+immensity,巨大 / 广大,She was overwhelmed by the immensity of the ocean.,,,,,,,
+nucleus,核心 / 原子核,The nucleus of the cell contains most of the genetic material.,,,,,,,
+nuclei,核心（复数）,Atomic nuclei are made of protons and neutrons.,,,,,,,
+dominion,统治权 / 领土,In the past,,,,,,,
+take alarm,感到警觉 / 惊慌,Residents took alarm when they saw smoke coming from the forest.,,,,,,,
+clean,完全地 / 彻底地,The bullet went clean through the wooden door.,,,,,,,
+restless,焦躁不安的 / 静不下来的,The audience grew restless during the long speech.,,,,,,,
+come over,袭来 / 笼罩 / 过来,A feeling of sadness came over him as he read the letter.,,,,,,,
+pretentious,做作的 / 自命不凡的,I found his style of writing very pretentious and hard to follow.,,,,,,,
+sinister,不祥的 / 阴险的,There was something sinister about the dark,,,,,,,
+trinity,三位一体 / 三人一组,The novel explores the trinity of love,,,,,,,
+shun,躲开 / 避开,He began to shun public attention after the scandal.,,,,,,,
+defect,缺陷 / 变节,The toy was recalled due to a serious manufacturing defect.,,,,,,,
+defective,有缺陷的,You can return the product if it is found to be defective.,,,,,,,
+germ,胚芽 / 细菌 / 萌芽,The germ of the idea came to him while he was on vacation.,,,,,,,
+exquisite,精致的 / 细腻的,The museum has an exquisite collection of ancient jewelry.,,,,,,,
+carnal,肉体的 / 世俗的,The monk was taught to suppress all carnal desires.,,,,,,,
+entangle,缠住 / 使陷入,The dolphin became entangled in the fishing net.,,,,,,,
+meagre,贫乏的 / 瘦的,They survived on a meagre diet of bread and water.,,,,,,,
+traverse,横过 / 穿过,The explorers had to traverse the entire desert on foot.,,,,,,,
+all too,非常 / 太……,The weekend was all too short and soon it was Monday.,,,,,,,
+grub,（用手）挖掘 / 搜寻,The children were grubbing about in the garden for worms.,,,,,,,
+span,跨度 / 跨越,The bridge spans the river at its narrowest point.,,,,,,,
+termite,白蚁,The old wooden house was severely damaged by termites.,,,,,,,
+circle,圆圈 / 环绕,The eagles circled high above the valley.,,,,,,,
+circular,循环的 / 圆形的,The letter was sent to all members as a circular.,,,,,,,
+circulate,循环 / 流传,Blood circulates through the body to deliver oxygen.,,,,,,,
+circulation,循环 / 流通 / 发行量,The magazine has a daily circulation of over 50,,,,,,,
+gorge (on),吞食 / 狼吞虎咽,The children gorged themselves on chocolate and cake.,,,,,,,
+avaricious,贪婪的,The avaricious businessman was never satisfied with his profits.,,,,,,,
+avarice,贪婪,His motive for the crime was pure avarice.,,,,,,,
+quadruple,使成四倍 / 四倍的,The price of the house has quadrupled in the last ten years.,,,,,,,
+gait,步态 / 步法,The old man walked with a slow and heavy gait.,,,,,,,
+wont,习惯 / 惯常的,As was her wont,,,,,,,
+sponge,海绵 / 抹除,He used a wet sponge to clean the chalkboard.,,,,,,,
+spongy,海绵状的,The ground was soft and spongy after the heavy rain.,,,,,,,
+bog,泥潭 / 使陷入,The car got bogged down in the thick mud.,,,,,,,
+stiffen,变硬 / 僵硬,His muscles began to stiffen after the long hike.,,,,,,,
+pastry,糕点 / 点心,The bakery sells a delicious range of French pastries.,,,,,,,
+limber,柔软的 / 敏捷的,She did some stretching exercises to keep her body limber.,,,,,,,
+indeterminate,不明确的 / 不确定的,The date of the meeting is still indeterminate.,,,,,,,
+in someone’s company,在某人陪同下,I always feel comfortable and relaxed in her company.,,,,,,,
+quartet,四重奏 / 四人组,The string quartet performed a piece by Mozart.,,,,,,,
+give place to,让位给 / 被替代,The old steam trains eventually gave place to electric ones.,,,,,,,
+adorn,装饰,The walls were adorned with beautiful paintings.,,,,,,,
+adornment,装饰品,The simple dress needed no further adornment.,,,,,,,
+beseech,恳求 / 乞求,I beseech you to reconsider your decision.,,,,,,,
+swirl,旋转 / 漩涡,The autumn leaves swirled around in the wind.,,,,,,,
+lethargic,无精打采的,The hot weather made everyone feel lethargic and tired.,,,,,,,
+condescension,屈尊俯就 / 傲慢,I resented the tone of condescension in his voice.,,,,,,,
+to their best form,达到最佳状态,The athletes trained hard to return to their best form.,,,,,,,
+bequest,遗嘱 / 遗产,He left a generous bequest to the local library.,,,,,,,
+inning,局 / 机会,The team scored three runs in the final inning.,,,,,,,
+zest,热心 / 热情 / 兴趣,He entered into the new project with great zest.,,,,,,,
+gambit,开局策略 / 试探,His opening gambit in the negotiation was very clever.,,,,,,,
+for that matter,确切地说 / 此外,I don't like horror movies,,,,,,,
+benefactor,恩人 / 捐助者,The hospital was built thanks to a wealthy benefactor.,,,,,,,
+sliver,裂片 / 薄片,He cut a tiny sliver of cake just to taste it.,,,,,,,
+heir,继承人,He is the legal heir to the family fortune.,,,,,,,
+heiress,女继承人,The young heiress inherited a large estate from her grandfather.,,,,,,,
+promenade,散步 / 漫步,Couples were promenading along the seafront at sunset.,,,,,,,
+by rote,死记硬背地,He learned the entire poem by rote without understanding it.,,,,,,,
+sleek,光滑的 / 井然有序的,The cat had a sleek and shiny coat of black fur.,,,,,,,
+supple,柔韧的 / 灵活的,Yoga helps to keep your joints supple and strong.,,,,,,,
+nudge,轻推 / 推进,He gave me a gentle nudge to wake me up.,,,,,,,
+tender,呈递 / 提出 / 投标,The company decided to tender for the new bridge project.,,,,,,,
+regal,威严的 / 王室的,She looked very regal in her long silk gown.,,,,,,,
+fling,投掷 / 抛出 / 猛冲,He flung his coat onto the sofa and sat down.,,,,,,,
+chaste,贞洁的 / 朴素的,The room was decorated in a simple and chaste style.,,,,,,,
+forfeit,丧失 / 被罚没,He had to forfeit his deposit because he cancelled late.,,,,,,,
+immaculate,纯洁无瑕的 / 一尘不染的,The house was kept in immaculate condition.,,,,,,,
+retort,顶嘴 / 反驳,"""It's none of your business",,,,,,,
+inhabit,居住于 / 栖息于,Many rare species of birds inhabit these remote islands.,,,,,,,
+detach,分离 / 拆卸 / 使超脱,He tried to detach himself from the reality of the situation.,,,,,,,
+perturb,使不安 / 扰乱,The sudden change in plans did not seem to perturb him at all.,,,,,,,
+musty,发霉的 / 陈腐的,The old library was filled with the smell of musty books.,,,,,,,
+devout,虔诚的 / 衷心的,She was a devout follower of the faith and attended every service.,,,,,,,
+straggle,漫步 / 离群 / 蔓延,A few latecomers began to straggle into the hall after the lecture started.,,,,,,,
+rusty,生锈的 / （技能）生疏的,The gate made a loud creak on its rusty hinges.,,,,,,,
+charitable,慈善的 / 宽厚的,He made a generous and charitable donation to the local orphanage.,,,,,,,
+sombre,阴沉的 / 忧郁的 / 昏暗活动,The funeral was a very sombre and quiet occasion.,,,,,,,
+feeble,虚弱的 / 无力的,The sick man gave a feeble wave from his bed.,,,,,,,
+career,飞奔 / 猛冲,The carriage began to career wildly down the narrow street.,,,,,,,
+run the gauntlet,受到严厉批评 / 穿过危险区,The whistle-blower had to run the gauntlet of media questions.,,,,,,,
+odour,气味 / 名声,The strange odour in the room reminded him of old incense.,,,,,,,
+harness,治理 / 利用 / 束以马具,Scientists are trying to harness the power of the sun more efficiently.,,,,,,,
+resign,辞职 / 放弃 / 顺从,She resigned herself to the fact that she wouldn't win the race.,,,,,,,
+railings,栏杆 / 围栏,Children were leaning over the iron railings to watch the parade.,,,,,,,
+toss,抛 / 掷 / 颠簸,The small boat was tossed about by the giant waves.,,,,,,,
+parlour,客厅 / 店堂,In the Victorian era,,,,,,,
+sash,肩带 / 腰带 / 窗框,The girl wore a bright red sash over her white dress.,,,,,,,
+diverge,分歧 / 偏离 / 分叉,The two paths diverge at the edge of the forest.,,,,,,,
+summons,召唤 / 传唤 / 传票,He received a formal summons to appear in court as a witness.,,,,,,,
+flaring,闪耀的 / 燃烧的,The flaring torches lit up the dark entrance of the cave.,,,,,,,
+jostle,推挤 / 挤撞,Shoppers had to jostle each other to reach the sales counter.,,,,,,,
+shrill,尖锐刺耳的,A shrill whistle pierced the silence of the night.,,,,,,,
+nasal,鼻音的 / 鼻的,He spoke with a distinct nasal twang due to his cold.,,,,,,,
+ballad,民谣 / 叙事歌,The minstrel sang a haunting ballad about a lost love.,,,,,,,
+sensation,感觉 / 轰动,The news of the discovery caused a great sensation worldwide.,,,,,,,
+chalice,圣餐杯 / 高脚杯,The priest carefully raised the golden chalice during the ceremony.,,,,,,,
+throng,人群 / 挤满,A huge throng of fans gathered outside the stadium.,,,,,,,
+bosom,胸膛 / 怀抱,She held the child close to her bosom to keep him warm.,,,,,,,
+pane,窗格玻璃,He looked out through a cracked pane of glass.,,,,,,,
+impinge,侵犯 / 撞击 / 影响,The noise from the street began to impinge on her concentration.,,,,,,,
+incessant,不停的 / 连续不断的,The incessant rain lasted for three days without stopping.,,,,,,,
+sodden,湿透的 / 浸透的,His shoes were sodden after walking through the marshes.,,,,,,,
+bazaar,市集 / 义卖,We bought some beautiful handmade rugs at the local bazaar.,,,,,,,
+retreat,隐居处 / 撤退,The mountains provided a quiet retreat from the busy city life.,,,,,,,
+innumerable,无数的 / 数不清的,There are innumerable stars visible on a clear night.,,,,,,,
+lay waste to,毁坏 / 蹂躏,The invading army laid waste to the entire countryside.,,,,,,,
+annihilate,歼灭 / 彻底消灭,The city was almost completely annihilated during the earthquake.,,,,,,,
+intervene,干预 / 调停,The government had to intervene to prevent a strike.,,,,,,,
+chafe,摩擦 / 擦痛 / 烦躁,The tight collar began to chafe his neck.,,,,,,,
+come between,妨碍 / 离间,I won't let a small argument come between our friendship.,,,,,,,
+luxuriate,享受 / 纵情,He spent the afternoon luxuriating in a warm bath.,,,,,,,
+enchant,使着迷 / 施魔法,The beauty of the landscape enchanted every visitor.,,,,,,,
+amiable,亲切的 / 和蔼可亲的,The host was an amiable man who made everyone feel welcome.,,,,,,,
+stern,严厉的 / 坚定的,The teacher gave the students a stern warning about cheating.,,,,,,,
+call together,召集,The manager called together the staff for an emergency meeting.,,,,,,,
+stand between,处于……之间 / 阻碍,Nothing should stand between a person and their dreams.,,,,,,,
+monotonous,单调的 / 乏味的,The work was monotonous,,,,,,,
+fuss,忙乱 / 大惊小怪,There was a lot of fuss over the wedding arrangements.,,,,,,,
+curt,简短的 / 粗鲁的,He gave a curt reply and walked away without looking back.,,,,,,,
+misgive,使疑虑 / 使害怕,He felt a sense of misgiving about the safety of the bridge.,,,,,,,
+mount,登上 / 增加 / 装置,Pressure began to mount as the deadline approached.,,,,,,,
+indistinct,不清楚的 / 模糊的,The figures in the distance were indistinct in the thick fog.,,,,,,,
+clad,穿着的 / 覆盖的,The mountains were clad in a thick blanket of snow.,,,,,,,
+discreet,谨慎的 / 考虑周全的,He made a discreet inquiry about the job opening.,,,,,,,
+garrulous,话多的 / 喋喋不休的,The garrulous old man could talk for hours about his youth.,,,,,,,
+clench,握紧 / 咬紧,He clenched his fists in anger but said nothing.,,,,,,,
+hallstand,门厅衣帽架,He hung his umbrella and coat on the hallstand.,,,,,,,
+stride,大步走 / 跨越,He walked with a confident stride toward the stage.,,,,,,,
+glare,怒目而视 / 刺眼的光,The sun's glare on the water was blinding.,,,,,,,
+ruinous,破坏性的 / 荒废的,The high interest rates had a ruinous effect on the business.,,,,,,,
+improvise,即兴创作 / 临时凑成,If you don't have the right tools,,,,,,,
+weary,疲倦的 / 厌烦的,She was weary after the long journey and wanted to sleep.,,,,,,,
+gird,环绕 / 束缚 / 准备,The knights began to gird themselves for the upcoming battle.,,,,,,,
+pervade,弥漫 / 普及,A sense of deep sadness pervaded the whole house.,,,,,,,
+salver,银盘 / 托盘,The butler served the drinks on a polished silver salver.,,,,,,,
+deride,嘲笑 / 嘲弄,His critics derided his attempt to write a novel.,,,,,,,
+vain,徒劳的 / 自负的,They made a vain attempt to stop the flooding.,,,,,,,
+anguish,痛苦 / 苦恼,The mother was in deep anguish over her missing child.,,,,,,,
+invert,使倒置 / 使反转,The glass was inverted on the table to keep it clean.,,,,,,,
+paralyse,使瘫痪 / 使麻痹,The fear of failure seemed to paralyse his creativity.,,,,,,,
+confine to,限制在……内,The discussion was confined to the immediate problems.,,,,,,,
+give on to,面向 / 通向,The French windows give on to a beautiful stone terrace.,,,,,,,
+attend to,照料 / 专心于,The doctor had to attend to several patients at once.,,,,,,,
+eke out,勉强维持 / 补充,They had to eke out their small savings until the end of the month.,,,,,,,
+minute,微小的 / 详细的,The robot was capable of making minute adjustments to the lens.,,,,,,,
+overhang,悬垂 / 悬于……之上,Large rocks overhang the narrow mountain road.,,,,,,,
+infirmity,虚弱 / 疾病,In his old age,,,,,,,
+crucifix,十字架 / 苦像,A large wooden crucifix hung on the wall of the chapel.,,,,,,,
+assiduous,勤奋的 / 刻苦的,She was assiduous in her duties and never missed a day of work.,,,,,,,
+industrious,勤劳的 / 努力的,The industrious students spent all weekend in the library.,,,,,,,
+invalid,病人 / 残疾人,He spent the last years of his life as a bedridden invalid.,,,,,,,
+fondle,爱抚 / 抚弄,She began to fondle the kitten behind its ears.,,,,,,,
+endow … with …,赋予 / 天生具有,Nature has endowed her with a beautiful singing voice.,,,,,,,
+affectation,做作 / 假装,I found his upper-class accent to be a bit of an affectation.,,,,,,,
+pantomime,哑剧,The actors used pantomime to tell the story without words.,,,,,,,
+courtship,求爱 / 追求,The book describes the long and traditional courtship of the couple.,,,,,,,
+keep … company,陪伴某人,My dog stays by my side to keep me company when I'm lonely.,,,,,,,
+rouse,唤醒 / 激起,The loud noise was enough to rouse the entire house.,,,,,,,
+come to one’s relief,给予安慰 / 使人松一口气,The arrival of the rescue team came to their great relief.,,,,,,,
+of yore,过去的 / 昔日的,In the days of yore,,,,,,,
+take heart of grace,重新振作起来,He took heart of grace and decided to try one more time.,,,,,,,
+allegory,寓言 / 象征,The story is a political allegory about the rise of a dictator.,,,,,,,
+thereupon,随即 / 于是,He said goodbye and thereupon left the room.,,,,,,,
+fret,使烦恼 / 焦急,Don't fret about the little things; focus on the big picture.,,,,,,,
+flit,掠过 / 轻快地飞,Butterflies began to flit from flower to flower.,,,,,,,
+protract,拖延 / 延长,The legal battle was protracted for several years.,,,,,,,
+beckon,招手 / 召唤,The warm blue water seemed to beckon the tired travelers.,,,,,,,
+vein,情绪 / 纹理 / 静脉,He continued the story in a much more serious vein.,,,,,,,
+sympathy,同情 / 共鸣,I have a lot of sympathy for people who have lost their jobs.,,,,,,,
+rejoice,因……而高兴 / 庆祝,Everyone rejoiced at the news of the victory.,,,,,,,
+revere,尊敬 / 崇敬,The old teacher was revered by all his former students.,,,,,,,
+requiem,安魂曲 / 挽歌,The orchestra performed a moving requiem for the late king.,,,,,,,
+eat up,耗尽,The unexpected legal fees will eat up all our remaining budget.,,,,,,,
+gracious,亲切优雅,The hostess was very gracious to all her guests despite the late hour.,,,,,,,
+disabuse,消除错误的念头,I must disabuse you of the idea that this project will be easy.,,,,,,,
+part company,分道扬镳,The two business partners parted company after a series of bitter arguments.,,,,,,,
+no hard feelings,没有怨恨,We decided to cancel the contract,,,,,,,
+overwork,使过度劳累,If you overwork yourself every day,,,,,,,
+ego,自我 / 自负,He has a massive ego and finds it difficult to accept any criticism.,,,,,,,
+monetise,将……变为利润,The company is looking for creative ways to monetise its website traffic.,,,,,,,
+legitimate,合法的,The lawyer confirmed that it was a legitimate business expense.,,,,,,,
+call upon,召唤 / 号召,The president called upon the citizens to help the disaster victims.,,,,,,,
+circular,循环的 / 圆形的,The logic in his argument was circular and didn't prove anything.,,,,,,,
+equivalent,等价的 / 等价物,The cost of the repair is equivalent to about two months' salary.,,,,,,,
+think outside the box,跳出框框思考,We need to think outside the box to solve this unique marketing problem.,,,,,,,
+prudent,审慎的,It would be prudent to save some money for unexpected emergencies.,,,,,,,
+sort out … from …,挑选出 / 区分,It’s hard to sort out the facts from the rumors in this case.,,,,,,,
+early on,在早期,We realized early on that the project would require more funding.,,,,,,,
+funnel,输送 / 漏斗,The money was funneled through several offshore accounts to avoid taxes.,,,,,,,
+multifaceted,多方面的,The social issue is multifaceted and cannot be solved with one simple law.,,,,,,,
+fine-grained,细致的 / 颗粒度细的,The study provides a fine-grained analysis of the consumer data.,,,,,,,
+sloppy,马虎的,The report was full of mistakes because of his sloppy work habits.,,,,,,,
+obnoxious,令人讨厌的,He is an obnoxious person who constantly interrupts others during meetings.,,,,,,,
+incentive,刺激 / 动力 / 诱因,The company offered a bonus as an incentive for employees to work harder.,,,,,,,
+reflective,沉思的 / 反映的,He was in a reflective mood after attending the graduation ceremony.,,,,,,,
+end up doing,最终变成 / 做了,If you don't start saving now,,,,,,,
+disparate,迥然不同的,The team is made up of individuals from very disparate backgrounds.,,,,,,,
+bring … into line,使……符合标准 / 一致,The new regulations aim to bring the local laws into line with national standards.,,,,,,,
+deviate,偏离 / 背离,Do not deviate from the safety procedures under any circumstances.,,,,,,,
+on the same page,意见一致,Before we start the project,,,,,,,
+rigorous,严密的 / 严格的,The theory was subjected to rigorous testing by several independent labs.,,,,,,,
+meritocratic,精英主义的 / 唯才是举的,They advocate for a meritocratic system where talent is the only key to success.,,,,,,,
+cohort,一批 / 同期 / 步兵大队,This year's cohort of graduates is the largest in the school's history.,,,,,,,
+aviation ~ avian,航空 vs 鸟类的,He works in the aviation industry,,,,,,,
+memo ~ memorandum,备忘录 / 正式文件,The manager sent a brief memo to all staff about the upcoming holiday.,,,,,,,
+selective ~ selectivity,选择性的 / 选择性,The university is highly selective,,,,,,,
+correlate with,与……相关联,High stress levels often correlate with poor sleep quality.,,,,,,,
+give out (a degree),授予（学位） / 分发,The university will give out honorary degrees to three distinguished scientists.,,,,,,,
+shrink,缩小 / 萎缩,The market for print newspapers continues to shrink every year.,,,,,,,
+credential,资历证明,You will need to present your credentials before entering the research facility.,,,,,,,
+signify,表明 / 预示,A red light on the dashboard signifies a problem with the engine.,,,,,,,
+sector,部门 / 行业 / 领域,He has worked in the financial sector for over twenty years.,,,,,,,
+curriculum,课程大纲,The school is introducing a new coding course to its curriculum next year.,,,,,,,
+prerequisite,先决条件,Completing the introductory course is a prerequisite for the advanced class.,,,,,,,
+wither away,枯萎 / 逐渐消失,Without constant maintenance,,,,,,,
+disengage,抽身 / 脱离,The country is trying to disengage from the long-standing border conflict.,,,,,,,
+heterogeneous,异质的 / 多样化的,The population of the city is highly heterogeneous and culturally diverse.,,,,,,,
+motive ~ motivate ~ motivation,动机 / 激励 / 积极性,What was his primary motive for choosing this difficult career path?,,,,,,,
+come to an end,结束 / 终止,The long and exhausting meeting finally came to an end at midnight.,,,,,,,
+co-education,男女同校,The school transitioned to co-education in the late 1970s.,,,,,,,
+diverse ~ diversify ~ diversity,多样性 / 使多样化,The city is celebrated for its incredible cultural diversity.,,,,,,,
+vet,退伍军人,The organization provides housing assistance for homeless vets.,,,,,,,
+segregate,隔离 / 使分开,In the past,,,,,,,
+transformational,变革性的,The new leadership had a transformational effect on the company's culture.,,,,,,,
+jaded,厌倦 / 疲惫的,She felt jaded after years of working in the same repetitive job.,,,,,,,
+shuffle,洗牌 / 拖着脚走,The old man shuffled slowly across the room in his slippers.,,,,,,,
+patriarch ~ patriarchal ~ patriarchy,父权制 / 家长,The novel explores the difficulties of living in a strictly patriarchal society.,,,,,,,
+oppress ~ oppression,压迫,The regime was criticized for its efforts to oppress political dissidents.,,,,,,,
+repress,克制 / 镇压,He tried hard to repress a smile during the serious presentation.,,,,,,,
+postmodernism,后现代主义,The building is a famous example of postmodernism in modern architecture.,,,,,,,
+strike a chord with,引起共鸣,The singer's lyrics about loneliness strike a chord with many teenagers.,,,,,,,
+sit up,坐起来 / 引起注意,The news of the discovery made the whole scientific world sit up.,,,,,,,
+blasé,无动于衷的 / 玩世不恭的,He was quite blasé about his success,,,,,,,
+literati,文人 / 知识界,The book launch was attended by the local literati and famous artists.,,,,,,,
+self-conscious,过于意识到自我的,He felt very self-conscious about the stain on his tie during the interview.,,,,,,,
+parody ~ parodic,模仿 / 恶搞,The movie is a hilarious parody of classic detective films.,,,,,,,
+menacing,威胁的 / 险恶的,There was a menacing tone in his voice when he made the demand.,,,,,,,
+ascend ~ ascent ~ ascendance,上升 / 攀登 / 支配,The hikers began their long ascent up the mountain at dawn.,,,,,,,
+come up with,想出 / 提出,She came up with a brilliant solution to the technical problem.,,,,,,,
+reticent,沉默的 / 寡言的,He is very reticent about his private life and rarely talks about his family.,,,,,,,
+speak to (a subject),与……相关 / 探讨,The recent data speaks to the urgent need for better environmental laws.,,,,,,,
+critic ~ critique ~ criticism,评论 / 批评,The film critic praised the director's bold new vision.,,,,,,,
+overturn,推翻 / 颠覆,The Supreme Court eventually overturned the controversial ruling.,,,,,,,
+topple,使倾倒 / 推翻,The protesters gathered in the square to topple the statue of the dictator.,,,,,,,
+take to (the street),走上街头,Thousands of people took to the streets to protest the unfair tax.,,,,,,,
+without so much as,连……都没有,He left the party without so much as a goodbye to the host.,,,,,,,
+rationale,基本原理 / 根本原因,What is the rationale behind the company's decision to move its factory?,,,,,,,
+sign away,签署放弃,He signed away his rights to the invention for a small sum of money.,,,,,,,
+desegregation,废除种族隔离,The city was a key battleground in the fight for school desegregation.,,,,,,,
+sit back,靠后坐 / 袖手旁观,We cannot just sit back and watch while the environment is destroyed.,,,,,,,
+carnage,大屠杀 / 残杀,The scene of the car accident was one of terrible carnage.,,,,,,,
+sport (v.),炫耀地穿着 / 穿戴,He was sporting a new designer watch that he bought in Paris.,,,,,,,
+petition,请愿书 / 请愿,The residents started a petition against the construction of the new mall.,,,,,,,
+overarching,包罗万象的 / 首要的,The overarching theme of the conference was global sustainability.,,,,,,,
+narcissism,自恋,Many experts worry that social media is fueling a rise in narcissism.,,,,,,,
+nihilism,虚无主义,The character's destructive behavior is driven by a sense of deep nihilism.,,,,,,,
+might as well,不妨 / 还是……好,Since we are already here,,,,,,,
+trite,陈旧的 / 平淡无味的,The plot of the movie was a bit trite and very predictable.,,,,,,,
+bland,平淡无味的 / 乏味的,The sauce was a bit bland and needed more spices to be interesting.,,,,,,,
+pastiche,模仿作品 / 拼凑物,The film is a clever pastiche of several 1950s sci-fi movies.,,,,,,,
+set in,固定 / 开始并持续,A feeling of deep disappointment began to set in after the loss.,,,,,,,
+envision,想象 / 展望,I can envision a world where technology solves most medical problems.,,,,,,,
+cliché,陈词滥调,"It’s a cliché to say that ""hard work always pays off",,,,,,,
+perfunctory,草率的 / 敷衍的,He gave the guest a perfunctory nod before returning to his book.,,,,,,,
+culminate,达到顶点 / 以……告终,The months of training will culminate in the national championship.,,,,,,,
+speak our minds,直言不讳,We encourage all our employees to speak their minds during meetings.,,,,,,,
+agitate,鼓动 / 搅动 / 焦虑,The activists were agitating for better pay and safer working conditions.,,,,,,,
+nostalgic,怀旧的,Looking through my childhood photo album made me feel very nostalgic.,,,,,,,
+defunct,已经停用的 / 已死的,The old factory has been defunct for more than twenty years.,,,,,,,
+channel … into …,向……输送 / 引导,The government is channeling more resources into rural healthcare.,,,,,,,
+alternate ~ alternative,轮流的 / 替代的,We can take an alternative route if the highway is blocked.,,,,,,,
+radicalism,激进主义,The economic crisis led to a sudden rise in political radicalism.,,,,,,,
+come together,聚集 / 团结 / 成功,People from all over the country came together to support the cause.,,,,,,,
+correspondent,记者 / 通讯员,The war correspondent sent live reports from the battlefield.,f51349b4-b925-41a4-b0a4-631c3a7fc125,,2026-01-04,0,0,2.5,new
+hang about,逗留 / 闲荡,They noticed a suspicious man hanging about the entrance.,b9fdc051-1edf-482e-8cb9-f65fec8f22e6,,2026-01-04,0,0,2.5,new
+descend,下降 / 遗传 / 突然降临,We watched the sun descend below the horizon.,ed7a23e0-b20d-403c-a2b7-6eecd687b60d,,2026-01-04,0,0,2.5,new
+feat,壮举 / 功绩,Completing the marathon was a remarkable feat of endurance.,bacfd86e-0f26-4421-ba5d-500437148978,,2026-01-04,0,0,2.5,new
+furnish … with …,向……提供……,The hotel will furnish you with all the necessary equipment.,f9274f13-058a-4573-b8ed-361e47a39f13,,2026-01-04,0,0,2.5,new
+secrecy,保密 / 秘密状态,The mission was carried out in absolute secrecy.,de7380b1-be4d-43a8-bb1c-67a36f81ab08,,2026-01-04,0,0,2.5,new
+whatever,（用于否定句后）丝毫 / 根本,There is no doubt whatever about his guilt.,a0039a85-9915-474c-af82-eb6a8c5179e2,,2026-01-04,0,0,2.5,new
+censor,审查员 / 审查,The government decided to censor the sensitive news report.,5f6aa9ff-f990-45f2-8c49-965fa94bda65,,2026-01-04,0,0,2.5,new
+grin,咧嘴笑,He had a broad grin on his face after winning the game.,828c4cb0-54d1-4af3-9831-6350621a20ed,,2026-01-04,0,0,2.5,new
+infantry,步兵,The infantry advanced slowly across the open field.,06e260b1-6b14-44d8-bf46-270e3fa18a4a,,2026-01-04,0,0,2.5,new
+cavalry,骑兵,In the past the cavalry was the fastest unit in the army.,8a3819ed-04db-47f5-83ef-21539c639381,,2026-01-04,0,0,2.5,new
+make … (out) of …,理解 / 弄懂,I can't make anything out of this messy handwriting.,7b08fc93-2755-4acf-b6ef-c3991e451b18,,2026-01-04,0,0,2.5,new
+foregone conclusion,预料中的必然结果,That they would win was a foregone conclusion.,5c3fa4c0-98ca-4fd3-9ed7-8fd5cb7960fd,,2026-01-04,0,0,2.5,new
+preconcerted,预先商定的,The meeting was a preconcerted attempt to change the policy.,0c7fa0cb-74f5-4ef5-a9f3-d520f0e313be,,2026-01-04,0,0,2.5,new
+muffle,蒙住 / 抑制（声音）,She used a cushion to muffle the sound of the alarm.,bc916ded-bb6e-4ff0-a45f-35d95f5dbaed,,2026-01-04,0,0,2.5,new
+mooted,讨论过的 / 尚未定案的,The idea of a new tax was mooted in Parliament yesterday.,b47f40dd-9660-47a1-81f4-73707a4cee89,,2026-01-04,0,0,2.5,new
+parlous,危险的 / 极糟的,The company's finances are in a parlous state.,f2adf533-c5fd-4053-8c7a-9bd3776d779a,,2026-01-04,0,0,2.5,new
+incontrovertible,无可争议的,The video evidence provided incontrovertible proof of the crime.,5bb64fa1-c31e-41fb-aa72-9197168691f6,,2026-01-04,0,0,2.5,new
+cipher,密码 / 暗号,The spy used a complex cipher to send the message.,e926d43d-ad98-4bc2-9351-19b4bdd32eb5,,2026-01-04,0,0,2.5,new
+vernacular,方言 / 本地话,He wrote his poems in the local vernacular.,7d0c6b24-0665-4775-a3bd-d8b3c49b2056,,2026-01-04,0,0,2.5,new
+acrostic,藏头诗,The first letters of each line in an acrostic form a word.,106c5fc2-c4ca-4765-a816-ffccf4b5a3a1,,2026-01-04,0,0,2.5,new
+pan out,（以特定方式）发展 / 结果是,We'll see how the new marketing strategy pans out.,f27f4e75-4498-4505-957f-5a380754850d,,2026-01-04,0,0,2.5,new
+transpose,移置 / 调换顺序,Be careful not to transpose the digits in the phone number.,ab736df4-0f5e-4631-bec1-980e497f16f2,,2026-01-04,0,0,2.5,new
+hustle,匆忙做某事 / 催促,We had to hustle to get to the station on time.,ac6fed11-f698-49a3-ba50-edcf5d19f45f,,2026-01-04,0,0,2.5,new
+chop suey,杂烩 / 一团糟,The room was a real chop suey of old furniture and books.,4605a2c0-be03-4a69-8477-02f99caab69c,,2026-01-04,0,0,2.5,new
+haul,拉 / 拖 / 运送,The truck had to haul a heavy load up the hill.,0d7445f9-8873-4c1d-b8ec-e6824d180853,,2026-01-04,0,0,2.5,new
+servitude,奴役 / 劳役,Many people were sold into a life of servitude.,01862486-54e0-4383-bf97-dee4d1329019,,2026-01-04,0,0,2.5,new
+patch,补丁 / 地块,He sowed seeds in a small patch of garden.,611d4ac9-711b-431d-82ac-7c6cb45e3379,,2026-01-04,0,0,2.5,new
+watchman,看守人 / 巡夜者,The night watchman noticed the broken window.,bd676f31-50dc-4f60-9f39-5678975350db,,2026-01-04,0,0,2.5,new
+handy-man,杂工 / 手巧的人,The handy-man fixed the leaking tap in minutes.,c42c32ad-46bc-4963-ade6-39afc24538eb,,2026-01-04,0,0,2.5,new
+butt,（用头或角）撞,The goat tried to butt the fence.,b99267c5-e910-4b6c-a018-9451663cc20c,,2026-01-04,0,0,2.5,new
+discomfit,使不安 / 使尴尬,The unexpected question seemed to discomfit the speaker.,43a9d87c-29a4-4737-80db-9c7febc36389,,2026-01-04,0,0,2.5,new
+concerted,共同的 / 协同的,We need to make a concerted effort to solve this problem.,fd62c9eb-d255-4ff1-a60d-9ef3b38e831c,,2026-01-04,0,0,2.5,new
+huddle,挤在一起 / 蜷缩,The sheep huddled together to keep warm in the snow.,5e8f937b-2abf-4ffb-be98-279c949c2279,,2026-01-04,0,0,2.5,new
+Scotch,苏格兰的,She enjoyed a glass of Scotch whisky by the fire.,88647f88-1af5-43fc-b2a0-e5bd8154d3cd,,2026-01-04,0,0,2.5,new
+confer,赋予 / 授予 / 商谈,The university will confer an honorary degree on the writer.,191bab2c-561f-42d8-bfe0-d45cd3365054,,2026-01-04,0,0,2.5,new
+peg,钉子 / 固定,He hung his jacket on a wooden peg.,c466793b-c2d4-4682-b17a-1c1210615601,,2026-01-04,0,0,2.5,new
+crooked,弯曲的 / 不诚实的,The picture on the wall is a bit crooked.,51f3b010-ac4b-413c-827b-ebf71cff6648,,2026-01-04,0,0,2.5,new
+abash,使羞愧 / 使窘迫,He was not abashed by his failure and tried again.,0d43ee05-c97a-4fad-8253-0eaad55a462e,,2026-01-04,0,0,2.5,new
+providence,天意 / 远见,It seemed like a stroke of providence that we met.,d8d2162a-d493-4845-86b1-1ee1989d6e3c,,2026-01-04,0,0,2.5,new
+come off,成功 / 举行,Did the party come off as well as you hoped?,cf2cf585-5cef-4261-b43e-4e0c42fb9de5,,2026-01-04,0,0,2.5,new
+scathe,损害 / 伤害,He emerged from the scandal relatively unscathed.,76e1794c-265b-46f0-bad5-d30b89845c73,,2026-01-04,0,0,2.5,new
+hold to,坚持 / 遵循,We must hold to our principles despite the pressure.,7720f30f-21c2-485e-a244-ac2f5c9eb117,,2026-01-04,0,0,2.5,new
+up a tree,进退两难,Without his car he's really up a tree.,85290711-eb99-41e5-80c6-78adc68a0677,,2026-01-04,0,0,2.5,new
+fall down,失败 / 倒下,The plan fell down because of a lack of funding.,fe265fa1-5e4a-46c4-912d-b0243db3d637,,2026-01-04,0,0,2.5,new
+set forth,陈述 / 阐明,The president set forth his views in a major speech.,71dce8da-a980-45ca-86f2-3a1e2461414b,,2026-01-04,0,0,2.5,new
+dark horse,黑马,The young player proved to be a dark horse in the tournament.,087f4f81-13c0-41c0-baf5-c4ce94dea46a,,2026-01-04,0,0,2.5,new
+beggar description,无法形容,The beauty of the sunset beggars description.,e6d38f92-6ee3-474e-8b5c-cbdd0a66b808,,2026-01-04,0,0,2.5,new
+unawares,不知不觉地 / 意外地,The rain caught us unawares without umbrellas.,97fa9488-d431-4c14-bd97-6c8901f07575,,2026-01-04,0,0,2.5,new
+pat,非常恰当的 / 现成的,His answer was a bit too pat to be entirely believable.,4fe9a435-4534-443d-91b0-73e0247a2b77,,2026-01-04,0,0,2.5,new
+contest,质疑 / 争论,The lawyer decided to contest the validity of the will.,57ff30df-7f29-43ee-9042-319926ecdfc5,,2026-01-04,0,0,2.5,new
+jolly,戏弄地开玩笑,They tried to jolly him along to get him to agree.,d914d820-ea16-4bb2-94be-484cbec46731,,2026-01-04,0,0,2.5,new
+kingpin,核心人物,He is the kingpin of the local electronics industry.,5339230a-5852-4adc-970e-b91455f4a4f7,,2026-01-04,0,0,2.5,new
+cyclone,气旋 / 旋风,The cyclone caused widespread damage to the coast.,7f106131-362a-4dbf-85f4-99f20eeab4ac,,2026-01-04,0,0,2.5,new
+zephyr,和风 / 西风,A light zephyr blew across the lake.,763fd422-ef8c-4103-95e8-8c572ac740f5,,2026-01-04,0,0,2.5,new
+urchin,流浪儿 / 顽童,A group of street urchins were playing in the alley.,f3928c57-3f59-44e3-ae2b-7810d64168a0,,2026-01-04,0,0,2.5,new
+masses,群众 / 民众,The politician tried to appeal to the masses.,9ab24bb1-edd7-4513-863b-3ab0b6ec088c,,2026-01-04,0,0,2.5,new
+derelict,破旧的 / 被遗弃的,The old factory has been derelict for years.,cbc36c67-f3ce-47ce-b234-6b84148d9627,,2026-01-04,0,0,2.5,new
+ponderous,冗长的 / 笨重的,The book was written in a ponderous academic style.,652c2b42-74f7-4efe-9005-fdb52c6c498a,,2026-01-04,0,0,2.5,new
+score,写下 / 记下,The composer scored the music for a full orchestra.,b234a0f6-c8ed-45d7-99f5-a0fe9b9053a1,,2026-01-04,0,0,2.5,new
+complement,补充 / 补足语,The red wine is a perfect complement to the steak.,f2951199-632a-4b15-8551-18ae28b56a47,,2026-01-04,0,0,2.5,new
+whirl,旋转 / 混乱,My mind was in a whirl after the shocking news.,8247d913-58cf-4073-b4fd-3ccebcea6f35,,2026-01-04,0,0,2.5,new
+illustration,插画 / 阐释,The book contains many beautiful illustrations.,e0500dab-1e5c-40a5-bee3-577f79366285,,2026-01-04,0,0,2.5,new
+artillery,大炮 / 炮兵,The heavy artillery provided cover for the advancing troops.,36f9db20-a07e-4f7f-9ac9-783a5774d745,,2026-01-04,0,0,2.5,new
+jargon,行话 / 术语,I couldn't understand the technical jargon in the manual.,43f8f9a7-c1d4-4431-af73-86ef86faa3f3,,2026-01-04,0,0,2.5,new
+dearth,缺乏 / 饥荒,There is a dearth of reliable information on the subject.,8fc175e1-2d7a-4f2c-87d2-ba500a69c34d,,2026-01-04,0,0,2.5,new
+obituary,讣告,I read his obituary in the morning newspaper.,10932c3f-3104-4fea-b6b3-bcaa7e58e102,,2026-01-04,0,0,2.5,new
+do … part,（根据语境）尽到职责 / 分开,Everyone must do their part to protect the environment.,1fb81573-373e-4dfb-9ade-7f6e2c299d5d,,2026-01-04,0,0,2.5,new
+contradiction,矛盾 / 反驳,There is a clear contradiction between his words and actions.,dff75e47-3db1-4ee3-b5f9-54308f8222d5,,2026-01-04,0,0,2.5,new
+journalistic,新闻业的,The article was written with great journalistic skill.,26e73d5d-7520-4048-b1d4-291595a365cd,,2026-01-04,0,0,2.5,new
+pedestrian,行人 / 乏味的,The street was crowded with pedestrians.,b120e979-0059-4a66-b402-b36ba63ed51c,,2026-01-04,0,0,2.5,new
+tackle,解决 / 应付 / 处理,The government needs to tackle the problem of inflation.,b776c402-5f6f-4a4f-a23a-24e0f7bf4630,,2026-01-04,0,0,2.5,new
+refine,精炼 / 完善 / 改进,We need to refine our plan before presenting it.,9cc9eb02-beff-4fac-a07d-6fe16ef23f5f,,2026-01-04,0,0,2.5,new
+sophistication,精致 / 复杂性 / 老练,The system is admired for its high level of sophistication.,041b1cfe-0ba7-47e2-b1df-c111b04ad512,,2026-01-04,0,0,2.5,new
+at the end of the day,说到底 / 终究,At the end of the day it's your decision to make.,90d7ef63-b024-44e1-86f1-73a27e31d2ee,,2026-01-04,0,0,2.5,new
+agree upon,达成一致 / 约定,Both parties have agreed upon the terms of the contract.,0a4d25af-32b1-4e5f-a44a-193bc602fc11,,2026-01-04,0,0,2.5,new
+play into,迎合 / 落入……圈套,Your anger just plays into their hands.,d9911a63-1d28-4255-ace6-4d3b992dfd1e,,2026-01-04,0,0,2.5,new
+stereotype,刻板印象 / 陈规,We should avoid judging people based on stereotypes.,cdf0b50e-c9ce-4d3f-9495-19d3ce2e4d99,,2026-01-04,0,0,2.5,new
+misconception,误解 / 错误观念,There is a common misconception that all cats hate water.,3efca69f-5bff-427b-8837-e8e3dcd42ce4,,2026-01-04,0,0,2.5,new
+lingua franca,通用语,English has become the lingua franca of international aviation.,d9457eb2-902a-4b4a-800d-281b73a5932d,,2026-01-04,0,0,2.5,new
+just about,几乎 / 差不多,I've just about finished my homework.,bb713570-032c-4017-ac17-8dc778343b4e,,2026-01-04,0,0,2.5,new
+flirt with,涉猎 / 玩弄 / 调情,He flirted with the idea of moving to Japan.,3e541b4b-b7ff-47d7-bb88-5e0add600164,,2026-01-04,0,0,2.5,new
+a slew of,一大堆 / 许多,The company released a slew of new products this month.,0a4abd93-3e57-4e66-8bec-8049dbb9b99a,,2026-01-04,0,0,2.5,new
+scribe,抄写员 / 书记,Ancient scribes were responsible for copying manuscripts.,a5c60162-25ae-4886-a9a5-b864ef4125d7,,2026-01-04,0,0,2.5,new
+courtier,宫廷侍从,The king was surrounded by his loyal courtiers.,0b7c74ba-4c46-43ee-a2b7-cc9c65bdb677,,2026-01-04,0,0,2.5,new
+(re)assert oneself,重新确立 / 重新显现,He needed to reassert himself after the long illness.,d6167a27-2c80-4fb7-90bd-85f21e5fe4bf,,2026-01-04,0,0,2.5,new
+displace,取代 / 替换,The new technology will eventually displace the old ones.,5e5f65f4-5f33-44c2-a06c-495d892c655f,,2026-01-04,0,0,2.5,new
+guild,公会 / 行会,The medieval guilds controlled the quality of crafts.,6d380a09-d583-47cb-8940-d98734488e8a,,2026-01-04,0,0,2.5,new
+compositor,排字工人,The compositor carefully arranged the metal type for the book.,fde792e5-78cc-443a-8ab6-0fd6e4ee8a4e,,2026-01-04,0,0,2.5,new
+typeface,字体 / 字样,The designer chose a modern typeface for the logo.,a70ddbba-b2c2-410c-9423-0d52907938fc,,2026-01-04,0,0,2.5,new
+busybody,多管闲事的人,Our neighbor is a real busybody who knows everyone's business.,c37a42f7-4482-449c-9872-d36bedee5921,,2026-01-04,0,0,2.5,new
+grammarian,语法学家,The grammarian argued for a stricter use of punctuation.,b4627e4d-196e-405d-b34d-e69840c294c9,,2026-01-04,0,0,2.5,new
+ostensible,表面上的 / 假装的,Their ostensible goal was peace but they prepared for war.,f637bdaa-1ee0-4e31-bba8-94d3664ec7fc,,2026-01-04,0,0,2.5,new
+prescriptive,规定性的,The teacher took a prescriptive approach to grammar rules.,330892ab-642a-40de-8518-cc384fe03fe5,,2026-01-04,0,0,2.5,new
+descriptive,描写性的,Descriptive linguistics studies how language is actually used.,aa2aa803-8f3b-43eb-96bc-3a373ba92db6,,2026-01-04,0,0,2.5,new
+in and of itself,本身 / 就其本身而言,The money in and of itself is not the problem.,61c3fe1e-db7b-4e6b-a630-28f458b89ff0,,2026-01-04,0,0,2.5,new
+citation,引用 / 引证 / 传票,The essay included many citations from reliable sources.,18849ff6-1b20-4495-82e6-47e9b734a3f7,,2026-01-04,0,0,2.5,new
+decry,谴责 / 贬低,Many critics decried the lack of originality in the film.,dbb719ce-a1db-428b-94fd-65420d216acf,,2026-01-04,0,0,2.5,new
+etymology,词源学 / 词源,Studying etymology helps you understand how words evolve.,7646e125-e2df-45de-a495-173b49e06975,,2026-01-04,0,0,2.5,new
+rail,斥责 / 责骂 / 抱怨,He railed against the injustice of the new law.,421e212c-7e7d-4930-84f7-c9d0cc6df16a,,2026-01-04,0,0,2.5,new
+nauseous,令人呕吐的 / 产生恶心的,The smell of the garbage was absolutely nauseous.,48d6b3d2-7180-4a84-8e62-e8d0b2439557,,2026-01-04,0,0,2.5,new
+nauseated,感到恶心的,The bumpy boat ride made her feel nauseated.,36ade603-34b5-46e7-aefe-4c0410e1a0d4,,2026-01-04,0,0,2.5,new
+rationale,基本原理 / 根本原因,What is the rationale behind this new policy?,cb6e7455-c9df-455f-a0c5-0f1d187b55b2,,2026-01-04,0,0,2.5,new
+feel strongly about,对……有强烈的看法,Many people feel strongly about the need for climate action.,7d08b745-0ab1-4223-ae57-a7f1c704e0aa,,2026-01-04,0,0,2.5,new
+strenuous,费力的 / 艰苦的,Lifting those heavy boxes was very strenuous work.,99a4b06f-aafd-4186-bbc2-cbef5c55d43c,,2026-01-04,0,0,2.5,new
+get to do,能够做某事 / 获得机会,I finally got to meet my favorite author.,f107c7f7-8444-43dc-b508-56668b5ae6b5,,2026-01-04,0,0,2.5,new
+whereby,凭此 / 借以 / 如何,They created a system whereby students could rate teachers.,486ecccb-f41f-430c-a8dd-fa843a03176e,,2026-01-04,0,0,2.5,new
+exert influence on,施加影响,Parents exert a great influence on their children's habits.,92dac912-f779-442d-b2ce-c8bbf4fd4e56,,2026-01-04,0,0,2.5,new
+look to,指望 / 依靠 / 注意,They look to the government for financial support.,abb9bea4-0a54-4910-835c-60f5c895eeca,,2026-01-04,0,0,2.5,new
+outstrip,超过 / 胜过,Demand for the new phone has outstripped supply.,e83e06a3-e3fd-4245-8c8f-66ac0f55d1bf,,2026-01-04,0,0,2.5,new
+snap up,抢购 / 匆匆吃下,All the tickets were snapped up within minutes.,e2fca2d2-d94e-4ff8-a9bf-544f125bedea,,2026-01-04,0,0,2.5,new
+how-to,指南 / 入门教程,I bought a how-to book on gardening for beginners.,4198913b-9d12-4024-b4ac-cfc387f7df4c,,2026-01-04,0,0,2.5,new
+nuisance,麻烦事 / 讨厌的人或物,The loud noise from the street is a real nuisance.,ef266481-9905-4dfd-9bd6-8637dac99670,,2026-01-04,0,0,2.5,new
+vermin,害虫 / 害鸟 / 歹徒,They called in pest control to deal with the vermin.,357a1a0c-f6f8-47dd-b515-841992227c87,,2026-01-04,0,0,2.5,new
+frown upon,不赞成 / 皱眉反对,Smoking in public places is increasingly frowned upon.,763fd6c7-0ac9-4a51-bb03-9503a70a5dea,,2026-01-04,0,0,2.5,new
+improper,不合适的 / 不当的,It would be improper for a judge to discuss a case.,1ac831ba-628d-427f-90b7-c0e7a8b8dd04,,2026-01-04,0,0,2.5,new
+impropriety,不当行为 / 违规,There were allegations of financial impropriety in the office.,bfad2be1-a7f5-4876-abaf-1306c6bcd893,,2026-01-04,0,0,2.5,new
+implement,实施 / 执行,The company plans to implement the new rules next month.,f92d4af5-3dc5-4558-b98d-c2c25c011656,,2026-01-04,0,0,2.5,new
+couch,（以某种方式）表达 / 措辞,The message was couched in very polite language.,75d1e339-f941-4768-9a24-d43076856f81,,2026-01-04,0,0,2.5,new
+ingrained,根深蒂固的,The habit of waking up early was ingrained in him.,e7306b78-3353-4f2c-aecd-e81a55c8605c,,2026-01-04,0,0,2.5,new
+conspicuous,显眼的 / 显著的,The tower is a conspicuous landmark in the city.,84e252af-2f6b-4fbe-9d12-0d286fa34035,,2026-01-04,0,0,2.5,new
+maven,专家 / 内行,She is a fashion maven who knows all the latest trends.,8ce4ae2c-ebcf-4f34-86c9-e56dee4c7f14,,2026-01-04,0,0,2.5,new
+flat-out,完全的 / 坦率地 / 全速的,He was flat-out lying when he said he wasn't there.,a4adc6fc-35d5-40fe-ad7e-caae01973b1a,,2026-01-04,0,0,2.5,new
+innate,天生的 / 先天的,She has an innate talent for playing the piano.,4d526848-8ca8-40a3-8114-4094fdb881d7,,2026-01-04,0,0,2.5,new
+do away with,废除 / 摆脱,The school decided to do away with the old uniform.,c88b943d-85c9-4a7d-979e-4e861b9de563,,2026-01-04,0,0,2.5,new
+intersect,相交 / 交叉,The two lines intersect at a right angle.,5c2a5c8d-c964-4bad-8118-843a9fa4ddc5,,2026-01-04,0,0,2.5,new
+keep to,坚持 / 遵守 / 不离开,It's important to keep to the original plan during the experiment.,062b3bc4-4050-4ce4-a0a6-b3005eadf9dd,,2026-01-04,0,0,2.5,new
+parable,寓言 / 比喻,The teacher used a simple parable to explain the moral lesson.,593a6259-46b5-4511-ad23-0a9a4bedbf7f,,2026-01-04,0,0,2.5,new
+stout,结实的 / 肥胖的,The house was built with stout oak beams.,1457cf6e-1e6c-424e-b1be-622227ba35ca,,2026-01-04,0,0,2.5,new
+stoutness,结实 / 肥胖,His stoutness made it difficult for him to climb the stairs.,044444f6-c264-4f1c-a825-dda0675ff805,,2026-01-04,0,0,2.5,new
+wedge,楔子 / 挤进,He used a small piece of wood as a wedge to stop the door from closing.,de276d7d-45e2-45c6-aa03-4598af9afe44,,2026-01-04,0,0,2.5,new
+crystalline,水晶般的 / 透明的,The mountain air was crystalline and cold.,a80040ed-2b0f-4181-bb51-1c383624b2d1,,2026-01-04,0,0,2.5,new
+bruise,弄伤 / 擦伤 / 瘀伤,The fall left a large bruise on her knee.,32ffed3d-0abc-4bf4-9120-c5d45c744fa0,,2026-01-04,0,0,2.5,new
+flank,侧面 / 肋部,The hunters moved around the flank of the mountain.,9f9c35a8-b28d-4cc4-b8b0-4bd190256f9c,,2026-01-04,0,0,2.5,new
+gospel,福音 / 真理,The local community spread the gospel of sustainable living.,bab6f7c2-3f74-4a93-92b0-47b5fe238008,,2026-01-04,0,0,2.5,new
+tangle,纠缠 / 混乱,The fishing line got into a terrible tangle.,0e7cc76b-aa5f-451e-99a9-7a72b61fa5c8,,2026-01-04,0,0,2.5,new
+bathe,沐浴 / 浸,The room was bathed in soft golden light.,a09e2482-e0c2-4fab-91f0-18564257fb5e,,2026-01-04,0,0,2.5,new
+proceed,继续进行 / 前进,After the interruption,2cc3d1b2-38fe-4c9c-9ecf-e03a228b4b10,,2026-01-04,0,0,2.5,new
+sinful,有罪的 / 邪恶的,He felt that wasting food was a sinful act.,a62ed7e8-a518-492a-9411-6ecc291da352,,2026-01-04,0,0,2.5,new
+ascetic,禁欲的 / 苦行者,He lived an ascetic life in a remote monastery.,9748ed46-7a95-4951-8746-60e6041a5287,,2026-01-04,0,0,2.5,new
+asceticism,禁欲主义,The monk’s life was defined by extreme asceticism.,a3368303-a803-4ee7-bd96-5a54b7e8d08b,,2026-01-04,0,0,2.5,new
+pulpit,讲坛 / 僧侣,The priest stood in the pulpit to deliver his sermon.,80d9b633-df9b-422d-a85d-18904a79e8ba,,2026-01-04,0,0,2.5,new
+antithesis,对立面 / 对照,His behavior was the exact antithesis of what we expected.,0e4f6edc-6585-4df8-adf5-ffd3277b20ba,,2026-01-04,0,0,2.5,new
+allusion,典故 / 暗指,The poem is full of allusions to Greek mythology.,975f18db-a96e-499a-bcbe-d68cf1cf7829,,2026-01-04,0,0,2.5,new
+allude to,暗指 / 提到,He alluded to the problem but didn't explain it in detail.,4eb68bc7-eb2a-4967-9f6e-1df77f62aff4,,2026-01-04,0,0,2.5,new
+twig,小树枝,A small bird sat on a dry twig of the apple tree.,a7d2f448-49da-4708-9bf9-6123b327da47,,2026-01-04,0,0,2.5,new
+snap,断裂 / 猛咬,The dry branch snapped under his weight.,a3d31a62-0c00-4234-b24d-7cab30541fdc,,2026-01-04,0,0,2.5,new
+depreciate,贬低 / 轻视 / 贬值,New cars depreciate in value as soon as you drive them away.,68e8565d-6593-4186-8c5e-763b92b7c05d,,2026-01-04,0,0,2.5,new
+undergrowth,灌木丛 / 丛林,The dog disappeared into the thick undergrowth.,033e77d0-2ac6-4777-9b8f-99032b84893c,,2026-01-04,0,0,2.5,new
+tread,踏踩 / 行走,Be careful not to tread on the flowers.,659fbe64-29de-4760-b541-ad9c7dc7c564,,2026-01-04,0,0,2.5,new
+take fright,受惊 / 惊恐,The horse took fright at the sound of the explosion.,1c089cc1-246f-45dd-a505-e5bd50049a29,,2026-01-04,0,0,2.5,new
+squawk,尖叫 / 诉苦,The parrot gave a loud squawk when I approached.,217488d7-9079-4a1b-a62e-2ebce2ce186e,,2026-01-04,0,0,2.5,new
+amiss,出错的 / 有毛病的,I knew something was amiss when she didn't call back.,7a31296b-591b-4254-834c-bd7f03f151c7,,2026-01-04,0,0,2.5,new
+buy … out,买下……的全部股份 / 收购,The larger company offered to buy out the small family business.,bd58b1a3-26c9-4f1e-81f4-9d94b092ebf1,,2026-01-04,0,0,2.5,new
+beset,困扰 / 围绕,The project was beset by technical difficulties from the start.,66c8af66-91c6-49c1-b0a6-710066a4b8d0,,2026-01-04,0,0,2.5,new
+round off,使……完整 / 凑整,We can round off the evening with a nice dessert.,d020baf0-0ff7-4c9e-b4e1-8cba06b3a0d4,,2026-01-04,0,0,2.5,new
+plot a curve,画曲线,The scientist plotted a curve to show the rate of growth.,3ce3b6c2-147b-4b94-b204-5a22f2406a42,,2026-01-04,0,0,2.5,new
+immense,巨大的 / 广大的,The cost of the restoration project was immense.,d141753f-383c-4ac2-8afb-6908fda8e760,,2026-01-04,0,0,2.5,new
+immensity,巨大 / 广大,She was overwhelmed by the immensity of the ocean.,5791e390-43d6-4369-aace-0a3ff6ddbb2c,,2026-01-04,0,0,2.5,new
+nucleus,核心 / 原子核,The nucleus of the cell contains most of the genetic material.,93df49d5-b5dd-4703-8074-d2f7154daca7,,2026-01-04,0,0,2.5,new
+nuclei,核心（复数）,Atomic nuclei are made of protons and neutrons.,fd5331ef-8a10-41c5-99df-1d95171feba3,,2026-01-04,0,0,2.5,new
+dominion,统治权 / 领土,In the past,55e6ae5e-dfdd-4b98-b821-57031d6d9db2,,2026-01-04,0,0,2.5,new
+take alarm,感到警觉 / 惊慌,Residents took alarm when they saw smoke coming from the forest.,e89cc0e2-095d-412e-ac55-02220b1342c7,,2026-01-04,0,0,2.5,new
+clean,完全地 / 彻底地,The bullet went clean through the wooden door.,5500c33c-0ecf-4763-911a-7c6671e01bbc,,2026-01-04,0,0,2.5,new
+restless,焦躁不安的 / 静不下来的,The audience grew restless during the long speech.,3ea190e3-a311-4413-93f9-874565d818c6,,2026-01-04,0,0,2.5,new
+come over,袭来 / 笼罩 / 过来,A feeling of sadness came over him as he read the letter.,494d7767-d3c8-4aeb-b7bc-861947e203a6,,2026-01-04,0,0,2.5,new
+pretentious,做作的 / 自命不凡的,I found his style of writing very pretentious and hard to follow.,43eb5df4-b89b-44e3-8447-8c1da7b54718,,2026-01-04,0,0,2.5,new
+sinister,不祥的 / 阴险的,There was something sinister about the dark,46df3379-9e66-4c1f-b381-6de26730243b,,2026-01-04,0,0,2.5,new
+trinity,三位一体 / 三人一组,The novel explores the trinity of love,72d717fd-cd72-400f-9886-759421af1910,,2026-01-04,0,0,2.5,new
+shun,躲开 / 避开,He began to shun public attention after the scandal.,3e445b0f-b21c-4600-bfad-1e76dd87156e,,2026-01-04,0,0,2.5,new
+defect,缺陷 / 变节,The toy was recalled due to a serious manufacturing defect.,ed78614a-019c-4a57-a9f0-143838f06fcf,,2026-01-04,0,0,2.5,new
+defective,有缺陷的,You can return the product if it is found to be defective.,d2dc1e47-4d33-4e3e-9174-a138ba1e0953,,2026-01-04,0,0,2.5,new
+germ,胚芽 / 细菌 / 萌芽,The germ of the idea came to him while he was on vacation.,4483108c-f538-4e9c-b37e-5d957198e9e7,,2026-01-04,0,0,2.5,new
+exquisite,精致的 / 细腻的,The museum has an exquisite collection of ancient jewelry.,da640128-1aa2-45e5-a8bf-a481e64d87a1,,2026-01-04,0,0,2.5,new
+carnal,肉体的 / 世俗的,The monk was taught to suppress all carnal desires.,52a69741-6895-4059-a178-7897085486f8,,2026-01-04,0,0,2.5,new
+entangle,缠住 / 使陷入,The dolphin became entangled in the fishing net.,e83b756d-e3ed-47a4-b6bf-9a175fcf8292,,2026-01-04,0,0,2.5,new
+meagre,贫乏的 / 瘦的,They survived on a meagre diet of bread and water.,8d7b7521-e8e9-4075-abe0-365e78c949ed,,2026-01-04,0,0,2.5,new
+traverse,横过 / 穿过,The explorers had to traverse the entire desert on foot.,269fc645-e114-4e8c-aa7b-36088eee1eec,,2026-01-04,0,0,2.5,new
+all too,非常 / 太……,The weekend was all too short and soon it was Monday.,6cabb44b-f52c-4cd3-96f8-e0328b4f3f31,,2026-01-04,0,0,2.5,new
+grub,（用手）挖掘 / 搜寻,The children were grubbing about in the garden for worms.,9302521f-0784-49af-9c30-d0d91cc44181,,2026-01-04,0,0,2.5,new
+span,跨度 / 跨越,The bridge spans the river at its narrowest point.,177a25e4-4e5e-4179-a2bf-b43ac5884a96,,2026-01-04,0,0,2.5,new
+termite,白蚁,The old wooden house was severely damaged by termites.,4567aeb5-5f84-401c-a061-207a0efe3288,,2026-01-04,0,0,2.5,new
+circle,圆圈 / 环绕,The eagles circled high above the valley.,b8e58d83-a4c8-4838-9669-ea62282dc21e,,2026-01-04,0,0,2.5,new
+circular,循环的 / 圆形的,The letter was sent to all members as a circular.,7fc8f056-2d56-426e-8556-31fc50724f52,,2026-01-04,0,0,2.5,new
+circulate,循环 / 流传,Blood circulates through the body to deliver oxygen.,30c566ce-b526-435b-932d-c19cd80e9999,,2026-01-04,0,0,2.5,new
+circulation,循环 / 流通 / 发行量,The magazine has a daily circulation of over 50,2790a4f8-7cad-430e-90d6-3a97dbb25788,,2026-01-04,0,0,2.5,new
+gorge (on),吞食 / 狼吞虎咽,The children gorged themselves on chocolate and cake.,45c7e1ef-28de-4ece-baca-a5ca86eb38c9,,2026-01-04,0,0,2.5,new
+avaricious,贪婪的,The avaricious businessman was never satisfied with his profits.,d72d8481-17e0-4008-a38c-8bb56dea0539,,2026-01-04,0,0,2.5,new
+avarice,贪婪,His motive for the crime was pure avarice.,0b4db482-442c-47d6-85d3-14ebb51641f9,,2026-01-04,0,0,2.5,new
+quadruple,使成四倍 / 四倍的,The price of the house has quadrupled in the last ten years.,f29acba2-2834-4c81-9d65-19451f14848f,,2026-01-04,0,0,2.5,new
+gait,步态 / 步法,The old man walked with a slow and heavy gait.,370b7d9a-c53c-423a-badd-e1684e121ea4,,2026-01-04,0,0,2.5,new
+wont,习惯 / 惯常的,As was her wont,79de7db5-36dc-4a51-92b4-129a05be9be9,,2026-01-04,0,0,2.5,new
+sponge,海绵 / 抹除,He used a wet sponge to clean the chalkboard.,f90125d8-d8f0-4637-a391-060dacffd25f,,2026-01-04,0,0,2.5,new
+spongy,海绵状的,The ground was soft and spongy after the heavy rain.,a16f85af-3c65-43cb-b577-96b08a772fbd,,2026-01-04,0,0,2.5,new
+bog,泥潭 / 使陷入,The car got bogged down in the thick mud.,a77d2fa6-8d8f-4958-82d1-1dcfbc3feeaa,,2026-01-04,0,0,2.5,new
+stiffen,变硬 / 僵硬,His muscles began to stiffen after the long hike.,1a0307a7-beee-4acc-a727-77af9b7972b2,,2026-01-04,0,0,2.5,new
+pastry,糕点 / 点心,The bakery sells a delicious range of French pastries.,17afc351-e627-4326-bf27-554c29874d1e,,2026-01-04,0,0,2.5,new
+limber,柔软的 / 敏捷的,She did some stretching exercises to keep her body limber.,363711ea-053c-4e59-8930-956e104b6560,,2026-01-04,0,0,2.5,new
+indeterminate,不明确的 / 不确定的,The date of the meeting is still indeterminate.,6c56cd90-d004-4624-9ec2-43eedf6d69f8,,2026-01-04,0,0,2.5,new
+in someone’s company,在某人陪同下,I always feel comfortable and relaxed in her company.,1869e849-1f31-47f2-9c51-475ba2557f43,,2026-01-04,0,0,2.5,new
+quartet,四重奏 / 四人组,The string quartet performed a piece by Mozart.,b5968a29-3719-4094-af0f-4c6ba74db9c7,,2026-01-04,0,0,2.5,new
+give place to,让位给 / 被替代,The old steam trains eventually gave place to electric ones.,acf648c9-7839-40cf-bc74-a5673a63b7f3,,2026-01-04,0,0,2.5,new
+adorn,装饰,The walls were adorned with beautiful paintings.,dd6280bf-0a49-4909-8892-38c40e7a20af,,2026-01-04,0,0,2.5,new
+adornment,装饰品,The simple dress needed no further adornment.,be8d2eb9-99a4-4db9-acf7-20f9a9834994,,2026-01-04,0,0,2.5,new
+beseech,恳求 / 乞求,I beseech you to reconsider your decision.,85f31472-4fb5-4595-90a4-18e7d656f07b,,2026-01-04,0,0,2.5,new
+swirl,旋转 / 漩涡,The autumn leaves swirled around in the wind.,152408df-e57e-495e-94f8-ace101a0329e,,2026-01-04,0,0,2.5,new
+lethargic,无精打采的,The hot weather made everyone feel lethargic and tired.,5ab34ecb-4c76-4b62-b67b-68968ba32e7c,,2026-01-04,0,0,2.5,new
+condescension,屈尊俯就 / 傲慢,I resented the tone of condescension in his voice.,0ef06ab2-9ac2-4900-b5ef-b8d46857c39a,,2026-01-04,0,0,2.5,new
+to their best form,达到最佳状态,The athletes trained hard to return to their best form.,6c9ee86e-2c01-47ed-bd50-dd749edda3b6,,2026-01-04,0,0,2.5,new
+bequest,遗嘱 / 遗产,He left a generous bequest to the local library.,46a036aa-99ca-4b14-b4a6-335ec6a80019,,2026-01-04,0,0,2.5,new
+inning,局 / 机会,The team scored three runs in the final inning.,5e4c507a-bb7d-40fc-8367-aedd86478116,,2026-01-04,0,0,2.5,new
+zest,热心 / 热情 / 兴趣,He entered into the new project with great zest.,57604e7c-0a5c-40c2-9319-e568796f5bb8,,2026-01-04,0,0,2.5,new
+gambit,开局策略 / 试探,His opening gambit in the negotiation was very clever.,f066db8d-3dcf-4e47-a8df-5b86288ad70e,,2026-01-04,0,0,2.5,new
+for that matter,确切地说 / 此外,I don't like horror movies,22b9e968-0895-44c3-99b7-07907010375f,,2026-01-04,0,0,2.5,new
+benefactor,恩人 / 捐助者,The hospital was built thanks to a wealthy benefactor.,2fe73bb7-2e24-49f3-9023-ec022c23bacc,,2026-01-04,0,0,2.5,new
+sliver,裂片 / 薄片,He cut a tiny sliver of cake just to taste it.,edc8f6fa-5b83-41bd-af5d-345227dc4d50,,2026-01-04,0,0,2.5,new
+heir,继承人,He is the legal heir to the family fortune.,80abf34d-cf12-462b-9e66-0769d852a0fc,,2026-01-04,0,0,2.5,new
+heiress,女继承人,The young heiress inherited a large estate from her grandfather.,c3b1c2bb-108a-4525-8671-7e26e783bddd,,2026-01-04,0,0,2.5,new
+promenade,散步 / 漫步,Couples were promenading along the seafront at sunset.,1fa4f06a-f149-421e-910f-7e7361eb3818,,2026-01-04,0,0,2.5,new
+by rote,死记硬背地,He learned the entire poem by rote without understanding it.,903469ad-f07a-4f86-be53-4f93ddbc21fd,,2026-01-04,0,0,2.5,new
+sleek,光滑的 / 井然有序的,The cat had a sleek and shiny coat of black fur.,f2c4c3d6-3283-4459-bd4b-96e78c6ceb7d,,2026-01-04,0,0,2.5,new
+supple,柔韧的 / 灵活的,Yoga helps to keep your joints supple and strong.,89309f11-4ff5-4684-834f-02cdabb38845,,2026-01-04,0,0,2.5,new
+nudge,轻推 / 推进,He gave me a gentle nudge to wake me up.,de7d907b-a720-44d4-bc62-6c81f1b21e5d,,2026-01-04,0,0,2.5,new
+tender,呈递 / 提出 / 投标,The company decided to tender for the new bridge project.,1847f03c-2a5b-4d93-9351-c0e283caa5d7,,2026-01-04,0,0,2.5,new
+regal,威严的 / 王室的,She looked very regal in her long silk gown.,88a75770-42fe-477f-bb59-abe93ae117b4,,2026-01-04,0,0,2.5,new
+fling,投掷 / 抛出 / 猛冲,He flung his coat onto the sofa and sat down.,b9b713e2-0611-485f-ada7-db3e667a8359,,2026-01-04,0,0,2.5,new
+chaste,贞洁的 / 朴素的,The room was decorated in a simple and chaste style.,168e69df-e83c-4df9-b10f-8a99749b8b0a,,2026-01-04,0,0,2.5,new
+forfeit,丧失 / 被罚没,He had to forfeit his deposit because he cancelled late.,657a94cd-8ae7-404e-93bc-eee83cba5bc7,,2026-01-04,0,0,2.5,new
+immaculate,纯洁无瑕的 / 一尘不染的,The house was kept in immaculate condition.,0c2e9957-bf73-4cef-94ac-5d2297d3a4c7,,2026-01-04,0,0,2.5,new
+retort,顶嘴 / 反驳,"""It's none of your business",59a3b902-f776-4343-a71f-a7bd2ed5b7b5,,2026-01-04,0,0,2.5,new
+inhabit,居住于 / 栖息于,Many rare species of birds inhabit these remote islands.,3efbd881-dac3-4183-9036-871ea058e0b9,,2026-01-04,0,0,2.5,new
+detach,分离 / 拆卸 / 使超脱,He tried to detach himself from the reality of the situation.,0af60001-69c2-43c0-a5fc-033e40455bb2,,2026-01-04,0,0,2.5,new
+perturb,使不安 / 扰乱,The sudden change in plans did not seem to perturb him at all.,c15440cf-7e2e-45ef-b581-f604cf18dffb,,2026-01-04,0,0,2.5,new
+musty,发霉的 / 陈腐的,The old library was filled with the smell of musty books.,5fd6ced8-c354-44e0-bdd1-1bd09299ce9c,,2026-01-04,0,0,2.5,new
+devout,虔诚的 / 衷心的,She was a devout follower of the faith and attended every service.,bb6fc59d-c213-4bce-b34d-aad547f41f3c,,2026-01-04,0,0,2.5,new
+straggle,漫步 / 离群 / 蔓延,A few latecomers began to straggle into the hall after the lecture started.,12d1d585-95cc-49a4-9f97-a315d53377f8,,2026-01-04,0,0,2.5,new
+rusty,生锈的 / （技能）生疏的,The gate made a loud creak on its rusty hinges.,3cb00a6a-52b2-4d2a-b549-9f2509b6c614,,2026-01-04,0,0,2.5,new
+charitable,慈善的 / 宽厚的,He made a generous and charitable donation to the local orphanage.,0e9370ae-53eb-402e-bd01-f6d31c8ed9a3,,2026-01-04,0,0,2.5,new
+sombre,阴沉的 / 忧郁的 / 昏暗活动,The funeral was a very sombre and quiet occasion.,744013c9-4a68-433e-9c2c-0eca8ceb01a1,,2026-01-04,0,0,2.5,new
+feeble,虚弱的 / 无力的,The sick man gave a feeble wave from his bed.,3583dc88-8461-4c53-a2c0-3f8db89e3b86,,2026-01-04,0,0,2.5,new
+career,飞奔 / 猛冲,The carriage began to career wildly down the narrow street.,c75a4016-8ff4-42ed-9855-0caa8db27a70,,2026-01-04,0,0,2.5,new
+run the gauntlet,受到严厉批评 / 穿过危险区,The whistle-blower had to run the gauntlet of media questions.,5a2943ad-90f2-4df4-b08b-56bfa1d78363,,2026-01-04,0,0,2.5,new
+odour,气味 / 名声,The strange odour in the room reminded him of old incense.,7e1667a1-4ccd-48a6-a278-de7213b9e5a9,,2026-01-04,0,0,2.5,new
+harness,治理 / 利用 / 束以马具,Scientists are trying to harness the power of the sun more efficiently.,a67c6ed2-687e-4f0f-acec-024dc04c2799,,2026-01-04,0,0,2.5,new
+resign,辞职 / 放弃 / 顺从,She resigned herself to the fact that she wouldn't win the race.,79aa4da9-de2b-4e5c-a08b-4f1576c9c2a4,,2026-01-04,0,0,2.5,new
+railings,栏杆 / 围栏,Children were leaning over the iron railings to watch the parade.,1382e024-8a43-41dc-a2d0-0cefabe367ce,,2026-01-04,0,0,2.5,new
+toss,抛 / 掷 / 颠簸,The small boat was tossed about by the giant waves.,55e05077-f054-4356-9b55-873bdf939f07,,2026-01-04,0,0,2.5,new
+parlour,客厅 / 店堂,In the Victorian era,08d575a6-1686-416f-9668-b3b0472f8507,,2026-01-04,0,0,2.5,new
+sash,肩带 / 腰带 / 窗框,The girl wore a bright red sash over her white dress.,3b0fd2aa-8047-439f-9372-97d21da51e7a,,2026-01-04,0,0,2.5,new
+diverge,分歧 / 偏离 / 分叉,The two paths diverge at the edge of the forest.,43649cb3-a617-4264-afb5-acd92160b73f,,2026-01-04,0,0,2.5,new
+summons,召唤 / 传唤 / 传票,He received a formal summons to appear in court as a witness.,54ed27a2-8d2d-4560-8d9f-3d157eaf7a75,,2026-01-04,0,0,2.5,new
+flaring,闪耀的 / 燃烧的,The flaring torches lit up the dark entrance of the cave.,499b2235-740b-4ea2-9333-76735969109e,,2026-01-04,0,0,2.5,new
+jostle,推挤 / 挤撞,Shoppers had to jostle each other to reach the sales counter.,524d1113-d5ee-43ed-b6c3-371882973403,,2026-01-04,0,0,2.5,new
+shrill,尖锐刺耳的,A shrill whistle pierced the silence of the night.,4aba4941-cd14-4bf6-b11d-98be2f467daf,,2026-01-04,0,0,2.5,new
+nasal,鼻音的 / 鼻的,He spoke with a distinct nasal twang due to his cold.,8fd60d13-bfe8-4204-ac88-b063338d5fe9,,2026-01-04,0,0,2.5,new
+ballad,民谣 / 叙事歌,The minstrel sang a haunting ballad about a lost love.,305b22a1-a25e-4307-a1a0-e43cfdd6b643,,2026-01-04,0,0,2.5,new
+sensation,感觉 / 轰动,The news of the discovery caused a great sensation worldwide.,5f8e4c24-9c8e-4cee-947b-628615f3392f,,2026-01-04,0,0,2.5,new
+chalice,圣餐杯 / 高脚杯,The priest carefully raised the golden chalice during the ceremony.,4f4f538c-c426-4a25-9e97-0969bb4a9837,,2026-01-04,0,0,2.5,new
+throng,人群 / 挤满,A huge throng of fans gathered outside the stadium.,e602ac19-f662-4b78-8dc5-b2dc8e6e9145,,2026-01-04,0,0,2.5,new
+bosom,胸膛 / 怀抱,She held the child close to her bosom to keep him warm.,81189722-4a51-4523-8c29-7bfc4905be98,,2026-01-04,0,0,2.5,new
+pane,窗格玻璃,He looked out through a cracked pane of glass.,de4dd3b4-c5ba-4b90-8fcc-509351e833a8,,2026-01-04,0,0,2.5,new
+impinge,侵犯 / 撞击 / 影响,The noise from the street began to impinge on her concentration.,6f115940-18f8-4425-b0d0-d26fa4c08a5e,,2026-01-04,0,0,2.5,new
+incessant,不停的 / 连续不断的,The incessant rain lasted for three days without stopping.,024b6c72-45d6-4ee3-aa52-c8c2f87fd805,,2026-01-04,0,0,2.5,new
+sodden,湿透的 / 浸透的,His shoes were sodden after walking through the marshes.,c7a1a378-d958-4a8c-9c07-d21ce892a6eb,,2026-01-04,0,0,2.5,new
+bazaar,市集 / 义卖,We bought some beautiful handmade rugs at the local bazaar.,5206d300-96e0-4937-8754-db854f7e98d5,,2026-01-04,0,0,2.5,new
+retreat,隐居处 / 撤退,The mountains provided a quiet retreat from the busy city life.,b2147f35-6fa5-450d-862c-154787a71a72,,2026-01-04,0,0,2.5,new
+innumerable,无数的 / 数不清的,There are innumerable stars visible on a clear night.,14be9da4-acf3-43a9-b902-ca3f5cf4c8b6,,2026-01-04,0,0,2.5,new
+lay waste to,毁坏 / 蹂躏,The invading army laid waste to the entire countryside.,289660c4-1cd7-4288-9e20-93f1ff9c147a,,2026-01-04,0,0,2.5,new
+annihilate,歼灭 / 彻底消灭,The city was almost completely annihilated during the earthquake.,19955290-eff2-4935-b773-0143a4983566,,2026-01-04,0,0,2.5,new
+intervene,干预 / 调停,The government had to intervene to prevent a strike.,5a76b535-7707-4b6a-8f68-ce9ecb4c830b,,2026-01-04,0,0,2.5,new
+chafe,摩擦 / 擦痛 / 烦躁,The tight collar began to chafe his neck.,6a9670f3-b883-4c6f-88cc-495e5b0deae7,,2026-01-04,0,0,2.5,new
+come between,妨碍 / 离间,I won't let a small argument come between our friendship.,9072036d-09c6-4f06-ae55-1811c9c0c088,,2026-01-04,0,0,2.5,new
+luxuriate,享受 / 纵情,He spent the afternoon luxuriating in a warm bath.,d9b90cde-b72c-4868-a3a6-750f5a0e4925,,2026-01-04,0,0,2.5,new
+enchant,使着迷 / 施魔法,The beauty of the landscape enchanted every visitor.,f62bb7a0-46b5-4807-b5a9-f26d5fc9d030,,2026-01-04,0,0,2.5,new
+amiable,亲切的 / 和蔼可亲的,The host was an amiable man who made everyone feel welcome.,ebb347f1-7ae0-4229-9f17-69e59f6aeeff,,2026-01-04,0,0,2.5,new
+stern,严厉的 / 坚定的,The teacher gave the students a stern warning about cheating.,7d45c23f-0257-43db-887c-acdf7376890a,,2026-01-04,0,0,2.5,new
+call together,召集,The manager called together the staff for an emergency meeting.,e3a1feec-a3d6-4185-a881-224ae40f2e4b,,2026-01-04,0,0,2.5,new
+stand between,处于……之间 / 阻碍,Nothing should stand between a person and their dreams.,cf43a47d-7b9e-42a2-a629-4ad1f0f25226,,2026-01-04,0,0,2.5,new
+monotonous,单调的 / 乏味的,The work was monotonous,b3adcba1-a295-43b4-9962-e07a1974e390,,2026-01-04,0,0,2.5,new
+fuss,忙乱 / 大惊小怪,There was a lot of fuss over the wedding arrangements.,9a22652d-29e1-45bc-87f6-7ae27b6dc5f9,,2026-01-04,0,0,2.5,new
+curt,简短的 / 粗鲁的,He gave a curt reply and walked away without looking back.,ebcd6279-c8b2-448f-b598-6f1daabd605e,,2026-01-04,0,0,2.5,new
+misgive,使疑虑 / 使害怕,He felt a sense of misgiving about the safety of the bridge.,49bfcbb1-7deb-4f77-bf7a-7cea71cb1e6d,,2026-01-04,0,0,2.5,new
+mount,登上 / 增加 / 装置,Pressure began to mount as the deadline approached.,9b60079b-e12a-44f2-aa11-53f4b2dd7b7c,,2026-01-04,0,0,2.5,new
+indistinct,不清楚的 / 模糊的,The figures in the distance were indistinct in the thick fog.,185c6575-e742-4ccc-846f-a17004342229,,2026-01-04,0,0,2.5,new
+clad,穿着的 / 覆盖的,The mountains were clad in a thick blanket of snow.,012c4437-f2da-4aa1-8c07-393d923e996d,,2026-01-04,0,0,2.5,new
+discreet,谨慎的 / 考虑周全的,He made a discreet inquiry about the job opening.,9dbc05f0-0b7b-46ce-ac3e-40c3e716f540,,2026-01-04,0,0,2.5,new
+garrulous,话多的 / 喋喋不休的,The garrulous old man could talk for hours about his youth.,9c3b1642-aae8-41b8-b745-34be9376cefe,,2026-01-04,0,0,2.5,new
+clench,握紧 / 咬紧,He clenched his fists in anger but said nothing.,343c4cac-2218-4d76-aa96-4ccaf15be89e,,2026-01-04,0,0,2.5,new
+hallstand,门厅衣帽架,He hung his umbrella and coat on the hallstand.,02db0dbe-b9a2-43f1-9005-30af61a59b90,,2026-01-04,0,0,2.5,new
+stride,大步走 / 跨越,He walked with a confident stride toward the stage.,1a70d270-3bcf-4f25-9d00-3143b31e4098,,2026-01-04,0,0,2.5,new
+glare,怒目而视 / 刺眼的光,The sun's glare on the water was blinding.,c5ca998d-c184-4aac-8d33-c31b346234f0,,2026-01-04,0,0,2.5,new
+ruinous,破坏性的 / 荒废的,The high interest rates had a ruinous effect on the business.,ae0db536-1ab3-4145-849b-2635ba79e52a,,2026-01-04,0,0,2.5,new
+improvise,即兴创作 / 临时凑成,If you don't have the right tools,fba5d0d1-44ab-4b69-ac28-0ee639ae508d,,2026-01-04,0,0,2.5,new
+weary,疲倦的 / 厌烦的,She was weary after the long journey and wanted to sleep.,5d1121f8-28bc-4585-8edc-6f8b2035d0e1,,2026-01-04,0,0,2.5,new
+gird,环绕 / 束缚 / 准备,The knights began to gird themselves for the upcoming battle.,465b1ccd-97f7-4fa7-9a9f-870e67d9dd8a,,2026-01-04,0,0,2.5,new
+pervade,弥漫 / 普及,A sense of deep sadness pervaded the whole house.,bdb1ad68-93bd-4779-9e1d-d2ca6fc6e095,,2026-01-04,0,0,2.5,new
+salver,银盘 / 托盘,The butler served the drinks on a polished silver salver.,3feb8744-2be1-476c-a6f9-5b8caf44a420,,2026-01-04,0,0,2.5,new
+deride,嘲笑 / 嘲弄,His critics derided his attempt to write a novel.,641da3c7-496a-4dcb-982f-adff424617b0,,2026-01-04,0,0,2.5,new
+vain,徒劳的 / 自负的,They made a vain attempt to stop the flooding.,f0ebd5d9-2e4a-449c-8cba-c37a3d20b022,,2026-01-04,0,0,2.5,new
+anguish,痛苦 / 苦恼,The mother was in deep anguish over her missing child.,48944ea1-29b1-48b4-be9f-27c496a9fdfe,,2026-01-04,0,0,2.5,new
+invert,使倒置 / 使反转,The glass was inverted on the table to keep it clean.,3ef1988d-92ae-48f9-bfca-4e16484f4b12,,2026-01-04,0,0,2.5,new
+paralyse,使瘫痪 / 使麻痹,The fear of failure seemed to paralyse his creativity.,746292e4-eec0-4014-9311-b45a81e6e704,,2026-01-04,0,0,2.5,new
+confine to,限制在……内,The discussion was confined to the immediate problems.,3225a450-c28b-40de-bfb4-7823c0268001,,2026-01-04,0,0,2.5,new
+give on to,面向 / 通向,The French windows give on to a beautiful stone terrace.,7385a701-bc5a-45c7-92bf-c6f376d4036d,,2026-01-04,0,0,2.5,new
+attend to,照料 / 专心于,The doctor had to attend to several patients at once.,e3798e51-94b9-4f5a-8555-4adc8bb4daca,,2026-01-04,0,0,2.5,new
+eke out,勉强维持 / 补充,They had to eke out their small savings until the end of the month.,e8100cb9-fbc6-42d5-bc64-eca0a610a03c,,2026-01-04,0,0,2.5,new
+minute,微小的 / 详细的,The robot was capable of making minute adjustments to the lens.,4cf090cf-dba9-44a4-979e-360afe3b70ae,,2026-01-04,0,0,2.5,new
+overhang,悬垂 / 悬于……之上,Large rocks overhang the narrow mountain road.,d41c7247-f886-4105-aa81-f9450abd5843,,2026-01-04,0,0,2.5,new
+infirmity,虚弱 / 疾病,In his old age,3e343f2d-9bcc-448c-bd52-57b30f525700,,2026-01-04,0,0,2.5,new
+crucifix,十字架 / 苦像,A large wooden crucifix hung on the wall of the chapel.,8906926e-c7d0-4c00-ac4c-a6825ce8b7aa,,2026-01-04,0,0,2.5,new
+assiduous,勤奋的 / 刻苦的,She was assiduous in her duties and never missed a day of work.,3ca3453e-7e55-4e87-b314-7e8e30a0251d,,2026-01-04,0,0,2.5,new
+industrious,勤劳的 / 努力的,The industrious students spent all weekend in the library.,2b3ff4a2-14bb-4cad-a560-c6ab658415fc,,2026-01-04,0,0,2.5,new
+invalid,病人 / 残疾人,He spent the last years of his life as a bedridden invalid.,367d8c0a-d4e6-41dd-bdf9-ee4d350a5408,,2026-01-04,0,0,2.5,new
+fondle,爱抚 / 抚弄,She began to fondle the kitten behind its ears.,79c2b5d8-b8d6-4ac5-a3f6-450ac68c1ab3,,2026-01-04,0,0,2.5,new
+endow … with …,赋予 / 天生具有,Nature has endowed her with a beautiful singing voice.,04707ba2-7e1b-4412-ae52-b7a292fc8ca7,,2026-01-04,0,0,2.5,new
+affectation,做作 / 假装,I found his upper-class accent to be a bit of an affectation.,cf14615f-e6e7-4ad5-9541-495496bdb848,,2026-01-04,0,0,2.5,new
+pantomime,哑剧,The actors used pantomime to tell the story without words.,f0f2ba2a-b072-4320-abc0-1f23eda34a53,,2026-01-04,0,0,2.5,new
+courtship,求爱 / 追求,The book describes the long and traditional courtship of the couple.,c7d451b8-b561-4a79-83c3-a40153199637,,2026-01-04,0,0,2.5,new
+keep … company,陪伴某人,My dog stays by my side to keep me company when I'm lonely.,5633a0ca-761c-4e5f-bc7d-5a9824f63666,,2026-01-04,0,0,2.5,new
+rouse,唤醒 / 激起,The loud noise was enough to rouse the entire house.,8c34c99e-1db1-4e2b-9e1b-8e4fb51b4e83,,2026-01-04,0,0,2.5,new
+come to one’s relief,给予安慰 / 使人松一口气,The arrival of the rescue team came to their great relief.,75ffdeed-3fed-46c9-a0be-03e870691d97,,2026-01-04,0,0,2.5,new
+of yore,过去的 / 昔日的,In the days of yore,aaddf1a9-265b-4c13-ab7f-309f1638823c,,2026-01-04,0,0,2.5,new
+take heart of grace,重新振作起来,He took heart of grace and decided to try one more time.,41245053-2c1b-4a66-9f8f-bcea9a765328,,2026-01-04,0,0,2.5,new
+allegory,寓言 / 象征,The story is a political allegory about the rise of a dictator.,6eabea7b-9f96-40e7-89e2-74cb3adabee6,,2026-01-04,0,0,2.5,new
+thereupon,随即 / 于是,He said goodbye and thereupon left the room.,06a5ad45-d56c-44df-9231-799abd5bfa5f,,2026-01-04,0,0,2.5,new
+fret,使烦恼 / 焦急,Don't fret about the little things; focus on the big picture.,a7a66bf2-27a1-447e-a842-5f60c11d914f,,2026-01-04,0,0,2.5,new
+flit,掠过 / 轻快地飞,Butterflies began to flit from flower to flower.,3ef9a563-e1ac-4899-b28b-a62ebc934ba7,,2026-01-04,0,0,2.5,new
+protract,拖延 / 延长,The legal battle was protracted for several years.,e5e6fd8e-9580-45da-b5f3-abb6f35c3371,,2026-01-04,0,0,2.5,new
+beckon,招手 / 召唤,The warm blue water seemed to beckon the tired travelers.,07352576-3725-44c2-afa2-3bf794582fce,,2026-01-04,0,0,2.5,new
+vein,情绪 / 纹理 / 静脉,He continued the story in a much more serious vein.,95e649d3-0c25-41fc-84ae-ab59895d1398,,2026-01-04,0,0,2.5,new
+sympathy,同情 / 共鸣,I have a lot of sympathy for people who have lost their jobs.,0a812659-2651-4180-b71b-2edb1e92d179,,2026-01-04,0,0,2.5,new
+rejoice,因……而高兴 / 庆祝,Everyone rejoiced at the news of the victory.,4f5f03e9-3e55-4d41-8463-9601a1ef55da,,2026-01-04,0,0,2.5,new
+revere,尊敬 / 崇敬,The old teacher was revered by all his former students.,1b1161e5-245b-4ad5-af2c-4ecdd66c390b,,2026-01-04,0,0,2.5,new
+requiem,安魂曲 / 挽歌,The orchestra performed a moving requiem for the late king.,15853398-c82b-4bc2-b27b-ed160413e646,,2026-01-04,0,0,2.5,new
+eat up,耗尽,The unexpected legal fees will eat up all our remaining budget.,effa4b57-803a-45e1-92bc-8ec9bfd632a3,,2026-01-04,0,0,2.5,new
+gracious,亲切优雅,The hostess was very gracious to all her guests despite the late hour.,24211407-78eb-4552-b98d-86740b48d30f,,2026-01-04,0,0,2.5,new
+disabuse,消除错误的念头,I must disabuse you of the idea that this project will be easy.,b9b75b51-62ce-4f24-9d2c-4d7582f9eba7,,2026-01-04,0,0,2.5,new
+part company,分道扬镳,The two business partners parted company after a series of bitter arguments.,ba235881-05c5-4a80-9e08-fc39d37f851b,,2026-01-04,0,0,2.5,new
+no hard feelings,没有怨恨,We decided to cancel the contract,5d47d39b-69b8-4d8f-bf9a-6c34e173c24d,,2026-01-04,0,0,2.5,new
+overwork,使过度劳累,If you overwork yourself every day,835cb775-98f0-4030-9686-e02bc9ed9ef5,,2026-01-04,0,0,2.5,new
+ego,自我 / 自负,He has a massive ego and finds it difficult to accept any criticism.,57e07e32-c22d-4927-b096-7c5e8c4c5d17,,2026-01-04,0,0,2.5,new
+monetise,将……变为利润,The company is looking for creative ways to monetise its website traffic.,63a2d14c-eadb-42a0-b5f8-f43406391204,,2026-01-04,0,0,2.5,new
+legitimate,合法的,The lawyer confirmed that it was a legitimate business expense.,ed9e965e-41c6-42b6-8f3b-26222da20b00,,2026-01-04,0,0,2.5,new
+call upon,召唤 / 号召,The president called upon the citizens to help the disaster victims.,f5b52b5c-d80d-459e-b396-9969c1be6e47,,2026-01-04,0,0,2.5,new
+circular,循环的 / 圆形的,The logic in his argument was circular and didn't prove anything.,c0a4f7f4-f70d-4fc5-8553-cdc4881f913f,,2026-01-04,0,0,2.5,new
+equivalent,等价的 / 等价物,The cost of the repair is equivalent to about two months' salary.,028c1281-bfcc-4bd3-bc4d-7b1494b2ebae,,2026-01-04,0,0,2.5,new
+think outside the box,跳出框框思考,We need to think outside the box to solve this unique marketing problem.,19834095-2ad5-483a-a78c-229a2a5e5e80,,2026-01-04,0,0,2.5,new
+prudent,审慎的,It would be prudent to save some money for unexpected emergencies.,67e9247d-39e7-4b46-84fd-38c020ecb7a3,,2026-01-04,0,0,2.5,new
+sort out … from …,挑选出 / 区分,It’s hard to sort out the facts from the rumors in this case.,cef008b8-654a-456e-8d00-64188f078ca2,,2026-01-04,0,0,2.5,new
+early on,在早期,We realized early on that the project would require more funding.,e7f152f0-8747-4142-b42d-e87f06ef7a32,,2026-01-04,0,0,2.5,new
+funnel,输送 / 漏斗,The money was funneled through several offshore accounts to avoid taxes.,53a981a7-6af2-4d7d-9fd3-77dad1a7f639,,2026-01-04,0,0,2.5,new
+multifaceted,多方面的,The social issue is multifaceted and cannot be solved with one simple law.,9204daad-35ab-4dc6-912b-b8d89b5f7203,,2026-01-04,0,0,2.5,new
+fine-grained,细致的 / 颗粒度细的,The study provides a fine-grained analysis of the consumer data.,f7b06efc-b228-497b-a6fd-27f35d1b8454,,2026-01-04,0,0,2.5,new
+sloppy,马虎的,The report was full of mistakes because of his sloppy work habits.,e2d9ecc7-6367-4e6c-8345-78afa5f4a8dc,,2026-01-04,0,0,2.5,new
+obnoxious,令人讨厌的,He is an obnoxious person who constantly interrupts others during meetings.,efa9d4bb-842c-4788-a7e5-f6b0c7f10b50,,2026-01-04,0,0,2.5,new
+incentive,刺激 / 动力 / 诱因,The company offered a bonus as an incentive for employees to work harder.,cb305971-d264-4563-acde-db204579c5c7,,2026-01-04,0,0,2.5,new
+reflective,沉思的 / 反映的,He was in a reflective mood after attending the graduation ceremony.,fd869191-03c2-4bfd-a5c2-e73c5cf97343,,2026-01-04,0,0,2.5,new
+end up doing,最终变成 / 做了,If you don't start saving now,1c4c561c-ca78-41eb-b8b8-c1dee774a561,,2026-01-04,0,0,2.5,new
+disparate,迥然不同的,The team is made up of individuals from very disparate backgrounds.,03208856-4068-450a-a6bb-096efe7cc074,,2026-01-04,0,0,2.5,new
+bring … into line,使……符合标准 / 一致,The new regulations aim to bring the local laws into line with national standards.,a75625c1-f98d-428d-a617-e1390b4f1dcd,,2026-01-04,0,0,2.5,new
+deviate,偏离 / 背离,Do not deviate from the safety procedures under any circumstances.,45c2f7d2-731a-4e93-8cde-03859e54d124,,2026-01-04,0,0,2.5,new
+on the same page,意见一致,Before we start the project,003bf09f-6de1-47be-9e34-a942449a2e2b,,2026-01-04,0,0,2.5,new
+rigorous,严密的 / 严格的,The theory was subjected to rigorous testing by several independent labs.,ede08d8e-c2a4-477f-a502-845bc596d618,,2026-01-04,0,0,2.5,new
+meritocratic,精英主义的 / 唯才是举的,They advocate for a meritocratic system where talent is the only key to success.,c48bbc86-1f28-4949-bdac-bd13decc35cf,,2026-01-04,0,0,2.5,new
+cohort,一批 / 同期 / 步兵大队,This year's cohort of graduates is the largest in the school's history.,4d8c2f0a-bfd9-4800-a8c1-1f4665d08588,,2026-01-04,0,0,2.5,new
+aviation ~ avian,航空 vs 鸟类的,He works in the aviation industry,c1807aec-1d00-4872-9edc-3623788a3e9b,,2026-01-04,0,0,2.5,new
+memo ~ memorandum,备忘录 / 正式文件,The manager sent a brief memo to all staff about the upcoming holiday.,62fc502d-e198-49e8-89f9-5161ab0f3d5d,,2026-01-04,0,0,2.5,new
+selective ~ selectivity,选择性的 / 选择性,The university is highly selective,24e9b6f4-b837-43ae-b7c9-4f7194f2cb0c,,2026-01-04,0,0,2.5,new
+correlate with,与……相关联,High stress levels often correlate with poor sleep quality.,4af12937-aa6c-4c1d-93af-4d49b228ab3b,,2026-01-04,0,0,2.5,new
+give out (a degree),授予（学位） / 分发,The university will give out honorary degrees to three distinguished scientists.,763fabc1-88ae-4d58-91db-c515f021af27,,2026-01-04,0,0,2.5,new
+shrink,缩小 / 萎缩,The market for print newspapers continues to shrink every year.,c4d653e5-618d-43af-be67-7de9bf9dbad8,,2026-01-04,0,0,2.5,new
+credential,资历证明,You will need to present your credentials before entering the research facility.,7f6a6727-f110-4120-943f-b1fe99193877,,2026-01-04,0,0,2.5,new
+signify,表明 / 预示,A red light on the dashboard signifies a problem with the engine.,c8dfa0ca-5cf6-41e9-b90b-ce8b768bc65e,,2026-01-04,0,0,2.5,new
+sector,部门 / 行业 / 领域,He has worked in the financial sector for over twenty years.,ac8da835-f9f6-4ef2-b10c-4906c6d8d7ec,,2026-01-04,0,0,2.5,new
+curriculum,课程大纲,The school is introducing a new coding course to its curriculum next year.,b1322d20-c99e-47c6-bb40-fa933f6f5cfc,,2026-01-04,0,0,2.5,new
+prerequisite,先决条件,Completing the introductory course is a prerequisite for the advanced class.,25083eb9-d237-4c1b-8b38-36ebd08b8c47,,2026-01-04,0,0,2.5,new
+wither away,枯萎 / 逐渐消失,Without constant maintenance,4f3a716e-7fff-42b3-9209-75dabef63f66,,2026-01-04,0,0,2.5,new
+disengage,抽身 / 脱离,The country is trying to disengage from the long-standing border conflict.,4f9dac6c-298e-4e8b-8849-131cbb6c8169,,2026-01-04,0,0,2.5,new
+heterogeneous,异质的 / 多样化的,The population of the city is highly heterogeneous and culturally diverse.,493f421c-2ed3-4c15-b917-1473ffa0d8f6,,2026-01-04,0,0,2.5,new
+motive ~ motivate ~ motivation,动机 / 激励 / 积极性,What was his primary motive for choosing this difficult career path?,f1165b39-6476-4c07-9e1a-9387a0954d32,,2026-01-04,0,0,2.5,new
+come to an end,结束 / 终止,The long and exhausting meeting finally came to an end at midnight.,b300caec-5bc9-4218-a411-808e5e719438,,2026-01-04,0,0,2.5,new
+co-education,男女同校,The school transitioned to co-education in the late 1970s.,9db3a7e9-1e2c-4461-bf97-4a20ab8d7a2d,,2026-01-04,0,0,2.5,new
+diverse ~ diversify ~ diversity,多样性 / 使多样化,The city is celebrated for its incredible cultural diversity.,4b416e35-c549-4fc9-a993-6a305a07e5cb,,2026-01-04,0,0,2.5,new
+vet,退伍军人,The organization provides housing assistance for homeless vets.,d33ac2ed-680e-415f-9203-c1a20353fec3,,2026-01-04,0,0,2.5,new
+segregate,隔离 / 使分开,In the past,7a7c203b-2c23-48ae-9446-49c037d43f4a,,2026-01-04,0,0,2.5,new
+transformational,变革性的,The new leadership had a transformational effect on the company's culture.,46a1655d-069f-4de2-b725-17e6c797f9e0,,2026-01-04,0,0,2.5,new
+jaded,厌倦 / 疲惫的,She felt jaded after years of working in the same repetitive job.,7db2919e-6aae-4d2c-aa66-f7a14a1cfefa,,2026-01-04,0,0,2.5,new
+shuffle,洗牌 / 拖着脚走,The old man shuffled slowly across the room in his slippers.,2285a69b-1d2c-467e-aa1a-715cd61b0e49,,2026-01-04,0,0,2.5,new
+patriarch ~ patriarchal ~ patriarchy,父权制 / 家长,The novel explores the difficulties of living in a strictly patriarchal society.,dd734343-7a52-43b1-9397-2d28766cac85,,2026-01-04,0,0,2.5,new
+oppress ~ oppression,压迫,The regime was criticized for its efforts to oppress political dissidents.,c4446066-e866-4681-8b87-2a58a26e931c,,2026-01-04,0,0,2.5,new
+repress,克制 / 镇压,He tried hard to repress a smile during the serious presentation.,24124a8a-d48e-4b55-876d-e55ff99f680b,,2026-01-04,0,0,2.5,new
+postmodernism,后现代主义,The building is a famous example of postmodernism in modern architecture.,644418fd-6e0f-4f5b-a585-a74d656842a3,,2026-01-04,0,0,2.5,new
+strike a chord with,引起共鸣,The singer's lyrics about loneliness strike a chord with many teenagers.,cf8c6770-8027-40e0-9814-d1f96d0ec8cb,,2026-01-04,0,0,2.5,new
+sit up,坐起来 / 引起注意,The news of the discovery made the whole scientific world sit up.,3ea3857a-af3f-469c-ba74-ebd8a99a3d7c,,2026-01-04,0,0,2.5,new
+blasé,无动于衷的 / 玩世不恭的,He was quite blasé about his success,a948b2d3-b74e-46e2-a80c-bf71cb67c80c,,2026-01-04,0,0,2.5,new
+literati,文人 / 知识界,The book launch was attended by the local literati and famous artists.,d01d5c34-9f3c-4e72-a374-045e583726bd,,2026-01-04,0,0,2.5,new
+self-conscious,过于意识到自我的,He felt very self-conscious about the stain on his tie during the interview.,5f31a024-9fb6-4651-a620-4126557b385b,,2026-01-04,0,0,2.5,new
+parody ~ parodic,模仿 / 恶搞,The movie is a hilarious parody of classic detective films.,e6dbed70-fac9-4139-8cce-1bb4ab80482e,,2026-01-04,0,0,2.5,new
+menacing,威胁的 / 险恶的,There was a menacing tone in his voice when he made the demand.,b768a7f3-331b-447f-a2ef-332dd2bd85c2,,2026-01-04,0,0,2.5,new
+ascend ~ ascent ~ ascendance,上升 / 攀登 / 支配,The hikers began their long ascent up the mountain at dawn.,05b3a5cf-bfe7-4c84-9850-c909918e6d60,,2026-01-04,0,0,2.5,new
+come up with,想出 / 提出,She came up with a brilliant solution to the technical problem.,293c7e01-304d-4182-b623-7ef8e748d220,,2026-01-04,0,0,2.5,new
+reticent,沉默的 / 寡言的,He is very reticent about his private life and rarely talks about his family.,38962c39-e10d-4e96-99d0-4fae258983f5,,2026-01-04,0,0,2.5,new
+speak to (a subject),与……相关 / 探讨,The recent data speaks to the urgent need for better environmental laws.,cdbc46ac-afaa-4828-a323-f470e06670f4,,2026-01-04,0,0,2.5,new
+critic ~ critique ~ criticism,评论 / 批评,The film critic praised the director's bold new vision.,9f0482f2-d9b7-4957-b672-025fdff97f25,,2026-01-04,0,0,2.5,new
+overturn,推翻 / 颠覆,The Supreme Court eventually overturned the controversial ruling.,f7112138-3a63-45a6-bac5-3b9043d93740,,2026-01-04,0,0,2.5,new
+topple,使倾倒 / 推翻,The protesters gathered in the square to topple the statue of the dictator.,d5c103a9-f980-401c-b9cd-72944b94f6d2,,2026-01-04,0,0,2.5,new
+take to (the street),走上街头,Thousands of people took to the streets to protest the unfair tax.,61d795f1-e46e-41d4-9fe1-df726046a11e,,2026-01-04,0,0,2.5,new
+without so much as,连……都没有,He left the party without so much as a goodbye to the host.,d3e4ce77-26e4-44bb-9c16-dec8990a313f,,2026-01-04,0,0,2.5,new
+rationale,基本原理 / 根本原因,What is the rationale behind the company's decision to move its factory?,f20c7fda-2208-40af-84ff-1e3b9ca7d8a8,,2026-01-04,0,0,2.5,new
+sign away,签署放弃,He signed away his rights to the invention for a small sum of money.,b0956932-9480-400f-87d0-d432b316afe0,,2026-01-04,0,0,2.5,new
+desegregation,废除种族隔离,The city was a key battleground in the fight for school desegregation.,dd35130e-02ae-4ef9-9ca6-4e1fe9ec26f6,,2026-01-04,0,0,2.5,new
+sit back,靠后坐 / 袖手旁观,We cannot just sit back and watch while the environment is destroyed.,ccfe6e8c-3935-46df-a30f-a63764d45781,,2026-01-04,0,0,2.5,new
+carnage,大屠杀 / 残杀,The scene of the car accident was one of terrible carnage.,bf8e2c49-0f3a-4436-ae5c-50fe3bdb7228,,2026-01-04,0,0,2.5,new
+sport (v.),炫耀地穿着 / 穿戴,He was sporting a new designer watch that he bought in Paris.,7d86e639-4718-4188-a8af-114338128578,,2026-01-04,0,0,2.5,new
+petition,请愿书 / 请愿,The residents started a petition against the construction of the new mall.,65c300d4-3432-4a0c-a81e-aaa226d64f4a,,2026-01-04,0,0,2.5,new
+overarching,包罗万象的 / 首要的,The overarching theme of the conference was global sustainability.,eaaeeb4c-7dea-4b2b-9907-0660bba10c2c,,2026-01-04,0,0,2.5,new
+narcissism,自恋,Many experts worry that social media is fueling a rise in narcissism.,e1eba8aa-553b-4678-aca6-8ff31fedc3cf,,2026-01-04,0,0,2.5,new
+nihilism,虚无主义,The character's destructive behavior is driven by a sense of deep nihilism.,3de7bb84-05a8-4f1f-8e3b-88d638c47e6d,,2026-01-04,0,0,2.5,new
+might as well,不妨 / 还是……好,Since we are already here,6f8e9448-d808-41a9-a539-d62c9028f767,,2026-01-04,0,0,2.5,new
+trite,陈旧的 / 平淡无味的,The plot of the movie was a bit trite and very predictable.,71ecf003-f1e9-4f27-83c5-b740fe08c5dc,,2026-01-04,0,0,2.5,new
+bland,平淡无味的 / 乏味的,The sauce was a bit bland and needed more spices to be interesting.,3a007acd-e4cf-4b25-8f63-c564496632de,,2026-01-04,0,0,2.5,new
+pastiche,模仿作品 / 拼凑物,The film is a clever pastiche of several 1950s sci-fi movies.,fd6b037c-37ac-4d6e-b28c-ab558ecb9309,,2026-01-04,0,0,2.5,new
+set in,固定 / 开始并持续,A feeling of deep disappointment began to set in after the loss.,5afd5ff9-2ea7-4a9d-b6c3-a824fc1e2006,,2026-01-04,0,0,2.5,new
+envision,想象 / 展望,I can envision a world where technology solves most medical problems.,7f44d7c0-08ab-4b74-858f-6b3594ae6652,,2026-01-04,0,0,2.5,new
+cliché,陈词滥调,"It’s a cliché to say that ""hard work always pays off",6337ec8f-acb2-4347-863b-063031403100,,2026-01-04,0,0,2.5,new
+perfunctory,草率的 / 敷衍的,He gave the guest a perfunctory nod before returning to his book.,500e4499-c461-4c31-82ce-9945c70acce0,,2026-01-04,0,0,2.5,new
+culminate,达到顶点 / 以……告终,The months of training will culminate in the national championship.,f313a3a1-5cf4-4224-91e3-f1dc0f657329,,2026-01-04,0,0,2.5,new
+speak our minds,直言不讳,We encourage all our employees to speak their minds during meetings.,97558f23-cff2-46d7-bbed-ea4ac49ecde4,,2026-01-04,0,0,2.5,new
+agitate,鼓动 / 搅动 / 焦虑,The activists were agitating for better pay and safer working conditions.,887c85df-37a4-4e0b-bef4-404d091c8f4f,,2026-01-04,0,0,2.5,new
+nostalgic,怀旧的,Looking through my childhood photo album made me feel very nostalgic.,78c732d1-711c-4d97-9c55-a41144ba80b4,,2026-01-04,0,0,2.5,new
+defunct,已经停用的 / 已死的,The old factory has been defunct for more than twenty years.,1427f0d1-51b4-4783-a55c-e3b178fc656f,,2026-01-04,0,0,2.5,new
+channel … into …,向……输送 / 引导,The government is channeling more resources into rural healthcare.,7bc2c588-aa56-4c00-a22f-39e6639b2569,,2026-01-04,0,0,2.5,new
+alternate ~ alternative,轮流的 / 替代的,We can take an alternative route if the highway is blocked.,78dede08-aeec-4a45-9150-0a3f753aa06d,,2026-01-04,0,0,2.5,new
+radicalism,激进主义,The economic crisis led to a sudden rise in political radicalism.,bb936517-9b25-442f-a1d7-26e7a9f8ca99,,2026-01-04,0,0,2.5,new
+come together,聚集 / 团结 / 成功,People from all over the country came together to support the cause.,52ee5950-9604-4070-9e82-69e278490894,,2026-01-04,0,0,2.5,new
